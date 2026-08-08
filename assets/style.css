@@ -345,7 +345,10 @@ table.grid td.center, table.grid th.center { text-align: center; }
 .ch-note { margin: 14px 2px 0; color: var(--muted); font-size: 12.5px; font-style: italic; line-height: 1.5; }
 table.ch-feed { min-width: 600px; font-size: 12.5px; }
 table.ch-feed td { padding: 8px 10px; vertical-align: top; }
-table.ch-feed td:first-child, table.ch-feed td.center, table.ch-feed td.kq-ok, table.ch-feed td.kq-fail { white-space: nowrap; }
+table.ch-feed td:first-child, table.ch-feed td.center, table.ch-feed td.kq-ok, table.ch-feed td.kq-fail, table.ch-feed td.op { white-space: nowrap; }
+td.op { font-weight: 600; }
+td.op-ch { color: #ffb055; }
+td.op-ht { color: #7cc9ff; }
 td.kq-ok { color: var(--green); font-weight: 700; white-space: nowrap; }
 td.kq-fail { color: var(--red); font-weight: 700; white-space: nowrap; }
 

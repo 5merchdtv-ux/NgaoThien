@@ -74,6 +74,23 @@ function Fix-VN($text) {
   return $out.ToString().Normalize([Text.NormalizationForm]::FormC)
 }
 
+# Tên dòng thuộc tính (khớp ATTRIBUTE_NAMES trong dashboard) để dịch "Loại N +V" của hợp thành.
+$Script:ATTR = @{
+  1='Sức tấn công'; 2='Sức phòng ngự'; 3='Sinh mệnh (HP)'; 4='Nội công (MP)'; 5='Chính xác';
+  6='Né tránh'; 7='Công lực võ công'; 8='Khí công'; 9='Tỷ lệ hợp thành/cường hóa'; 10='Điểm đả kích';
+  11='Phòng ngự võ công'; 12='Tiền nhận được'; 13='Giảm tổn thất EXP'
+}
+$Script:ATTR_PCT = @(7, 9, 12, 13)
+function Format-HopThanh($attributeText) {
+  if ($attributeText -match 'Loại\s+(\d+)\s*\+\s*(\d+)') {
+    $type = [int]$Matches[1]; $val = $Matches[2]
+    $name = if ($ATTR.ContainsKey($type)) { $ATTR[$type] } else { "Loại $type" }
+    $pct = if ($ATTR_PCT -contains $type) { "%" } else { "" }
+    return "$name +$val$pct"
+  }
+  return [string]$attributeText
+}
+
 # --- token ---
 $token = [Environment]::GetEnvironmentVariable($TokenEnv, "Machine")
 if ([string]::IsNullOrWhiteSpace($token)) { $token = [Environment]::GetEnvironmentVariable($TokenEnv) }
@@ -166,7 +183,7 @@ try {
   foreach ($e in $events) {
     $loai = if ($e.eventType -eq "HOP_THANH") { "hop-thanh" } else { "cuong-hoa" }
     if ($e.eventType -eq "HOP_THANH") {
-      $thayDoi = [string]$e.attributeText
+      $thayDoi = Format-HopThanh ([string]$e.attributeText)
     } else {
       $before = if ($null -ne $e.beforeLevel) { "+" + $e.beforeLevel } else { "?" }
       $after  = if ($null -ne $e.afterLevel)  { "+" + $e.afterLevel }  else { "mất vật phẩm" }
@@ -174,12 +191,18 @@ try {
       if ((-not $e.success) -and $e.failureEffect) { $thayDoi += " • " + $e.failureEffect }
     }
     $tg = try { ([DateTime]::SpecifyKind([DateTime]$e.createdAt, 'Utc')).ToLocalTime().ToString("HH:mm:ss") } catch { "" }
+    $capDo = "—"
+    if ($loai -eq "cuong-hoa") {
+      if ($e.success -and $null -ne $e.afterLevel) { $capDo = "+" + $e.afterLevel }
+      elseif ($null -ne $e.beforeLevel) { $capDo = "+" + $e.beforeLevel }
+    }
     $ds += [pscustomobject][ordered]@{
       thoiGian   = $tg
       kenh       = [int]$e.channelId
       nhanVat    = [string]$e.characterName
       loai       = $loai
       trangBi    = Fix-VN ([string]$e.itemName)
+      capDo      = $capDo
       nguyenLieu = if ([string]::IsNullOrWhiteSpace($e.materialName)) { "—" } else { Fix-VN ([string]$e.materialName) }
       thayDoi    = $thayDoi
       thanhCong  = [bool]$e.success

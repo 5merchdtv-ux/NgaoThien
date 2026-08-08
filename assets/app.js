@@ -174,19 +174,24 @@
   }
 
   /* ---------- CƯỜNG HÓA (feed) ---------- */
+  function hashHue(s) { var h = 0, i; s = s || ""; for (i = 0; i < s.length; i++) { h = (h * 31 + s.charCodeAt(i)) >>> 0; } return h % 360; }
+  function nameColor(s) { return "hsl(" + hashHue(s) + ", 72%, 72%)"; }
   function buildFeedTable(rows) {
     var table = el("table", "grid ch-feed"), thead = el("thead"), htr = el("tr");
-    ["Thời gian", "Kênh", "Nhân vật", "Thao tác", "Trang bị", "Ngọc / Bùa", "Thay đổi", "Kết quả"]
-      .forEach(function (h, i) { htr.appendChild(el("th", (i === 1 || i === 7 ? "center" : ""), h)); });
+    var heads = ["Thời gian", "Kênh", "Nhân vật", "Thao tác", "Trang bị", "Cấp", "Ngọc / Bùa", "Thay đổi", "Kết quả"];
+    var centers = { 1: 1, 5: 1, 8: 1 };
+    heads.forEach(function (h, i) { htr.appendChild(el("th", (centers[i] ? "center" : ""), h)); });
     thead.appendChild(htr); table.appendChild(thead);
     var tb = el("tbody");
     rows.forEach(function (r) {
       var tr = el("tr");
-      tr.appendChild(el("td", null, r.thoiGian || ""));
+      var col = nameColor(r.nhanVat);
+      var c0 = el("td", null, r.thoiGian || ""); c0.style.boxShadow = "inset 3px 0 0 " + col; tr.appendChild(c0);
       tr.appendChild(el("td", "center", "K" + r.kenh));
-      var c2 = el("td"); c2.appendChild(el("span", "chname", r.nhanVat || "")); tr.appendChild(c2);
-      tr.appendChild(el("td", null, r.loai === "hop-thanh" ? "◆ Hợp thành" : "✦ Cường hóa"));
+      var c2 = el("td"); var nm = el("span", "chname", r.nhanVat || ""); nm.style.color = col; c2.appendChild(nm); tr.appendChild(c2);
+      tr.appendChild(el("td", "op " + (r.loai === "hop-thanh" ? "op-ht" : "op-ch"), r.loai === "hop-thanh" ? "◆ Hợp thành" : "✦ Cường hóa"));
       tr.appendChild(el("td", null, r.trangBi || ""));
+      tr.appendChild(el("td", "center", r.capDo || "—"));
       tr.appendChild(el("td", null, r.nguyenLieu || "—"));
       tr.appendChild(el("td", null, r.thayDoi || ""));
       tr.appendChild(el("td", "center " + (r.thanhCong ? "kq-ok" : "kq-fail"), r.thanhCong ? "THÀNH CÔNG" : "THẤT BẠI"));
