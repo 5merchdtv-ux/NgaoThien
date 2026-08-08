@@ -1,6 +1,39 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "21:12:39",
+                         "kenh":  1,
+                         "nhanVat":  "LaoTu",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Thiên Thần Đao (Chân)",
+                         "capDo":  "+12",
+                         "nguyenLieu":  "Phúc Vận Phù 30%",
+                         "thayDoi":  "+11 → +12",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "21:11:54",
+                         "kenh":  1,
+                         "nhanVat":  "LaoTu",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Thiên Thần Đao (Chân)",
+                         "capDo":  "+11",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "21:11:27",
+                         "kenh":  1,
+                         "nhanVat":  "LaoTu",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Thiên Thần Đao (Chân)",
+                         "capDo":  "+11",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
                          "thoiGian":  "21:09:05",
                          "kenh":  1,
                          "nhanVat":  "LaoTu",
@@ -846,39 +879,6 @@
                          "nguyenLieu":  "Phúc vận phù (25%)",
                          "thayDoi":  "+11 → +12",
                          "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "16:43:17",
-                         "kenh":  1,
-                         "nhanVat":  "love222",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "+11",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+10 → +11",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "16:42:54",
-                         "kenh":  1,
-                         "nhanVat":  "love222",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Đế Tinh-Nghiêm Linh",
-                         "capDo":  "+12",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+11 → +12",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "16:42:49",
-                         "kenh":  1,
-                         "nhanVat":  "love222",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "+11",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
-                         "thanhCong":  false
                      }
                  ]
 }
