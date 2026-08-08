@@ -4,40 +4,57 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex" />
-  <title>HK Ngạo Thiên — Trạng thái máy chủ</title>
-  <link rel="preconnect" href="https://docs.google.com" />
+  <title>HK Ngạo Thiên — Hiệp Khách Giang Hồ</title>
+  <meta name="theme-color" content="#0a0604" />
+  <link rel="icon" href="assets/hknt-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-  <div class="bg"></div>
+  <!-- than lua bay -->
+  <div class="embers" aria-hidden="true">
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
 
-  <header class="site-header">
-    <h1 class="logo">HK <span>NGẠO THIÊN</span></h1>
-    <p class="tagline">Cổng thông tin &amp; tải game</p>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-art" aria-hidden="true"></div>
+    <div class="hero-scrim" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+      <img class="emblem" src="assets/hknt-logo.png" alt="HK Ngạo Thiên" />
+      <p class="hero-sub">CỔNG THÔNG TIN &amp; TẢI GAME CHÍNH THỨC</p>
+
+      <div class="ornament"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>
+
+      <a id="btn-game" class="cta" href="#" target="_blank" rel="noopener">
+        <span class="cta-ico">⚔</span>
+        <span class="cta-txt"><strong>TẢI GAME</strong><em>bản đầy đủ — đã kèm Launcher</em></span>
+      </a>
+
+      <p id="hero-status" class="hero-status"></p>
+    </div>
+
+    <a class="scroll-hint" href="#noi-dung" aria-label="Xem thêm">˅</a>
   </header>
 
-  <main class="wrap">
+  <main id="noi-dung" class="wrap">
 
-    <section class="panel" aria-labelledby="tt-title">
-      <h2 id="tt-title" class="panel-title">Trạng thái máy chủ</h2>
+    <!-- TRANG THAI -->
+    <section class="panel">
+      <h2 class="panel-title"><span class="tt-ico">🐉</span> Trạng thái máy chủ</h2>
       <div id="channels" class="channels">
         <div class="skeleton">Đang tải trạng thái…</div>
       </div>
       <p class="updated" id="updated"></p>
     </section>
 
-    <section class="downloads solo">
-      <a id="btn-game" class="btn btn-primary" href="#" target="_blank" rel="noopener">
-        <span class="btn-ico">⬇</span>
-        <span class="btn-text">
-          <strong>Tải Game</strong>
-          <em>bản đầy đủ — đã kèm Launcher</em>
-        </span>
-      </a>
-    </section>
-
-    <section class="panel" aria-labelledby="news-title">
-      <h2 id="news-title" class="panel-title">Tin tức &amp; thông báo</h2>
+    <!-- TIN TUC -->
+    <section class="panel">
+      <h2 class="panel-title"><span class="tt-ico">📜</span> Tin tức &amp; thông báo</h2>
       <div id="news" class="news">
         <div class="skeleton">Đang tải tin tức…</div>
       </div>
@@ -46,7 +63,9 @@
   </main>
 
   <footer class="site-footer">
-    <p>© HK Ngạo Thiên. Trang thông tin không chính thức — chỉ phục vụ cộng đồng.</p>
+    <div class="ornament small"><span class="line"></span><span class="gem">❖</span><span class="line"></span></div>
+    <p>HK Ngạo Thiên — Hiệp Khách Giang Hồ</p>
+    <p class="muted">Trang thông tin cộng đồng. Chúc chư vị hiệp khách tung hoành thiên hạ.</p>
   </footer>
 
   <script src="assets/app.js"></script>

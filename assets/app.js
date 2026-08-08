@@ -35,6 +35,7 @@
     var list = (trangThai && trangThai.kenh) || [];
     if (!list.length) {
       box.appendChild(el("div", "skeleton", "Chưa có dữ liệu trạng thái."));
+      renderHeroStatus([]);
       return;
     }
     list.forEach(function (ch) {
@@ -45,6 +46,22 @@
       if (ch.ghiChu) row.appendChild(el("span", "note", ch.ghiChu));
       row.appendChild(el("span", "state " + state, STATE_LABEL[state]));
       box.appendChild(row);
+    });
+    renderHeroStatus(list);
+  }
+
+  function renderHeroStatus(list) {
+    var hero = document.getElementById("hero-status");
+    if (!hero) return;
+    hero.innerHTML = "";
+    list.forEach(function (ch, i) {
+      var state = STATE_LABEL[ch.trangThai] ? ch.trangThai : "offline";
+      if (i > 0) hero.appendChild(el("span", "sep", "•"));
+      hero.appendChild(el("span", "hs-dot " + state));
+      var t = el("span", null);
+      t.appendChild(el("b", null, (ch.ten || "Kênh") + ": "));
+      t.appendChild(document.createTextNode(STATE_LABEL[state]));
+      hero.appendChild(t);
     });
   }
 
