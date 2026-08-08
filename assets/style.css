@@ -256,3 +256,82 @@ a { color: inherit; }
   .hero-inner { padding-bottom: 40px; }
   .panel { padding: 20px 16px; }
 }
+
+/* ===== NAV ===== */
+.nav {
+  position: sticky; top: 0; z-index: 20;
+  display: flex; justify-content: center; flex-wrap: wrap; gap: 6px;
+  padding: 10px 12px;
+  background: rgba(10, 6, 4, 0.85);
+  border-bottom: 1px solid var(--panel-brd);
+  backdrop-filter: blur(8px);
+}
+.nav a {
+  text-decoration: none; color: var(--muted);
+  font-size: 13px; font-weight: 600; letter-spacing: .5px;
+  padding: 7px 14px; border-radius: 20px; transition: color .15s, background .15s;
+}
+.nav a:hover { color: var(--gold-lt); background: rgba(230,179,74,.10); }
+
+/* ===== TABS ===== */
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.tab {
+  cursor: pointer; font-family: inherit; font-size: 13px; font-weight: 600;
+  color: var(--muted); background: rgba(0,0,0,.28);
+  border: 1px solid rgba(230,179,74,.18); border-radius: 20px;
+  padding: 8px 16px; transition: all .15s;
+}
+.tab:hover { color: var(--gold-lt); border-color: rgba(230,179,74,.4); }
+.tab.active {
+  color: #2a1704; font-weight: 700;
+  background: linear-gradient(180deg, var(--gold-lt), var(--gold));
+  border-color: var(--gold-lt);
+}
+
+/* ===== TABLE ===== */
+.table-wrap { overflow-x: auto; border-radius: 12px; }
+table.grid { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 460px; }
+table.grid th {
+  text-align: left; font-weight: 700; color: var(--gold-lt);
+  font-size: 12px; letter-spacing: .5px; text-transform: uppercase;
+  padding: 10px 12px; border-bottom: 1px solid rgba(230,179,74,.28);
+  white-space: nowrap;
+}
+table.grid td { padding: 11px 12px; border-bottom: 1px solid rgba(255,255,255,.05); }
+table.grid tbody tr:hover { background: rgba(230,179,74,.06); }
+table.grid td.num, table.grid th.num { text-align: right; font-variant-numeric: tabular-nums; }
+table.grid td.center, table.grid th.center { text-align: center; }
+.rankcell { display: inline-flex; align-items: center; justify-content: center; min-width: 26px; height: 26px; border-radius: 50%; font-weight: 800; font-size: 13px; }
+.rankcell.top1 { background: linear-gradient(180deg,#ffe08a,#e6b34a); color:#3a2405; box-shadow:0 0 10px rgba(230,179,74,.6); }
+.rankcell.top2 { background: linear-gradient(180deg,#e8e8ee,#b9bcc7); color:#2a2d36; }
+.rankcell.top3 { background: linear-gradient(180deg,#f0b27a,#c17b3e); color:#3a1e08; }
+.rankcell.norm { color: var(--muted); }
+.chname { font-weight: 700; color: var(--ink); }
+.chname .on { display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--green); box-shadow:0 0 7px var(--green); margin-left:6px; vertical-align:middle; }
+.tag-phai { font-size: 11px; padding: 2px 8px; border-radius: 10px; font-weight: 700; }
+.tag-phai.chinh { color:#7fc8ff; background:rgba(70,150,220,.16); }
+.tag-phai.ta { color:#ff8a6a; background:rgba(224,80,40,.16); }
+.tag-phai.tl { color:var(--muted); background:rgba(255,255,255,.06); }
+
+/* ===== NEWS (rich) ===== */
+.news-item { position: relative; }
+.news-item .news-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.badge {
+  font-size: 10px; font-weight: 800; letter-spacing: .5px;
+  padding: 3px 9px; border-radius: 20px; text-transform: uppercase;
+  background: linear-gradient(180deg, var(--fire), var(--ember)); color: #fff;
+  box-shadow: 0 0 12px rgba(255,106,26,.4);
+}
+.news-item .news-img {
+  width: 100%; max-height: 260px; object-fit: cover; border-radius: 10px;
+  margin: 10px 0 4px; border: 1px solid rgba(230,179,74,.2);
+}
+.news-item .news-author { margin-top: 8px; font-size: 12px; color: var(--muted); font-style: italic; }
+.news-body.clamped { max-height: 180px; overflow: hidden; -webkit-mask-image: linear-gradient(#000 70%, transparent); mask-image: linear-gradient(#000 70%, transparent); }
+.news-more {
+  margin-top: 8px; cursor: pointer; color: var(--gold-lt); font-weight: 600; font-size: 13px;
+  background: none; border: none; padding: 0; font-family: inherit;
+}
+.news-more:hover { text-decoration: underline; }
+
+.ch-note { margin: 14px 2px 0; color: var(--muted); font-size: 12.5px; font-style: italic; line-height: 1.5; }
