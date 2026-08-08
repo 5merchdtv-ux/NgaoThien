@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>HK Ngạo Thiên — Trạng thái máy chủ</title>
+  <link rel="preconnect" href="https://docs.google.com" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="bg"></div>
+
+  <header class="site-header">
+    <h1 class="logo">HK <span>NGẠO THIÊN</span></h1>
+    <p class="tagline">Cổng thông tin &amp; tải game</p>
+  </header>
+
+  <main class="wrap">
+
+    <section class="panel" aria-labelledby="tt-title">
+      <h2 id="tt-title" class="panel-title">Trạng thái máy chủ</h2>
+      <div id="channels" class="channels">
+        <div class="skeleton">Đang tải trạng thái…</div>
+      </div>
+      <p class="updated" id="updated"></p>
+    </section>
+
+    <section class="downloads">
+      <a id="btn-launcher" class="btn btn-primary" href="#" target="_blank" rel="noopener">
+        <span class="btn-ico">⬇</span>
+        <span class="btn-text">
+          <strong>Tải Launcher</strong>
+          <em id="launcher-ver">phiên bản mới nhất</em>
+        </span>
+      </a>
+      <a id="btn-game" class="btn btn-secondary" href="#" target="_blank" rel="noopener">
+        <span class="btn-ico">🗂</span>
+        <span class="btn-text">
+          <strong>Tải Game</strong>
+          <em>danh sách link (Google Sheet)</em>
+        </span>
+      </a>
+    </section>
+
+    <section class="panel" aria-labelledby="news-title">
+      <h2 id="news-title" class="panel-title">Tin tức &amp; thông báo</h2>
+      <div id="news" class="news">
+        <div class="skeleton">Đang tải tin tức…</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© HK Ngạo Thiên. Trang thông tin không chính thức — chỉ phục vụ cộng đồng.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

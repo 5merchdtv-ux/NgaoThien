@@ -1,0 +1,12 @@
+# TUYỆT ĐỐI không commit bí mật
+*.token
+*.key
+*.pem
+secrets/
+.env
+.env.*
+
+# rác
+Thumbs.db
+desktop.ini
+.DS_Store
