@@ -48,6 +48,32 @@ function Get-JobName($job) {
 }
 function Get-FactionName($f) { switch ([int]$f) { 1 {"Chính"} 2 {"Tà"} default {"Trung lập"} } }
 
+# Sửa tên vật phẩm hỏng dấu tiếng Việt (port từ lib/vni-fix.ts nội bộ — CHỈ để hiển thị).
+# Dùng Hashtable phân biệt hoa/thường (literal @{} của PowerShell không phân biệt → trùng key).
+$Script:VNI_BASE = [System.Collections.Hashtable]::new()
+$VNI_BASE['ý']='ư'; $VNI_BASE['Ý']='Ư'; $VNI_BASE['õ']='ơ'; $VNI_BASE['Õ']='Ơ'
+$VNI_BASE['ã']='ă'; $VNI_BASE['Ã']='Ă'; $VNI_BASE['ð']='đ'; $VNI_BASE['Ð']='Đ'
+$Script:VNI_TONE = [System.Collections.Hashtable]::new()
+$VNI_TONE['ì']=[char]0x0301; $VNI_TONE['Ì']=[char]0x0300; $VNI_TONE['Ò']=[char]0x0309
+$VNI_TONE['Þ']=[char]0x0303; $VNI_TONE['ò']=[char]0x0323
+$Script:VNI_VOWELS = 'aăâeêioôơuưyAĂÂEÊIOÔƠUƯY'
+function Fix-VN($text) {
+  if ([string]::IsNullOrEmpty($text)) { return $text }
+  $broken = ($text -match '[ÌÒÞðÐ]') -or ($text -match "[$VNI_VOWELS][ìò]")
+  if (-not $broken) { return $text }
+  $out = New-Object System.Text.StringBuilder
+  foreach ($ch in $text.ToCharArray()) {
+    $s = [string]$ch
+    if ($VNI_TONE.ContainsKey($s)) {
+      $prev = if ($out.Length -gt 0) { [string]$out[$out.Length - 1] } else { '' }
+      if ($prev -and $VNI_VOWELS.Contains($prev)) { [void]$out.Append($VNI_TONE[$s]); continue }
+      [void]$out.Append($s); continue
+    }
+    if ($VNI_BASE.ContainsKey($s)) { [void]$out.Append($VNI_BASE[$s]) } else { [void]$out.Append($s) }
+  }
+  return $out.ToString().Normalize([Text.NormalizationForm]::FormC)
+}
+
 # --- token ---
 $token = [Environment]::GetEnvironmentVariable($TokenEnv, "Machine")
 if ([string]::IsNullOrWhiteSpace($token)) { $token = [Environment]::GetEnvironmentVariable($TokenEnv) }
@@ -153,8 +179,8 @@ try {
       kenh       = [int]$e.channelId
       nhanVat    = [string]$e.characterName
       loai       = $loai
-      trangBi    = [string]$e.itemName
-      nguyenLieu = if ([string]::IsNullOrWhiteSpace($e.materialName)) { "—" } else { [string]$e.materialName }
+      trangBi    = Fix-VN ([string]$e.itemName)
+      nguyenLieu = if ([string]::IsNullOrWhiteSpace($e.materialName)) { "—" } else { Fix-VN ([string]$e.materialName) }
       thayDoi    = $thayDoi
       thanhCong  = [bool]$e.success
     }
