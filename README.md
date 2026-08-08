@@ -36,15 +36,19 @@ VPS nội bộ ──đẩy (GitHub API, outbound)──► GitHub repo ──�
 - Repo → **Settings → Pages** → Source: `Deploy from a branch` → Branch `main` / `(root)` → Save.
 - Vài phút sau có địa chỉ: `https://<tài-khoản>.github.io/hknt-status/`
 
-### 3. Tạo token đẩy trạng thái (fine-grained PAT)
-- GitHub → **Settings → Developer settings → Fine-grained tokens → Generate new token**.
-- **Repository access**: chỉ chọn repo `hknt-status` (KHÔNG chọn all).
-- **Permissions → Repository → Contents**: `Read and write`. (Không cần quyền nào khác.)
-- Sao chép token, lưu vào tệp trên VPS: `C:\HKServer\Secrets\github-status-push.token`
-  (thư mục `Secrets` không nằm trong repo → token không bao giờ bị public).
+### 3. Tạo token đẩy trạng thái + đặt vào biến môi trường
+- GitHub → **Settings → Developer settings → Tokens**. Nên dùng **Fine-grained token**: chỉ repo này,
+  quyền **Contents: Read and write** (blast radius nhỏ nhất). Token classic `repo` cũng chạy nhưng rộng hơn.
+- Đặt vào **biến môi trường máy** trên VPS (không để trong repo):
+  ```powershell
+  [Environment]::SetEnvironmentVariable("HKNT_GH_TOKEN", "ghp_...", "Machine")
+  ```
+  Script đọc `HKNT_GH_TOKEN` trước; nếu trống mới đọc tệp `C:\HKServer\Secrets\github-status-push.token`.
 
 ### 4. Sửa cấu hình trong `scripts/Push-TrangThai.ps1`
-- `$GitHubOwner`, `$GitHubRepo` cho khớp tài khoản/repo của anh.
+- `$GitHubOwner`, `$GitHubRepo` cho khớp tài khoản/repo (đang đặt `5merchdtv-ux` / `NgaoThien`).
+- `$K1Port` = cổng client Kênh 1 (mặc định `15001`; K2 = `15002`). Script chỉ mở 1 gói TCP để dò,
+  **không đụng gameplay**, không phụ thuộc gateway.
 
 ### 5. Lên lịch chạy (Task Scheduler, mỗi 5 phút)
 Chạy PowerShell (Admin) trên VPS:
@@ -67,9 +71,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "C:\Users\Administrator\Down
 
 Sửa `data/noi-dung.json` rồi commit lên repo (sửa thẳng trên web GitHub cũng được):
 
-- `linkLauncher`: link tải launcher. Nên đặt file ở **GitHub Releases của chính repo này** (không đụng VPS).
-- `linkGame`: dán link **Google Sheet** chứa danh sách link tải game.
-- `phienBanLauncher`: số phiên bản hiện hành.
+- `linkGame`: link tải bản game (đang dùng link Google Drive). Launcher đã nằm trong bản game nên chỉ
+  cần một nút "Tải Game".
 - `tinTuc`: danh sách tin, mỗi tin có `ngay`, `tieuDe`, `noiDung`.
 
 Site tự làm mới mỗi 5 phút; người xem F5 là thấy ngay.
