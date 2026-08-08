@@ -1,6 +1,17 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "21:18:25",
+                         "kenh":  1,
+                         "nhanVat":  "LaoTu",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Thiên Thần Đao (Chân)",
+                         "capDo":  "+12",
+                         "nguyenLieu":  "Phúc Vận Phù 30%",
+                         "thayDoi":  "+12 → +10 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
                          "thoiGian":  "21:12:39",
                          "kenh":  1,
                          "nhanVat":  "LaoTu",
@@ -867,17 +878,6 @@
                          "capDo":  "—",
                          "nguyenLieu":  "Kim Cang Thạch Cao Cấp",
                          "thayDoi":  "Loại 7 +30",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "16:43:39",
-                         "kenh":  1,
-                         "nhanVat":  "love222",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "+12",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+11 → +12",
                          "thanhCong":  true
                      }
                  ]
