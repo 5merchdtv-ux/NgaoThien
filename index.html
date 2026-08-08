@@ -18,76 +18,110 @@
     <span></span><span></span><span></span><span></span><span></span>
   </div>
 
-  <!-- HERO -->
-  <header class="hero">
+  <!-- NAV -->
+  <nav class="topnav">
+    <a class="brand" data-view="home" href="#">
+      <img src="assets/hknt-logo.png" alt="" /><span>HK NGẠO THIÊN</span>
+    </a>
+    <button class="nav-toggle" aria-label="Menu" type="button">☰</button>
+    <div class="menu">
+      <a class="nav-link active" data-view="home" href="#">Trang chủ</a>
+      <a class="nav-link" data-view="tin-tuc" href="#">Tin tức</a>
+      <a class="nav-link" data-view="bxh" href="#">BXH</a>
+      <a class="nav-link" data-view="cuong-hoa" href="#">Cường hóa</a>
+    </div>
+    <a class="nav-cta js-game" href="#" target="_blank" rel="noopener">⚔ Tải Game</a>
+  </nav>
+
+  <!-- HERO (chỉ Trang chủ) -->
+  <header class="hero" id="hero">
     <div class="hero-art" aria-hidden="true"></div>
     <div class="hero-scrim" aria-hidden="true"></div>
     <div class="hero-inner">
       <img class="emblem" src="assets/hknt-logo.png" alt="HK Ngạo Thiên" />
       <p class="hero-sub">CỔNG THÔNG TIN &amp; TẢI GAME CHÍNH THỨC</p>
       <div class="ornament"><span class="line"></span><span class="gem">◆</span><span class="line"></span></div>
-      <a id="btn-game" class="cta" href="#" target="_blank" rel="noopener">
+      <a class="cta js-game" href="#" target="_blank" rel="noopener">
         <span class="cta-ico">⚔</span>
         <span class="cta-txt"><strong>TẢI GAME</strong><em>bản đầy đủ — đã kèm Launcher</em></span>
       </a>
       <p id="hero-status" class="hero-status"></p>
     </div>
-    <a class="scroll-hint" href="#noi-dung" aria-label="Xem thêm">˅</a>
   </header>
 
-  <!-- NAV -->
-  <nav class="nav">
-    <a href="#trang-thai">Trạng thái</a>
-    <a href="#tin-tuc">Tin tức</a>
-    <a href="#bxh">Xếp hạng</a>
-    <a href="#cuong-hoa">Cường hóa</a>
-  </nav>
+  <!-- LAYOUT 3 CỘT -->
+  <div class="layout">
 
-  <main id="noi-dung" class="wrap">
-    <div class="dash-grid">
+    <!-- SIDEBAR TRÁI: SERVER -->
+    <aside class="side">
+      <section class="panel side-panel">
+        <h3 class="side-title">Máy chủ</h3>
+        <div id="channels" class="channels"><div class="skeleton">Đang tải…</div></div>
+        <div class="stats">
+          <div class="stat"><span>LV tối đa</span><b id="lvmax">—</b></div>
+        </div>
+        <p class="updated" id="updated"></p>
+        <a class="side-cta js-game" href="#" target="_blank" rel="noopener">⚔ Tải Game</a>
+      </section>
+    </aside>
 
-      <!-- CỘT TRÁI -->
-      <div class="dash-col">
-        <section id="trang-thai" class="panel">
-          <h2 class="panel-title"><span class="tt-ico">🐉</span> Trạng thái máy chủ</h2>
-          <div id="channels" class="channels"><div class="skeleton">Đang tải…</div></div>
-          <p class="updated" id="updated"></p>
-        </section>
+    <!-- KHU GIỮA -->
+    <main class="center">
+      <!-- Trang chủ -->
+      <section class="view" data-view-panel="home">
+        <div class="view-head"><h2 class="panel-title"><span class="tt-ico">📜</span> Tin mới nhất</h2>
+          <button class="link-more" data-goto="tin-tuc" type="button">Tất cả tin →</button></div>
+        <div id="home-news" class="news"><div class="skeleton">Đang tải…</div></div>
+        <div class="view-head" style="margin-top:22px"><h2 class="panel-title"><span class="tt-ico">🔨</span> Cường hóa gần đây</h2>
+          <button class="link-more" data-goto="cuong-hoa" type="button">Xem tất cả →</button></div>
+        <div id="home-feed" class="table-wrap"><div class="skeleton">Đang tải…</div></div>
+      </section>
 
-        <section id="bxh" class="panel">
-          <h2 class="panel-title"><span class="tt-ico">🏆</span> Bảng xếp hạng</h2>
-          <div class="tabs" data-tabs="bxh">
-            <button class="tab active" data-tab="level">Cấp độ</button>
-            <button class="tab" data-tab="wx">Võ huân</button>
-            <button class="tab" data-tab="pvp">PVP</button>
-          </div>
-          <div id="bxh-body" class="table-wrap scroll-cap"><div class="skeleton">Đang tải…</div></div>
-        </section>
-      </div>
+      <!-- Tin tức -->
+      <section class="view" data-view-panel="tin-tuc" hidden>
+        <h2 class="panel-title"><span class="tt-ico">📜</span> Tin tức &amp; thông báo</h2>
+        <div id="news" class="news"><div class="skeleton">Đang tải…</div></div>
+      </section>
 
-      <!-- CỘT PHẢI -->
-      <div class="dash-col">
-        <section id="tin-tuc" class="panel">
-          <h2 class="panel-title"><span class="tt-ico">📜</span> Tin tức &amp; thông báo</h2>
-          <div id="news" class="news"><div class="skeleton">Đang tải…</div></div>
-        </section>
+      <!-- BXH -->
+      <section class="view" data-view-panel="bxh" hidden>
+        <h2 class="panel-title"><span class="tt-ico">🏆</span> Bảng xếp hạng</h2>
+        <div class="tabs" data-tabs="bxh">
+          <button class="tab active" data-tab="level">Cấp độ</button>
+          <button class="tab" data-tab="wx">Võ huân</button>
+          <button class="tab" data-tab="pvp">PVP</button>
+        </div>
+        <div id="bxh-body" class="table-wrap"><div class="skeleton">Đang tải…</div></div>
+      </section>
 
-        <section id="cuong-hoa" class="panel">
-          <h2 class="panel-title"><span class="tt-ico">🔨</span> Cường hóa trực tuyến</h2>
-          <div class="tabs" data-tabs="dd">
-            <button class="tab active" data-tab="all">Tất cả</button>
-            <button class="tab" data-tab="cuong-hoa">Cường hóa</button>
-            <button class="tab" data-tab="hop-thanh">Hợp thành</button>
-            <button class="tab" data-tab="thanh-cong">Thành công</button>
-            <button class="tab" data-tab="that-bai">Thất bại</button>
-          </div>
-          <div id="ch-body" class="table-wrap scroll-cap"><div class="skeleton">Đang tải…</div></div>
-          <p id="ch-note" class="ch-note"></p>
-        </section>
-      </div>
+      <!-- Cường hóa -->
+      <section class="view" data-view-panel="cuong-hoa" hidden>
+        <h2 class="panel-title"><span class="tt-ico">🔨</span> Cường hóa trực tuyến</h2>
+        <div class="tabs" data-tabs="dd">
+          <button class="tab active" data-tab="all">Tất cả</button>
+          <button class="tab" data-tab="cuong-hoa">Cường hóa</button>
+          <button class="tab" data-tab="hop-thanh">Hợp thành</button>
+          <button class="tab" data-tab="thanh-cong">Thành công</button>
+          <button class="tab" data-tab="that-bai">Thất bại</button>
+        </div>
+        <div id="ch-body" class="table-wrap"><div class="skeleton">Đang tải…</div></div>
+        <p id="ch-note" class="ch-note"></p>
+      </section>
+    </main>
 
-    </div>
-  </main>
+    <!-- SIDEBAR PHẢI: SỰ KIỆN + TOP -->
+    <aside class="side">
+      <section class="panel side-panel">
+        <h3 class="side-title">Sự kiện</h3>
+        <div id="su-kien"><div class="skeleton">Đang tải…</div></div>
+      </section>
+      <section class="panel side-panel">
+        <h3 class="side-title">Top cao thủ</h3>
+        <div id="top-cao-thu"><div class="skeleton">Đang tải…</div></div>
+      </section>
+    </aside>
+
+  </div>
 
   <!-- MODAL TIN TỨC -->
   <div id="news-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
