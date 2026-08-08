@@ -84,6 +84,8 @@ $Script:ATTR_PCT = @(7, 9, 12, 13)
 function Format-HopThanh($attributeText) {
   if ($attributeText -match 'Loại\s+(\d+)\s*\+\s*(\d+)') {
     $type = [int]$Matches[1]; $val = $Matches[2]
+    # Loại 8 = dòng khí công đặc biệt, dòng phụ (vd "Hồi liễu thân pháp") KHÔNG có trong log → không khẳng định.
+    if ($type -eq 8) { return "Hiệu ứng đặc biệt +$val" }
     $name = if ($ATTR.ContainsKey($type)) { $ATTR[$type] } else { "Loại $type" }
     $pct = if ($ATTR_PCT -contains $type) { "%" } else { "" }
     return "$name +$val$pct"
