@@ -2,11 +2,11 @@
   Push-TrangThai.ps1  —  Đẩy trạng thái kênh lên GitHub (một chiều, đi ra).
 
   Chạy TRÊN VPS bằng Task Scheduler mỗi 5 phút. Kịch bản:
-    1) Gọi gateway loopback http://127.0.0.1:18082/status  (chỉ nội bộ máy)
-    2) Suy ra trạng thái người chơi: Kênh 1 mở nếu process online; Kênh 2 luôn Bảo trì
+    1) Thử kết nối TCP tới cổng client Kênh 1 (mặc định 15001) — đúng như client người chơi
+    2) Suy ra trạng thái: Kênh 1 mở nếu cổng lắng nghe; Kênh 2 luôn Bảo trì (kênh thử nghiệm)
     3) Ghi đè data/trang-thai.json trên repo GitHub qua GitHub Contents API
 
-  KHÔNG mở cổng nào cho internet. KHÔNG đụng Kênh 1 (chỉ đọc /status).
+  KHÔNG mở cổng nào cho internet. KHÔNG đụng gameplay Kênh 1 (chỉ 1 gói TCP mở/đóng).
   Token đọc từ tệp bí mật KHÔNG commit lên repo.
 #>
 
@@ -16,7 +16,8 @@ $GitHubRepo   = "NgaoThien"                    # repo public chứa site
 $GitHubBranch = "main"
 $FilePath     = "data/trang-thai.json"
 $TokenFile    = "C:\HKServer\Secrets\github-status-push.token"  # PAT fine-grained, chỉ repo này, quyền Contents: Read+Write
-$GatewayUrl   = "http://127.0.0.1:18082/status"
+$K1Host       = "127.0.0.1"
+$K1Port       = 15001                          # cổng client Kênh 1 (K2 = 15002)
 # ============================================================
 
 $ErrorActionPreference = "Stop"
@@ -26,18 +27,20 @@ function Write-Log($msg) {
   Write-Output ("[{0}] {1}" -f (Get-Date -Format "HH:mm:ss"), $msg)
 }
 
-# --- 1. Đọc trạng thái từ gateway nội bộ ---
-$activeChannels = @()
-try {
-  $status = Invoke-RestMethod -Uri $GatewayUrl -TimeoutSec 20
-  if ($status -and $status.activeChannels) { $activeChannels = @($status.activeChannels) }
-  Write-Log ("Kênh online theo gateway: {0}" -f ($activeChannels -join ", "))
-} catch {
-  Write-Log ("KHÔNG gọi được gateway ({0}). Giữ nguyên trạng thái cũ, không đẩy." -f $_.Exception.Message)
-  exit 0   # không ghi đè để tránh nhấp nháy trạng thái sai
+# --- 1. Kiểm cổng client Kênh 1 (một gói TCP, không đụng gameplay) ---
+function Test-Port($ipHost, $port, $timeoutMs = 3000) {
+  $client = New-Object Net.Sockets.TcpClient
+  try {
+    $iar = $client.BeginConnect($ipHost, $port, $null, $null)
+    if (-not $iar.AsyncWaitHandle.WaitOne($timeoutMs)) { return $false }
+    $client.EndConnect($iar)
+    return $true
+  } catch { return $false }
+  finally { $client.Close() }
 }
 
-$k1Open = $activeChannels -contains 1
+$k1Open = Test-Port $K1Host $K1Port
+Write-Log ("Cổng Kênh 1 {0}:{1} -> {2}" -f $K1Host, $K1Port, ($(if ($k1Open) {"MỞ"} else {"đóng"})))
 $k1 = if ($k1Open) { @{ ten = "Kênh 1"; trangThai = "open";        ghiChu = "Hoạt động bình thường" } }
       else          { @{ ten = "Kênh 1"; trangThai = "maintenance"; ghiChu = "Đang bảo trì"          } }
 # Kênh 2 là kênh thử nghiệm, luôn đóng với người chơi
