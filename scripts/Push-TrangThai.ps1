@@ -22,6 +22,7 @@ $K1Port       = 15001
 $NewsUrl      = "https://hkngaothien.duckdns.org/api/launcher/public/news"
 $RankUrlBase  = "https://hkngaothien.duckdns.org/api/launcher/public/rankings"
 $RankLimit    = 20
+$ItemEventsUrl= "https://hkngaothien.duckdns.org/api/launcher/public/item-events?afterId=0&limit=80&filter=all"
 # =============================================
 
 $ErrorActionPreference = "Stop"
@@ -131,5 +132,35 @@ try {
   $bxhJson = $bxh | ConvertTo-Json -Depth 6
   Push-IfChanged "data/bxh.json" $bxhJson "cập nhật bảng xếp hạng"
 } catch { Write-Log ("Bỏ qua BXH (lỗi nguồn): {0}" -f $_.Exception.Message) }
+
+# ===== 4) CƯỜNG HÓA TRỰC TUYẾN (feed đập đồ / hợp thành) =====
+try {
+  $events = Invoke-RestMethod -Uri ($ItemEventsUrl) -TimeoutSec 30
+  $ds = @()
+  foreach ($e in $events) {
+    $loai = if ($e.eventType -eq "HOP_THANH") { "hop-thanh" } else { "cuong-hoa" }
+    if ($e.eventType -eq "HOP_THANH") {
+      $thayDoi = [string]$e.attributeText
+    } else {
+      $before = if ($null -ne $e.beforeLevel) { "+" + $e.beforeLevel } else { "?" }
+      $after  = if ($null -ne $e.afterLevel)  { "+" + $e.afterLevel }  else { "mất vật phẩm" }
+      $thayDoi = "$before → $after"
+      if ((-not $e.success) -and $e.failureEffect) { $thayDoi += " • " + $e.failureEffect }
+    }
+    $tg = try { ([DateTime]::SpecifyKind([DateTime]$e.createdAt, 'Utc')).ToLocalTime().ToString("HH:mm:ss") } catch { "" }
+    $ds += [pscustomobject][ordered]@{
+      thoiGian   = $tg
+      kenh       = [int]$e.channelId
+      nhanVat    = [string]$e.characterName
+      loai       = $loai
+      trangBi    = [string]$e.itemName
+      nguyenLieu = if ([string]::IsNullOrWhiteSpace($e.materialName)) { "—" } else { [string]$e.materialName }
+      thayDoi    = $thayDoi
+      thanhCong  = [bool]$e.success
+    }
+  }
+  $chJson = [ordered]@{ danhSach = @($ds) } | ConvertTo-Json -Depth 6
+  Push-IfChanged "data/cuong-hoa.json" $chJson "cập nhật cường hóa trực tuyến"
+} catch { Write-Log ("Bỏ qua cường hóa (lỗi nguồn): {0}" -f $_.Exception.Message) }
 
 Write-Log "Xong."

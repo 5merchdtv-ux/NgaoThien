@@ -74,41 +74,66 @@
     else { a.href = "#"; a.classList.add("disabled"); }
   }
 
-  /* ---------- TIN TỨC ---------- */
+  /* ---------- TIN TỨC (thẻ + modal) ---------- */
   function renderNews(d) {
     var box = document.getElementById("news"); box.innerHTML = "";
     var tin = (d && d.tinTuc) || [];
     if (!tin.length) { box.appendChild(el("div", "news-empty", "Chưa có tin tức.")); return; }
     tin.forEach(function (t) {
-      var item = el("div", "news-item");
-      var head = el("div", "news-head");
+      var card = el("div", "news-card");
+      card.setAttribute("role", "button");
+      card.setAttribute("tabindex", "0");
+      if (t.anh) {
+        var img = el("img", "thumb"); img.src = t.anh; img.alt = t.tieuDe || "";
+        img.loading = "lazy"; img.onerror = function () { img.style.display = "none"; };
+        card.appendChild(img);
+      }
+      var cb = el("div", "card-body");
+      var head = el("div", "card-head");
       if (t.badge) head.appendChild(el("span", "badge", t.badge));
       if (t.ngay) head.appendChild(el("span", "news-date", t.ngay));
-      item.appendChild(head);
-      if (t.tieuDe) item.appendChild(el("div", "news-title", t.tieuDe));
-      if (t.anh) {
-        var img = el("img", "news-img"); img.src = t.anh; img.alt = t.tieuDe || "";
-        img.loading = "lazy"; img.onerror = function () { img.remove(); };
-        item.appendChild(img);
-      }
-      if (t.noiDung) {
-        var body = el("div", "news-body");
-        body.textContent = t.noiDung;
-        var long = t.noiDung.length > 360;
-        if (long) body.classList.add("clamped");
-        item.appendChild(body);
-        if (long) {
-          var btn = el("button", "news-more", "Xem thêm ▾");
-          btn.onclick = function () {
-            var open = body.classList.toggle("clamped") === false;
-            btn.textContent = open ? "Thu gọn ▴" : "Xem thêm ▾";
-          };
-          item.appendChild(btn);
-        }
-      }
-      if (t.tacGia) item.appendChild(el("div", "news-author", "— " + t.tacGia));
-      box.appendChild(item);
+      cb.appendChild(head);
+      if (t.tieuDe) cb.appendChild(el("div", "card-title", t.tieuDe));
+      if (t.noiDung) cb.appendChild(el("div", "card-excerpt", t.noiDung.replace(/\s+/g, " ").trim()));
+      cb.appendChild(el("div", "card-more", "Xem chi tiết →"));
+      card.appendChild(cb);
+      card.onclick = function () { openNewsModal(t); };
+      card.onkeydown = function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openNewsModal(t); } };
+      box.appendChild(card);
     });
+  }
+
+  function openNewsModal(t) {
+    var bd = document.getElementById("news-modal");
+    var inner = bd.querySelector(".modal-inner"); inner.innerHTML = "";
+    if (t.anh) {
+      var im = el("img", "modal-img"); im.src = t.anh; im.alt = t.tieuDe || "";
+      im.onerror = function () { im.remove(); };
+      inner.appendChild(im);
+    }
+    var c = el("div", "modal-content");
+    var head = el("div", "modal-head");
+    if (t.badge) head.appendChild(el("span", "badge", t.badge));
+    if (t.ngay) head.appendChild(el("span", "news-date", t.ngay));
+    c.appendChild(head);
+    if (t.tieuDe) c.appendChild(el("div", "modal-title", t.tieuDe));
+    if (t.noiDung) { var b = el("div", "modal-body"); b.textContent = t.noiDung; c.appendChild(b); }
+    if (t.tacGia) c.appendChild(el("div", "modal-author", "— " + t.tacGia));
+    inner.appendChild(c);
+    bd.querySelector(".modal").scrollTop = 0;
+    bd.classList.add("open"); bd.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+  }
+  function closeNewsModal() {
+    var bd = document.getElementById("news-modal");
+    bd.classList.remove("open"); bd.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
+  }
+  function initModal() {
+    var bd = document.getElementById("news-modal"); if (!bd) return;
+    bd.querySelector(".modal-close").onclick = closeNewsModal;
+    bd.addEventListener("click", function (e) { if (e.target === bd) closeNewsModal(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeNewsModal(); });
   }
 
   /* ---------- BẢNG XẾP HẠNG ---------- */
@@ -155,31 +180,45 @@
     body.appendChild(table);
   }
 
-  /* ---------- CƯỜNG HÓA ---------- */
+  /* ---------- CƯỜNG HÓA TRỰC TUYẾN (feed đập đồ) ---------- */
   var chData = null;
-  var CH_TITLE = { vuKhi: "Vũ khí", trangSuc: "Trang sức", aoChoang: "Áo choàng" };
-  function renderCh(tab) {
+  function setChNote() {
+    var n = document.getElementById("ch-note");
+    if (n) n.textContent = "Hoạt động cường hóa & hợp thành mới nhất của người chơi — tự động cập nhật.";
+  }
+  function renderDapDo(filter) {
     var body = document.getElementById("ch-body");
     if (!chData) { body.innerHTML = '<div class="skeleton">Đang tải…</div>'; return; }
-    var rows = chData[tab] || [];
-    body.innerHTML = "";
-    var table = el("table", "grid");
-    var thead = el("thead"), htr = el("tr");
-    ["Cấp", "Tỉ lệ cơ bản", "Tối đa (đủ hỗ trợ)"].forEach(function (h, i) {
-      htr.appendChild(el("th", (i === 0 ? "center" : "num"), h));
+    var list = (chData.danhSach) || [];
+    var rows = list.filter(function (r) {
+      if (filter === "cuong-hoa") return r.loai === "cuong-hoa";
+      if (filter === "hop-thanh") return r.loai === "hop-thanh";
+      if (filter === "thanh-cong") return r.thanhCong;
+      if (filter === "that-bai") return !r.thanhCong;
+      return true;
     });
+    body.innerHTML = "";
+    if (!rows.length) { body.appendChild(el("div", "news-empty", "Chưa có hoạt động.")); setChNote(); return; }
+    var table = el("table", "grid ch-feed");
+    var thead = el("thead"), htr = el("tr");
+    ["Thời gian", "Kênh", "Nhân vật", "Thao tác", "Trang bị", "Ngọc / Bùa", "Thay đổi", "Kết quả"]
+      .forEach(function (h, i) { htr.appendChild(el("th", (i === 1 || i === 7 ? "center" : ""), h)); });
     thead.appendChild(htr); table.appendChild(thead);
     var tb = el("tbody");
     rows.forEach(function (r) {
       var tr = el("tr");
-      tr.appendChild(el("td", "center", "+" + r.cap));
-      tr.appendChild(el("td", "num", r.coBan + "%"));
-      tr.appendChild(el("td", "num", r.toiDa + "%"));
+      tr.appendChild(el("td", null, r.thoiGian || ""));
+      tr.appendChild(el("td", "center", "K" + r.kenh));
+      var c2 = el("td"); c2.appendChild(el("span", "chname", r.nhanVat || "")); tr.appendChild(c2);
+      tr.appendChild(el("td", null, r.loai === "hop-thanh" ? "◆ Hợp thành" : "✦ Cường hóa"));
+      tr.appendChild(el("td", null, r.trangBi || ""));
+      tr.appendChild(el("td", null, r.nguyenLieu || "—"));
+      tr.appendChild(el("td", null, r.thayDoi || ""));
+      tr.appendChild(el("td", "center " + (r.thanhCong ? "kq-ok" : "kq-fail"), r.thanhCong ? "THÀNH CÔNG" : "THẤT BẠI"));
       tb.appendChild(tr);
     });
     table.appendChild(tb); body.appendChild(table);
-    var note = document.getElementById("ch-note");
-    if (note) note.textContent = chData.ghiChu || "";
+    setChNote();
   }
 
   /* ---------- TABS ---------- */
@@ -190,8 +229,9 @@
         group.querySelectorAll(".tab").forEach(function (b) { b.classList.remove("active"); });
         btn.classList.add("active");
         var tab = btn.getAttribute("data-tab");
-        if (group.getAttribute("data-tabs") === "bxh") renderBxh(tab);
-        else renderCh(tab);
+        var which = group.getAttribute("data-tabs");
+        if (which === "bxh") renderBxh(tab);
+        else if (which === "dd") renderDapDo(tab);
       });
     });
   }
@@ -205,11 +245,12 @@
       .catch(function () { document.getElementById("news").innerHTML = '<div class="news-empty">Không tải được tin tức.</div>'; });
     getJson("data/bxh.json").then(function (d) { bxhData = d; renderBxh("level"); })
       .catch(function () { document.getElementById("bxh-body").innerHTML = '<div class="news-empty">Không tải được xếp hạng.</div>'; });
-    getJson("data/cuong-hoa.json").then(function (d) { chData = d; renderCh("vuKhi"); })
-      .catch(function () { document.getElementById("ch-body").innerHTML = '<div class="news-empty">Không tải được bảng cường hóa.</div>'; });
+    getJson("data/cuong-hoa.json").then(function (d) { chData = d; renderDapDo("all"); })
+      .catch(function () { document.getElementById("ch-body").innerHTML = '<div class="news-empty">Không tải được cường hóa.</div>'; });
   }
 
   initTabs();
+  initModal();
   boot();
   setInterval(boot, 5 * 60 * 1000);
 })();
