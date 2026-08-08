@@ -152,29 +152,51 @@ try {
   Push-IfChanged "data/tin-tuc.json" $tinJson "cập nhật tin tức"
 } catch { Write-Log ("Bỏ qua tin tức (lỗi nguồn): {0}" -f $_.Exception.Message) }
 
-# ===== 3) BẢNG XẾP HẠNG =====
+# ===== DB read-only (chuỗi kết nối đọc từ config LoginServer lúc chạy — KHÔNG lưu mật khẩu vào repo) =====
+$LoginConfig = "C:\HKServer\Server\LoginServer\bin\Debug\config.ini"
+$GameDb   = "v22Game_Hkgiangho"
+$PublicDb = "v22PublicDB_HKgiangho"
+$Script:ItemLevel = @{}
+$dbConn = $null
 try {
-  $bxh = [ordered]@{}
-  foreach ($t in @("level","wx","pvp")) {
-    $rows = Invoke-RestMethod -Uri ("{0}?type={1}&limit={2}" -f $RankUrlBase, $t, $RankLimit) -TimeoutSec 30
-    $arr = @()
-    foreach ($r in $rows) {
-      $arr += [pscustomobject][ordered]@{
-        rank    = [int]$r.rank
-        ten     = [string]$r.characterName
-        nghe    = Get-JobName $r.job
-        phai    = Get-FactionName $r.faction
-        cap     = [int]$r.level
-        capNghe = [int]$r.jobLevel
-        bang    = [string]$r.guildName
-        thanhTuu= [string]$r.achievement
-      }
+  function Read-Ini($k) { (Get-Content $LoginConfig | Where-Object { $_ -match "^\s*$k\s*=" } | Select-Object -First 1) -replace "^\s*$k\s*=\s*","" -replace "\s+$","" }
+  $connStr = "Server=$(Read-Ini 'Server');User Id=$(Read-Ini 'UserName');Password=$(Read-Ini 'PassWord');TrustServerCertificate=True;Connect Timeout=15"
+  $dbConn = New-Object System.Data.SqlClient.SqlConnection $connStr
+  $dbConn.Open()
+  # Map PID -> level trang bị (cho feed cường hóa)
+  $ic = $dbConn.CreateCommand(); $ic.Connection.ChangeDatabase($PublicDb)
+  $ic.CommandText = "SELECT FLD_PID, FLD_LEVEL FROM TBL_XWWL_ITEM WITH(NOLOCK)"
+  $ir = $ic.ExecuteReader(); while ($ir.Read()) { $Script:ItemLevel[[int]$ir['FLD_PID']] = [int]$ir['FLD_LEVEL'] }; $ir.Close()
+  Write-Log ("Đã nạp {0} level trang bị." -f $Script:ItemLevel.Count)
+} catch { Write-Log ("Không kết nối được DB (BXH/level sẽ bỏ qua): {0}" -f $_.Exception.Message) }
+
+# ===== 3) BẢNG XẾP HẠNG (đọc DB read-only — võ huân/cấp ĐÚNG; bỏ PVP vì toàn 0) =====
+if ($dbConn -and $dbConn.State -eq 'Open') {
+  try {
+    function Get-Rank($orderBy, $valCol) {
+      $c = $dbConn.CreateCommand(); $c.Connection.ChangeDatabase($GameDb)
+      $c.CommandText = "SELECT TOP $RankLimit FLD_NAME, ISNULL(FLD_JOB,0) job, ISNULL(FLD_ZX,0) zx, ISNULL(FLD_LEVEL,0) lv, ISNULL(FLD_JOB_LEVEL,0) jl, ISNULL($valCol,0) val, CONVERT(bit,CASE WHEN ISNULL(FLD_ONLINE,0)<>0 THEN 1 ELSE 0 END) onl FROM TBL_XWWL_Char WITH(NOLOCK) WHERE ISNULL(FLD_J9,0)=0 AND ISNULL(FLD_NAME,'')<>'' ORDER BY $orderBy"
+      $t = New-Object System.Data.DataTable; [void]$t.Load($c.ExecuteReader()); ,$t
     }
-    $bxh[$t] = @($arr)
-  }
-  $bxhJson = $bxh | ConvertTo-Json -Depth 6
-  Push-IfChanged "data/bxh.json" $bxhJson "cập nhật bảng xếp hạng"
-} catch { Write-Log ("Bỏ qua BXH (lỗi nguồn): {0}" -f $_.Exception.Message) }
+    function Build-Rank($tbl) {
+      $arr = @(); $i = 0
+      foreach ($row in $tbl.Rows) {
+        $i++
+        $arr += [pscustomobject][ordered]@{
+          rank = $i; ten = [string]$row['FLD_NAME']; nghe = Get-JobName $row['job']; phai = Get-FactionName $row['zx']
+          cap = [int]$row['lv']; capNghe = [int]$row['jl']; online = [bool]$row['onl']; thanhTuu = [string]([int64]$row['val'])
+        }
+      }
+      return ,@($arr)
+    }
+    $expOrder = "FLD_LEVEL DESC, (CASE WHEN ISNUMERIC(FLD_EXP)=1 THEN CAST(FLD_EXP AS decimal(38,0)) ELSE 0 END) DESC, FLD_NAME ASC"
+    $bxh = [ordered]@{
+      level = Build-Rank (Get-Rank $expOrder 'FLD_LEVEL')
+      wx    = Build-Rank (Get-Rank "ISNULL(FLD_WX,0) DESC, ISNULL(FLD_LEVEL,0) DESC, FLD_NAME ASC" 'FLD_WX')
+    }
+    Push-IfChanged "data/bxh.json" ($bxh | ConvertTo-Json -Depth 6) "cập nhật bảng xếp hạng"
+  } catch { Write-Log ("Bỏ qua BXH (lỗi truy vấn): {0}" -f $_.Exception.Message) }
+}
 
 # ===== 4) CƯỜNG HÓA TRỰC TUYẾN (feed đập đồ / hợp thành) =====
 try {
@@ -191,11 +213,7 @@ try {
       if ((-not $e.success) -and $e.failureEffect) { $thayDoi += " • " + $e.failureEffect }
     }
     $tg = try { ([DateTime]::SpecifyKind([DateTime]$e.createdAt, 'Utc')).ToLocalTime().ToString("HH:mm:ss") } catch { "" }
-    $capDo = "—"
-    if ($loai -eq "cuong-hoa") {
-      if ($e.success -and $null -ne $e.afterLevel) { $capDo = "+" + $e.afterLevel }
-      elseif ($null -ne $e.beforeLevel) { $capDo = "+" + $e.beforeLevel }
-    }
+    $capDo = if ($e.itemPid -and $Script:ItemLevel.ContainsKey([int]$e.itemPid)) { [string]$Script:ItemLevel[[int]$e.itemPid] } else { "—" }
     $ds += [pscustomobject][ordered]@{
       thoiGian   = $tg
       kenh       = [int]$e.channelId
@@ -212,4 +230,5 @@ try {
   Push-IfChanged "data/cuong-hoa.json" $chJson "cập nhật cường hóa trực tuyến"
 } catch { Write-Log ("Bỏ qua cường hóa (lỗi nguồn): {0}" -f $_.Exception.Message) }
 
+if ($dbConn) { try { $dbConn.Close() } catch {} }
 Write-Log "Xong."

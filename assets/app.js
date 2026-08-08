@@ -126,8 +126,7 @@
   /* ---------- BXH ---------- */
   var BXH_COL = {
     level: { key: "cap", label: "Cấp", fmt: function (v) { return v; } },
-    wx: { key: "thanhTuu", label: "Võ huân", fmt: groupNum },
-    pvp: { key: "thanhTuu", label: "Điểm PK", fmt: groupNum }
+    wx: { key: "thanhTuu", label: "Võ huân", fmt: groupNum }
   };
   function factionTag(phai) { var cls = phai === "Chính" ? "chinh" : (phai === "Tà" ? "ta" : "tl"); return el("span", "tag-phai " + cls, phai || "—"); }
   function renderBxh(tab) {
@@ -178,7 +177,7 @@
   function nameColor(s) { return "hsl(" + hashHue(s) + ", 72%, 72%)"; }
   function buildFeedTable(rows) {
     var table = el("table", "grid ch-feed"), thead = el("thead"), htr = el("tr");
-    var heads = ["Thời gian", "Kênh", "Nhân vật", "Thao tác", "Trang bị", "Cấp", "Ngọc / Bùa", "Thay đổi", "Kết quả"];
+    var heads = ["Thời gian", "Kênh", "Nhân vật", "Thao tác", "Trang bị", "Cấp đồ", "Ngọc / Bùa", "Thay đổi", "Kết quả"];
     var centers = { 1: 1, 5: 1, 8: 1 };
     heads.forEach(function (h, i) { htr.appendChild(el("th", (centers[i] ? "center" : ""), h)); });
     thead.appendChild(htr); table.appendChild(thead);
