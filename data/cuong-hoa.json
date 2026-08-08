@@ -1,234 +1,804 @@
 {
-  "ghiChu": "Tỉ lệ cơ bản là khi không dùng vật phẩm hỗ trợ. Tối đa là khi cộng đủ bùa may/hỗ trợ (trần 95%).",
-  "vuKhi": [
-    {
-      "cap": 1,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 2,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 3,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 4,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 5,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 6,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 7,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 8,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 9,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 10,
-      "coBan": 80,
-      "toiDa": 95
-    },
-    {
-      "cap": 11,
-      "coBan": 65,
-      "toiDa": 95
-    },
-    {
-      "cap": 12,
-      "coBan": 50,
-      "toiDa": 77
-    },
-    {
-      "cap": 13,
-      "coBan": 25,
-      "toiDa": 41.2
-    },
-    {
-      "cap": 14,
-      "coBan": 10,
-      "toiDa": 20.8
-    },
-    {
-      "cap": 15,
-      "coBan": 3,
-      "toiDa": 8.4
-    }
-  ],
-  "trangSuc": [
-    {
-      "cap": 1,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 2,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 3,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 4,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 5,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 6,
-      "coBan": 85,
-      "toiDa": 95
-    },
-    {
-      "cap": 7,
-      "coBan": 70,
-      "toiDa": 84.5
-    },
-    {
-      "cap": 8,
-      "coBan": 45,
-      "toiDa": 53.7
-    },
-    {
-      "cap": 9,
-      "coBan": 30,
-      "toiDa": 35.8
-    },
-    {
-      "cap": 10,
-      "coBan": 23,
-      "toiDa": 25.9
-    }
-  ],
-  "aoChoang": [
-    {
-      "cap": 1,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 2,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 3,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 4,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 5,
-      "coBan": 100,
-      "toiDa": 100
-    },
-    {
-      "cap": 6,
-      "coBan": 95,
-      "toiDa": 95
-    },
-    {
-      "cap": 7,
-      "coBan": 90,
-      "toiDa": 95
-    },
-    {
-      "cap": 8,
-      "coBan": 85,
-      "toiDa": 95
-    },
-    {
-      "cap": 9,
-      "coBan": 80,
-      "toiDa": 95
-    },
-    {
-      "cap": 10,
-      "coBan": 75,
-      "toiDa": 95
-    },
-    {
-      "cap": 11,
-      "coBan": 70,
-      "toiDa": 83.5
-    },
-    {
-      "cap": 12,
-      "coBan": 65,
-      "toiDa": 78.5
-    },
-    {
-      "cap": 13,
-      "coBan": 60,
-      "toiDa": 73.5
-    },
-    {
-      "cap": 14,
-      "coBan": 55,
-      "toiDa": 68.5
-    },
-    {
-      "cap": 15,
-      "coBan": 50,
-      "toiDa": 63.5
-    },
-    {
-      "cap": 16,
-      "coBan": 45,
-      "toiDa": 50.4
-    },
-    {
-      "cap": 17,
-      "coBan": 40,
-      "toiDa": 45.4
-    },
-    {
-      "cap": 18,
-      "coBan": 35,
-      "toiDa": 40.4
-    },
-    {
-      "cap": 19,
-      "coBan": 30,
-      "toiDa": 35.4
-    },
-    {
-      "cap": 20,
-      "coBan": 25,
-      "toiDa": 30.4
-    }
-  ]
+    "danhSach":  [
+                     {
+                         "thoiGian":  "18:04:09",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:52",
+                         "kenh":  1,
+                         "nhanVat":  "QuyKiemSau",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Aìo tãìm liêÌn maÒnh[Nam]",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 9 +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:50",
+                         "kenh":  1,
+                         "nhanVat":  "QuyKiemSau",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Aìo tãìm liêÌn maÒnh[Nam]",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 9 +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:49",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+10 → +8 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "18:03:49",
+                         "kenh":  1,
+                         "nhanVat":  "QuyKiemSau",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Aìo tãìm liêÌn maÒnh[Nam]",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 9 +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:47",
+                         "kenh":  1,
+                         "nhanVat":  "QuyKiemSau",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Aìo tãìm liêÌn maÒnh[Nam]",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 9 +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:45",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:41",
+                         "kenh":  1,
+                         "nhanVat":  "QuyKiemSau",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Áo Choàng Thời Trang",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 9 +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:38",
+                         "kenh":  1,
+                         "nhanVat":  "QuyKiemSau",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Áo Choàng Thời Trang",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 9 +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:37",
+                         "kenh":  1,
+                         "nhanVat":  "QuyKiemSau",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Áo Choàng Thời Trang",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 9 +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:34",
+                         "kenh":  1,
+                         "nhanVat":  "QuyKiemSau",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Áo Choàng Thời Trang",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 9 +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:05",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:03",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:02",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:03:00",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:00:42",
+                         "kenh":  1,
+                         "nhanVat":  "HungCa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "TrýõÒng laÞo VoÞ siÞ  (NýÞ[Chân])",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 8 +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:00:40",
+                         "kenh":  1,
+                         "nhanVat":  "HungCa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "TrýõÒng laÞo VoÞ siÞ  (NýÞ[Chân])",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 8 +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:00:38",
+                         "kenh":  1,
+                         "nhanVat":  "HungCa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "TrýõÒng laÞo VoÞ siÞ  (NýÞ[Chân])",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 8 +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:00:37",
+                         "kenh":  1,
+                         "nhanVat":  "HungCa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "TrýõÒng laÞo VoÞ siÞ  (NýÞ[Chân])",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 8 +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:56:31",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+11 → +12",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:56:29",
+                         "kenh":  1,
+                         "nhanVat":  "KK002",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:56:23",
+                         "kenh":  1,
+                         "nhanVat":  "KK002",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:56:17",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:55:40",
+                         "kenh":  1,
+                         "nhanVat":  "KK002",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+9 → +0 • VỀ 0",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "17:55:16",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:55:14",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:55:12",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:55:09",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:54:52",
+                         "kenh":  1,
+                         "nhanVat":  "KK002",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:54:50",
+                         "kenh":  1,
+                         "nhanVat":  "KK002",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:54:48",
+                         "kenh":  1,
+                         "nhanVat":  "KK002",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:54:46",
+                         "kenh":  1,
+                         "nhanVat":  "KK002",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:46:54",
+                         "kenh":  1,
+                         "nhanVat":  "KK001",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:46:14",
+                         "kenh":  1,
+                         "nhanVat":  "KK001",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:45:24",
+                         "kenh":  1,
+                         "nhanVat":  "KK001",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:45:21",
+                         "kenh":  1,
+                         "nhanVat":  "KK001",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "17:45:19",
+                         "kenh":  1,
+                         "nhanVat":  "KK001",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:45:17",
+                         "kenh":  1,
+                         "nhanVat":  "KK001",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "17:45:14",
+                         "kenh":  1,
+                         "nhanVat":  "KK001",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Cýìc Binh-Thýòc Long",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:43:39",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+11 → +12",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:43:17",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:42:54",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Ðêì Tinh-Nghiêm Linh",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+11 → +12",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:42:49",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "16:42:40",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:41:21",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Ðêì Tinh-Nghiêm Linh",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:41:14",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Ðêì Tinh-Nghiêm Linh",
+                         "nguyenLieu":  "Phuìc Vâòn PhuÌ 30%",
+                         "thayDoi":  "+12 → +10 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "16:40:41",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+10 → +8 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "16:39:43",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Ðêì Tinh-Nghiêm Linh",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+11 → +12",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:39:35",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "16:39:15",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Ðêì Tinh-Nghiêm Linh",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:39:06",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:36:48",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:36:45",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:36:42",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:36:40",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Thýòc HôÌn",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:36:36",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ðêì Tinh-Nghiêm Linh",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:36:31",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ðêì Tinh-Nghiêm Linh",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:36:28",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ðêì Tinh-Nghiêm Linh",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "16:36:25",
+                         "kenh":  1,
+                         "nhanVat":  "love222",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ðêì Tinh-Nghiêm Linh",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:47:50",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phaì Huyêìt kiêìm",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:47:10",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phaì Huyêìt kiêìm",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (15%)",
+                         "thayDoi":  "+9 → +0 • VỀ 0",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "15:46:31",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Phaì Huyêìt kiêìm",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:46:30",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Phaì Huyêìt kiêìm",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:46:28",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Phaì Huyêìt kiêìm",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:46:26",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Phaì Huyêìt kiêìm",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:38:02",
+                         "kenh":  1,
+                         "nhanVat":  "TieuTam",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "ÄÎ·Æ¶ûËþÀû(Å®)[¶·]",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 8 +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:37:58",
+                         "kenh":  1,
+                         "nhanVat":  "TieuTam",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "ÄÎ·Æ¶ûËþÀû(Å®)[¶·]",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 8 +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:37:56",
+                         "kenh":  1,
+                         "nhanVat":  "TieuTam",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "ÄÎ·Æ¶ûËþÀû(Å®)[¶·]",
+                         "nguyenLieu":  "Nhiêòt Huyêìt Thaòch",
+                         "thayDoi":  "Loại 8 +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:37:50",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Ma ThâÌn kiêìm",
+                         "nguyenLieu":  "Phuìc vâòn phuÌ (25%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:37:04",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ma ThâÌn kiêìm",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:37:00",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ma ThâÌn kiêìm",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:36:46",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ma ThâÌn kiêìm",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:36:44",
+                         "kenh":  1,
+                         "nhanVat":  "KK004",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ma ThâÌn kiêìm",
+                         "nguyenLieu":  "Kim Cang Thaòch Cao Câìp",
+                         "thayDoi":  "Loại 7 +30",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:05:26",
+                         "kenh":  1,
+                         "nhanVat":  "sutu1",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Huyết Long-(ma)",
+                         "nguyenLieu":  "ThiêÒm lýõòng nguyên thaòch",
+                         "thayDoi":  "+4 → +5",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:05:22",
+                         "kenh":  1,
+                         "nhanVat":  "sutu1",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Huyết Long-(ma)",
+                         "nguyenLieu":  "ThiêÒm lýõòng nguyên thaòch",
+                         "thayDoi":  "+3 → +4",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:05:18",
+                         "kenh":  1,
+                         "nhanVat":  "sutu1",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Huyết Long-(ma)",
+                         "nguyenLieu":  "ThiêÒm lýõòng nguyên thaòch",
+                         "thayDoi":  "+2 → +3",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:05:13",
+                         "kenh":  1,
+                         "nhanVat":  "sutu1",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Huyết Long-(ma)",
+                         "nguyenLieu":  "ThiêÒm lýõòng nguyên thaòch",
+                         "thayDoi":  "+1 → +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:05:09",
+                         "kenh":  1,
+                         "nhanVat":  "sutu1",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Huyết Long-(ma)",
+                         "nguyenLieu":  "ThiêÒm lýõòng nguyên thaòch",
+                         "thayDoi":  "+0 → +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:05:05",
+                         "kenh":  1,
+                         "nhanVat":  "sutu1",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Huyết Long-(ma)",
+                         "nguyenLieu":  "ThiêÒm lýõòng nguyên thaòch",
+                         "thayDoi":  "+4 → +5",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "15:05:01",
+                         "kenh":  1,
+                         "nhanVat":  "sutu1",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Huyết Long-(ma)",
+                         "nguyenLieu":  "ThiêÒm lýõòng nguyên thaòch",
+                         "thayDoi":  "+3 → +4",
+                         "thanhCong":  true
+                     }
+                 ]
 }
