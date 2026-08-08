@@ -77,11 +77,7 @@
 
   function renderNoiDung(noiDung) {
     noiDung = noiDung || {};
-    setLink("btn-launcher", noiDung.linkLauncher, "chưa có link");
     setLink("btn-game", noiDung.linkGame, "chưa có link");
-
-    var ver = document.getElementById("launcher-ver");
-    if (noiDung.phienBanLauncher) ver.textContent = "phiên bản " + noiDung.phienBanLauncher;
 
     var box = document.getElementById("news");
     box.innerHTML = "";

@@ -1,4 +1,4 @@
-<#
+﻿<#
   Push-TrangThai.ps1  —  Đẩy trạng thái kênh lên GitHub (một chiều, đi ra).
 
   Chạy TRÊN VPS bằng Task Scheduler mỗi 5 phút. Kịch bản:
@@ -15,7 +15,8 @@ $GitHubOwner  = "5merchdtv-ux"                 # tài khoản GitHub
 $GitHubRepo   = "NgaoThien"                    # repo public chứa site
 $GitHubBranch = "main"
 $FilePath     = "data/trang-thai.json"
-$TokenFile    = "C:\HKServer\Secrets\github-status-push.token"  # PAT fine-grained, chỉ repo này, quyền Contents: Read+Write
+$TokenEnv     = "HKNT_GH_TOKEN"                # ưu tiên đọc token từ biến môi trường này
+$TokenFile    = "C:\HKServer\Secrets\github-status-push.token"  # dự phòng nếu không có biến môi trường
 $K1Host       = "127.0.0.1"
 $K1Port       = 15001                          # cổng client Kênh 1 (K2 = 15002)
 # ============================================================
@@ -54,8 +55,11 @@ $json = ($payload | ConvertTo-Json -Depth 5)
 Write-Log "Nội dung mới:`n$json"
 
 # --- 2. Đẩy lên GitHub Contents API ---
-if (-not (Test-Path $TokenFile)) { throw "Thiếu tệp token: $TokenFile" }
-$token = (Get-Content -Raw $TokenFile).Trim()
+$token = [Environment]::GetEnvironmentVariable($TokenEnv, "Machine")
+if ([string]::IsNullOrWhiteSpace($token)) { $token = [Environment]::GetEnvironmentVariable($TokenEnv) }
+if ([string]::IsNullOrWhiteSpace($token) -and (Test-Path $TokenFile)) { $token = Get-Content -Raw $TokenFile }
+if ([string]::IsNullOrWhiteSpace($token)) { throw "Thiếu token: đặt biến môi trường $TokenEnv hoặc tệp $TokenFile" }
+$token = $token.Trim()
 
 $headers = @{
   Authorization          = "Bearer $token"
@@ -84,5 +88,7 @@ $body = @{
 }
 if ($sha) { $body.sha = $sha }
 
-$resp = Invoke-RestMethod -Uri $apiBase -Method Put -Headers $headers -Body ($body | ConvertTo-Json) -ContentType "application/json" -TimeoutSec 30
+# Gửi body dạng byte UTF-8 KHÔNG BOM (tránh Invoke-RestMethod PS 5.1 chèn BOM làm GitHub lỗi parse)
+$bodyBytes = [Text.Encoding]::UTF8.GetBytes(($body | ConvertTo-Json -Compress))
+$resp = Invoke-RestMethod -Uri $apiBase -Method Put -Headers $headers -Body $bodyBytes -ContentType "application/json" -TimeoutSec 30
 Write-Log ("Đã đẩy. Commit: {0}" -f $resp.commit.sha)

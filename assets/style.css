@@ -120,6 +120,7 @@ html, body {
 
 /* Downloads */
 .downloads { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.downloads.solo { grid-template-columns: minmax(0, 460px); justify-content: center; }
 @media (max-width: 520px) { .downloads { grid-template-columns: 1fr; } }
 
 .btn {
