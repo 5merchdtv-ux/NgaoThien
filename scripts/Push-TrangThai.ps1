@@ -81,6 +81,23 @@ $Script:ATTR = @{
   11='Phòng ngự võ công'; 12='Tiền nhận được'; 13='Giảm tổn thất EXP'
 }
 $Script:ATTR_PCT = @(7, 9, 12, 13)
+# Chọn cách sửa tên item: nếu là tên Trung (GBK) bị lưu nhầm Latin1 → trả chữ Trung; nếu không → chữa dấu VNI.
+function Fix-ItemName($name) {
+  if ([string]::IsNullOrEmpty($name)) { return $name }
+  $chars = $name.ToCharArray()
+  if (($chars | Where-Object { [int]$_ -ge 256 }).Count -eq 0) {
+    try {
+      $b = [byte[]]($chars | ForEach-Object { [byte][int]$_ })
+      $gbk = [Text.Encoding]::GetEncoding(936).GetString($b)
+      $gc = $gbk.ToCharArray()
+      $cjk = ($gc | Where-Object { [int]$_ -ge 0x3400 -and [int]$_ -le 0x9FFF }).Count
+      $vis = ($gc | Where-Object { [int]$_ -gt 32 }).Count
+      if ($cjk -ge 1 -and ($cjk * 2) -ge $vis) { return $gbk }
+    } catch {}
+  }
+  return (Fix-VN $name)
+}
+
 function Format-HopThanh($attributeText) {
   if ($attributeText -match 'Loại\s+(\d+)\s*\+\s*(\d+)') {
     $type = [int]$Matches[1]; $val = $Matches[2]
@@ -221,9 +238,9 @@ try {
       kenh       = [int]$e.channelId
       nhanVat    = [string]$e.characterName
       loai       = $loai
-      trangBi    = Fix-VN ([string]$e.itemName)
+      trangBi    = Fix-ItemName ([string]$e.itemName)
       capDo      = $capDo
-      nguyenLieu = if ([string]::IsNullOrWhiteSpace($e.materialName)) { "—" } else { Fix-VN ([string]$e.materialName) }
+      nguyenLieu = if ([string]::IsNullOrWhiteSpace($e.materialName)) { "—" } else { Fix-ItemName ([string]$e.materialName) }
       thayDoi    = $thayDoi
       thanhCong  = [bool]$e.success
     }
