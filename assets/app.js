@@ -126,7 +126,7 @@
   /* ---------- BXH ---------- */
   var BXH_COL = {
     level: { key: "cap", label: "Cấp", fmt: function (v) { return v; } },
-    wx: { key: "thanhTuu", label: "Võ huân", fmt: groupNum }
+    wx: { key: "thanhTuu", label: "Điểm danh dự", fmt: groupNum }
   };
   function factionTag(phai) { var cls = phai === "Chính" ? "chinh" : (phai === "Tà" ? "ta" : "tl"); return el("span", "tag-phai " + cls, phai || "—"); }
   function renderBxh(tab) {
