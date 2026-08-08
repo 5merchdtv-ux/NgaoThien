@@ -343,8 +343,9 @@ table.grid td.center, table.grid th.center { text-align: center; }
   box-shadow: 0 0 12px rgba(255,106,26,.4);
 }
 .ch-note { margin: 14px 2px 0; color: var(--muted); font-size: 12.5px; font-style: italic; line-height: 1.5; }
-table.ch-feed { min-width: 720px; font-size: 13px; }
-table.ch-feed td { padding: 9px 12px; }
+table.ch-feed { min-width: 600px; font-size: 12.5px; }
+table.ch-feed td { padding: 8px 10px; vertical-align: top; }
+table.ch-feed td:first-child, table.ch-feed td.center, table.ch-feed td.kq-ok, table.ch-feed td.kq-fail { white-space: nowrap; }
 td.kq-ok { color: var(--green); font-weight: 700; white-space: nowrap; }
 td.kq-fail { color: var(--red); font-weight: 700; white-space: nowrap; }
 
@@ -400,7 +401,7 @@ body.modal-open { overflow: hidden; }
 .nav-toggle { display: none; background: none; border: 1px solid var(--panel-brd); color: var(--gold-lt); font-size: 18px; border-radius: 8px; padding: 4px 11px; cursor: pointer; }
 
 /* ============ LAYOUT 3 CỘT ============ */
-.layout { max-width: 1280px; margin: 0 auto; padding: 22px 18px 44px; display: grid; grid-template-columns: 250px minmax(0,1fr) 300px; gap: 22px; align-items: start; }
+.layout { max-width: 1460px; margin: 0 auto; padding: 22px 18px 44px; display: grid; grid-template-columns: 208px minmax(0,1fr) 244px; gap: 20px; align-items: start; }
 .side { display: flex; flex-direction: column; gap: 22px; position: sticky; top: 66px; }
 .side-panel { padding: 18px 16px; }
 .side-title { margin: 0 0 12px; font-family: "Playfair Display", serif; font-size: 18px; font-weight: 800; color: var(--gold-lt); border-left: 3px solid var(--gold); padding-left: 10px; }
