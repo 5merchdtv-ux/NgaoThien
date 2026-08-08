@@ -11,8 +11,8 @@
 #>
 
 # ================== CẤU HÌNH — sửa cho khớp ==================
-$GitHubOwner  = "TEN_TAI_KHOAN_GITHUB"        # ví dụ: hknt-community
-$GitHubRepo   = "hknt-status"                  # tên repo public chứa site
+$GitHubOwner  = "5merchdtv-ux"                 # tài khoản GitHub
+$GitHubRepo   = "NgaoThien"                    # repo public chứa site
 $GitHubBranch = "main"
 $FilePath     = "data/trang-thai.json"
 $TokenFile    = "C:\HKServer\Secrets\github-status-push.token"  # PAT fine-grained, chỉ repo này, quyền Contents: Read+Write
