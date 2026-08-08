@@ -156,7 +156,7 @@
     var col = BXH_COL[tab] || BXH_COL.level;
     var table = el("table", "grid");
     var thead = el("thead"), htr = el("tr");
-    ["#", "Nhân vật", "Nghề", "Phái", col.label, "Bang hội"].forEach(function (h, i) {
+    ["#", "Nhân vật", "Nghề", "Phái", col.label].forEach(function (h, i) {
       var th = el("th", (i === 0 ? "center" : (i === 4 ? "num" : "")), h); htr.appendChild(th);
     });
     thead.appendChild(htr); table.appendChild(thead);
@@ -173,7 +173,6 @@
       tr.appendChild(el("td", null, r.nghe || ""));
       var c3 = el("td"); c3.appendChild(factionTag(r.phai)); tr.appendChild(c3);
       tr.appendChild(el("td", "num", col.fmt(r[col.key])));
-      tr.appendChild(el("td", null, r.bang || "—"));
       tb.appendChild(tr);
     });
     table.appendChild(tb);
