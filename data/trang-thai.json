@@ -1,15 +1,15 @@
 {
-    "capNhat":  "2026-08-08T17:34:10+07:00",
+    "capNhat":  "2026-08-08T17:37:45+07:00",
     "kenh":  [
                  {
-                     "ghiChu":  "Hoạt động bình thường",
                      "ten":  "Kênh 1",
-                     "trangThai":  "open"
+                     "trangThai":  "open",
+                     "ghiChu":  "Hoạt động bình thường"
                  },
                  {
-                     "ghiChu":  "Kênh thử nghiệm",
                      "ten":  "Kênh 2",
-                     "trangThai":  "maintenance"
+                     "trangThai":  "maintenance",
+                     "ghiChu":  "Kênh thử nghiệm"
                  }
              ]
 }
