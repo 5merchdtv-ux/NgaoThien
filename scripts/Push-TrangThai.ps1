@@ -183,7 +183,7 @@ try {
   foreach ($e in $events) {
     $loai = if ($e.eventType -eq "HOP_THANH") { "hop-thanh" } else { "cuong-hoa" }
     if ($e.eventType -eq "HOP_THANH") {
-      $thayDoi = Format-HopThanh ([string]$e.attributeText)
+      $thayDoi = [string]$e.attributeText   # giữ nguyên chuỗi game ghi; KHÔNG tự dịch (map hiệu ứng ngọc chưa xác minh)
     } else {
       $before = if ($null -ne $e.beforeLevel) { "+" + $e.beforeLevel } else { "?" }
       $after  = if ($null -ne $e.afterLevel)  { "+" + $e.afterLevel }  else { "mất vật phẩm" }
