@@ -1,6 +1,160 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "10:04:40",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Trang Phục Hỏa Luyện (Đao) (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+12 → +13",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:04:20",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nguyệt quang thánh phiến-Chân",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+12 → +13",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:54:17",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Trang Phục Hỏa Luyện (Đao) (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +24",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:54:15",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Trang Phục Hỏa Luyện (Đao) (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +24",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:54:13",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Trang Phục Hỏa Luyện (Đao) (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +24",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:54:12",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Trang Phục Hỏa Luyện (Đao) (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +24",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:53:37",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Trang Phục Hỏa Luyện (Đao) (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:53:34",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Trang Phục Hỏa Luyện (Đao) (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:53:32",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Trang Phục Hỏa Luyện (Đao) (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:53:31",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Trang Phục Hỏa Luyện (Đao) (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:48:23",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Nguyệt quang thánh phiến-Chân",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
+                         "thayDoi":  "Công lực võ công +36%",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:48:21",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Nguyệt quang thánh phiến-Chân",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
+                         "thayDoi":  "Công lực võ công +37%",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:48:16",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Nguyệt quang thánh phiến-Chân",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
+                         "thayDoi":  "Công lực võ công +37%",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "09:48:14",
+                         "kenh":  1,
+                         "nhanVat":  "Crow",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Nguyệt quang thánh phiến-Chân",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
+                         "thayDoi":  "Công lực võ công +37%",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "09:29:15",
                          "kenh":  1,
                          "nhanVat":  "taolao1",
@@ -724,160 +878,6 @@
                          "capDo":  "130",
                          "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
                          "thayDoi":  "Hiệu ứng đặc biệt +2",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "08:01:29",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Tinh Phách Hoàng Kiếm (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
-                         "thayDoi":  "Hiệu ứng đặc biệt +2",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "08:01:15",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Phá Thiên Thần Kiếm (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
-                         "thayDoi":  "Hiệu ứng đặc biệt +2",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "08:01:13",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Phá Thiên Thần Kiếm (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
-                         "thayDoi":  "Hiệu ứng đặc biệt +2",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "08:01:11",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Phá Thiên Thần Kiếm (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
-                         "thayDoi":  "Hiệu ứng đặc biệt +2",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "08:01:08",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Phá Thiên Thần Kiếm (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
-                         "thayDoi":  "Hiệu ứng đặc biệt +2",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "08:01:03",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Phá Thiên Thần Kiếm (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
-                         "thayDoi":  "Công lực võ công +37%",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "08:01:00",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Phá Thiên Thần Kiếm (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
-                         "thayDoi":  "Công lực võ công +37%",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "08:00:57",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Phá Thiên Thần Kiếm (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
-                         "thayDoi":  "Công lực võ công +37%",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "08:00:52",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Phá Thiên Thần Kiếm (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
-                         "thayDoi":  "Công lực võ công +37%",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:53:01",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Trang Phục Hỏa Luyện (Kiếm) (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Phúc Vận Phù 30%",
-                         "thayDoi":  "+12 → +13",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:52:35",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Trang Phục Hỏa Luyện (Kiếm) (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Phúc vận phù (15%)",
-                         "thayDoi":  "+9 → +10",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:52:21",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Trang Phục Hỏa Luyện (Kiếm) (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "07:50:48",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Trang Phục Hỏa Luyện (Kiếm) (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
-                         "thayDoi":  "Phòng ngự võ công +118",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:49:26",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Trang Phục Hỏa Luyện (Kiếm) (Chân)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
-                         "thayDoi":  "Phòng ngự võ công +118",
                          "thanhCong":  true
                      }
                  ]
