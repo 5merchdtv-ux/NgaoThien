@@ -1,6 +1,17 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "09:06:24",
+                         "kenh":  1,
+                         "nhanVat":  "LaoTu",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Đấu sĩ quyền năng (Nam)[Chân]",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Hiệu ứng đặc biệt +1",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "08:01:12",
                          "kenh":  1,
                          "nhanVat":  "taolao1",
@@ -867,17 +878,6 @@
                          "capDo":  "120",
                          "nguyenLieu":  "Thiểm lượng nguyên thạch",
                          "thayDoi":  "+5 → +6",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "02:43:17",
-                         "kenh":  1,
-                         "nhanVat":  "sutu2",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Nhẫn Huyết Long-(toái)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Thiểm lượng nguyên thạch",
-                         "thayDoi":  "+4 → +5",
                          "thanhCong":  true
                      }
                  ]
