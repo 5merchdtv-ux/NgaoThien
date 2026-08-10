@@ -1,6 +1,72 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "14:08:11",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Tử Kim-(ma)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Sức Phẩm Kỹ Thuật Phù (cao cấp)",
+                         "thayDoi":  "+5 → +8",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "14:06:49",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Tử Kim-(ma)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Thiểm lượng nguyên thạch",
+                         "thayDoi":  "+4 → +5",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "14:06:45",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Tử Kim-(ma)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Thiểm lượng nguyên thạch",
+                         "thayDoi":  "+3 → +4",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "14:06:41",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Tử Kim-(ma)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Thiểm lượng nguyên thạch",
+                         "thayDoi":  "+2 → +3",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "14:06:37",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Tử Kim-(ma)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Thiểm lượng nguyên thạch",
+                         "thayDoi":  "+1 → +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "14:06:34",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Nhẫn Tử Kim-(ma)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Thiểm lượng nguyên thạch",
+                         "thayDoi":  "+0 → +1",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "12:54:40",
                          "kenh":  1,
                          "nhanVat":  "DepLao",
@@ -813,72 +879,6 @@
                          "nguyenLieu":  "Nhiệt Huyết Thạch",
                          "thayDoi":  "Hiệu ứng đặc biệt +1",
                          "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "11:32:24",
-                         "kenh":  1,
-                         "nhanVat":  "DepLao",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "¾ç±Ã(³²)[æå(¿¬)]",
-                         "capDo":  "1",
-                         "nguyenLieu":  "Nhiệt Huyết Thạch",
-                         "thayDoi":  "Hiệu ứng đặc biệt +1",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "11:32:20",
-                         "kenh":  1,
-                         "nhanVat":  "DepLao",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "¾ç±Ã(³²)[æå(¿¬)]",
-                         "capDo":  "1",
-                         "nguyenLieu":  "Nhiệt Huyết Thạch",
-                         "thayDoi":  "Hiệu ứng đặc biệt +1",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "11:32:11",
-                         "kenh":  1,
-                         "nhanVat":  "DepLao",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Người chinh phục đỉnh Olympia (Nam)[Thuê]",
-                         "capDo":  "1",
-                         "nguyenLieu":  "Nhiệt Huyết Thạch",
-                         "thayDoi":  "Tỷ lệ hợp thành/cường hóa +2%",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "09:06:24",
-                         "kenh":  1,
-                         "nhanVat":  "LaoTu",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Đấu sĩ quyền năng (Nam)[Chân]",
-                         "capDo":  "1",
-                         "nguyenLieu":  "Nhiệt Huyết Thạch",
-                         "thayDoi":  "Hiệu ứng đặc biệt +1",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "08:01:12",
-                         "kenh":  1,
-                         "nhanVat":  "taolao1",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Trang Phục Phẫn Thiên (Kiếm)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc Vận Phù 30%",
-                         "thayDoi":  "+13 → +14",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "08:00:54",
-                         "kenh":  1,
-                         "nhanVat":  "taolao1",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-La Sát",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc Vận Phù 30%",
-                         "thayDoi":  "+13 → +11 • GIẢM 2 CẤP",
-                         "thanhCong":  false
                      }
                  ]
 }
