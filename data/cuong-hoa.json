@@ -1,6 +1,50 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "11:32:28",
+                         "kenh":  1,
+                         "nhanVat":  "DepLao",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "¾ç±Ã(³²)[æå(¿¬)]",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Hiệu ứng đặc biệt +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "11:32:24",
+                         "kenh":  1,
+                         "nhanVat":  "DepLao",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "¾ç±Ã(³²)[æå(¿¬)]",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Hiệu ứng đặc biệt +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "11:32:20",
+                         "kenh":  1,
+                         "nhanVat":  "DepLao",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "¾ç±Ã(³²)[æå(¿¬)]",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Hiệu ứng đặc biệt +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "11:32:11",
+                         "kenh":  1,
+                         "nhanVat":  "DepLao",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Người chinh phục đỉnh Olympia (Nam)[Thuê]",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Tỷ lệ hợp thành/cường hóa +2%",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "09:06:24",
                          "kenh":  1,
                          "nhanVat":  "LaoTu",
@@ -834,50 +878,6 @@
                          "capDo":  "120",
                          "nguyenLieu":  "Thiểm lượng nguyên thạch",
                          "thayDoi":  "+2 → +3",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "02:43:44",
-                         "kenh":  1,
-                         "nhanVat":  "sutu2",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Nhẫn Huyết Long-(ma)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Thiểm lượng nguyên thạch",
-                         "thayDoi":  "+1 → +2",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "02:43:37",
-                         "kenh":  1,
-                         "nhanVat":  "sutu2",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Nhẫn Huyết Long-(ma)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Thiểm lượng nguyên thạch",
-                         "thayDoi":  "+0 → +1",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "02:43:27",
-                         "kenh":  1,
-                         "nhanVat":  "sutu2",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Nhẫn Huyết Long-(toái)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Thiểm lượng nguyên thạch",
-                         "thayDoi":  "+6 → mất vật phẩm • MẤT VẬT PHẨM",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "02:43:22",
-                         "kenh":  1,
-                         "nhanVat":  "sutu2",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Nhẫn Huyết Long-(toái)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Thiểm lượng nguyên thạch",
-                         "thayDoi":  "+5 → +6",
                          "thanhCong":  true
                      }
                  ]
