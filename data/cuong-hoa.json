@@ -1,6 +1,61 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "13:03:49",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Ủng Huyền Vân",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Phúc vận phù (15%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "13:02:40",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Huyền Vân",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +24",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "13:02:23",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Huyền Vân",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "13:02:16",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Huyền Vân",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "13:02:10",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Huyền Vân",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "06:32:59",
                          "kenh":  1,
                          "nhanVat":  "HoaTranh",
@@ -496,17 +551,6 @@
                          "thanhCong":  false
                      },
                      {
-                         "thoiGian":  "00:07:27",
-                         "kenh":  1,
-                         "nhanVat":  "taolao1",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc Vận Phù 30%",
-                         "thayDoi":  "+11 → +12",
-                         "thanhCong":  true
-                     },
-                     {
                          "thoiGian":  "00:01:57",
                          "kenh":  1,
                          "nhanVat":  "taolao1",
@@ -614,50 +658,6 @@
                          "capDo":  "120",
                          "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
                          "thayDoi":  "Sức phòng ngự +14",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "00:01:12",
-                         "kenh":  1,
-                         "nhanVat":  "taolao1",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Ủng Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Sức phòng ngự +14",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "00:01:09",
-                         "kenh":  1,
-                         "nhanVat":  "taolao1",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Ủng Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Sức phòng ngự +14",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "00:01:02",
-                         "kenh":  1,
-                         "nhanVat":  "taolao1",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Sức phòng ngự +15",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "00:00:57",
-                         "kenh":  1,
-                         "nhanVat":  "taolao1",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Sức phòng ngự +15",
                          "thanhCong":  true
                      }
                  ]
