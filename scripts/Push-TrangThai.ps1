@@ -21,8 +21,18 @@ $K1Host       = "127.0.0.1"
 $K1Port       = 15001
 $NewsUrl      = "https://hkngaothien.duckdns.org/api/launcher/public/news"
 $RankUrlBase  = "https://hkngaothien.duckdns.org/api/launcher/public/rankings"
-$RankLimit    = 20
-$ItemEventsUrl= "https://hkngaothien.duckdns.org/api/launcher/public/item-events?afterId=0&limit=80&filter=all"
+$RankLimit    = 100
+# Feed cường hóa: lấy RIÊNG từng loại rồi trộn, KHÔNG lấy chung một mẻ như trước.
+#
+# Vì sao: trang có 5 tab lọc (Tất cả / Cường hóa / Hợp thành / Thành công / Thất bại) nhưng lọc
+# ở PHÍA TRANG, trên đúng mẻ dữ liệu này. Đo ngày 11/08/2026: một mẻ 80 dòng chỉ có 16 dòng
+# cường hóa còn 64 dòng hợp thành, và cả 80 dòng gói trong 3 phút 18 giây. Ai spam hợp thành là
+# tab "Cường hóa" cạn còn chưa tới hai trang.
+#
+# API có filter sẵn ở phía server theo EventType và limit tới 200, nên lấy mỗi loại một mẻ riêng
+# thì tab nào cũng đủ số dòng, bất kể lúc đó ai đang spam loại nào.
+$ItemEventsBase   = "https://hkngaothien.duckdns.org/api/launcher/public/item-events?afterId=0"
+$FeedLimitMoiLoai = 30
 # =============================================
 
 $ErrorActionPreference = "Stop"
@@ -219,7 +229,20 @@ if ($dbConn -and $dbConn.State -eq 'Open') {
 
 # ===== 4) CƯỜNG HÓA TRỰC TUYẾN (feed đập đồ / hợp thành) =====
 try {
-  $events = Invoke-RestMethod -Uri ($ItemEventsUrl) -TimeoutSec 30
+  # Hai mẻ riêng rồi trộn. Mỗi mẻ API đã trả ORDER BY EventId DESC, nhưng trộn hai mẻ thì phải
+  # tự xếp lại theo eventId giảm dần — không xếp thì trang hiện hai khối liền nhau theo loại
+  # chứ không phải một dòng thời gian.
+  $events = @()
+  foreach ($loaiApi in @("cuong-hoa", "hop-thanh")) {
+    try {
+      $mot = Invoke-RestMethod -Uri "$ItemEventsBase&limit=$FeedLimitMoiLoai&filter=$loaiApi" -TimeoutSec 30
+      if ($mot) { $events += @($mot) }
+    } catch { Write-Log ("Bỏ qua mẻ {0}: {1}" -f $loaiApi, $_.Exception.Message) }
+  }
+  $events = @($events | Sort-Object -Property eventId -Descending)
+  Write-Log ("Feed: {0} dòng — {1} cường hóa, {2} hợp thành." -f $events.Count,
+    @($events | Where-Object { $_.eventType -ne 'HOP_THANH' }).Count,
+    @($events | Where-Object { $_.eventType -eq 'HOP_THANH' }).Count)
   $ds = @()
   foreach ($e in $events) {
     $loai = if ($e.eventType -eq "HOP_THANH") { "hop-thanh" } else { "cuong-hoa" }
@@ -245,8 +268,15 @@ try {
       thanhCong  = [bool]$e.success
     }
   }
-  $chJson = [ordered]@{ danhSach = @($ds) } | ConvertTo-Json -Depth 6
-  Push-IfChanged "data/cuong-hoa.json" $chJson "cập nhật cường hóa trực tuyến"
+  # Mẻ rỗng thì GIỮ dữ liệu cũ, không đẩy. Trước đây một lần API lỗi là ghi đè danh sách rỗng
+  # lên trang công khai, anh em vào thấy bảng trắng. Feed thật rỗng hẳn là chuyện gần như không
+  # xảy ra, còn lỗi mạng tạm thời thì thường.
+  if ($ds.Count -eq 0) {
+    Write-Log "Feed rỗng — giữ nguyên data/cuong-hoa.json cũ, không đẩy."
+  } else {
+    $chJson = [ordered]@{ danhSach = @($ds) } | ConvertTo-Json -Depth 6
+    Push-IfChanged "data/cuong-hoa.json" $chJson "cập nhật cường hóa trực tuyến"
+  }
 } catch { Write-Log ("Bỏ qua cường hóa (lỗi nguồn): {0}" -f $_.Exception.Message) }
 
 if ($dbConn) { try { $dbConn.Close() } catch {} }
