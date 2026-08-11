@@ -1,6 +1,39 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "02:09:17",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Giáp Hoàng Thiên",
+                         "capDo":  "135",
+                         "nguyenLieu":  "Vô Song Phúc vận phu",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "02:07:55",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp Hoàng Thiên",
+                         "capDo":  "135",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "02:07:50",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp Hoàng Thiên",
+                         "capDo":  "135",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "23:38:27",
                          "kenh":  1,
                          "nhanVat":  "HungCa",
@@ -299,28 +332,6 @@
                      },
                      {
                          "thoiGian":  "23:35:33",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Thương Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "23:35:31",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Thương Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "23:35:29",
                          "kenh":  1,
                          "nhanVat":  "HungCa",
                          "loai":  "hop-thanh",
@@ -648,17 +659,6 @@
                          "nguyenLieu":  "Cây kim",
                          "thayDoi":  "+0 → +1",
                          "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "21:06:04",
-                         "kenh":  1,
-                         "nhanVat":  "sutu2",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Khuyên Tử Kim-(ma)",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Sức Phẩm Kỹ Thuật Phù (cao cấp)",
-                         "thayDoi":  "+7 → +0 • VỀ 0",
-                         "thanhCong":  false
                      }
                  ]
 }
