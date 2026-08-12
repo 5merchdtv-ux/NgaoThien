@@ -1,6 +1,61 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "11:05:49",
+                         "kenh":  1,
+                         "nhanVat":  "LaoTu",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Trung Nguyên Ngũ Thành Thương (Phong Ấn)",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+11 → +12",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "11:03:29",
+                         "kenh":  1,
+                         "nhanVat":  "LaoTu",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "特种军官（男）时间制",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Hiệu ứng đặc biệt +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "11:03:26",
+                         "kenh":  1,
+                         "nhanVat":  "LaoTu",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "特种军官（男）时间制",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Hiệu ứng đặc biệt +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "11:03:24",
+                         "kenh":  1,
+                         "nhanVat":  "LaoTu",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "特种军官（男）时间制",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Hiệu ứng đặc biệt +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "11:03:21",
+                         "kenh":  1,
+                         "nhanVat":  "LaoTu",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "特种军官（男）时间制",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Hiệu ứng đặc biệt +1",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "10:30:42",
                          "kenh":  1,
                          "nhanVat":  "LaoTu",
@@ -364,17 +419,6 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "08:16:34",
-                         "kenh":  1,
-                         "nhanVat":  "BigCityBoiz",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Khuyên Huyết Long - ma (Mai Liễu Chân)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Cây kim",
-                         "thayDoi":  "+6 → +7",
-                         "thanhCong":  true
-                     },
-                     {
                          "thoiGian":  "08:13:29",
                          "kenh":  1,
                          "nhanVat":  "love222",
@@ -615,50 +659,6 @@
                          "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
                          "thayDoi":  "Phòng ngự võ công +80",
                          "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "23:37:58",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Ủng Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "23:37:55",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Ủng Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "23:37:53",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Ủng Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "23:37:49",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Ủng Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  false
                      }
                  ]
 }
