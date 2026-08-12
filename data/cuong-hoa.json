@@ -1,6 +1,83 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "00:58:05",
+                         "kenh":  1,
+                         "nhanVat":  "SuTu",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Áo Choàng Thời Trang",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Hiệu ứng đặc biệt +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "00:49:29",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Giáp Hoàng Thiên",
+                         "capDo":  "135",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+11 → +12",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "00:46:28",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Giáp Hoàng Thiên",
+                         "capDo":  "135",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "00:46:22",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Giáp Hoàng Thiên",
+                         "capDo":  "135",
+                         "nguyenLieu":  "Phúc vận phù (15%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "00:45:26",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Giáp Hoàng Thiên",
+                         "capDo":  "135",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+10 → +8 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "00:37:08",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Giáp Hoàng Thiên",
+                         "capDo":  "135",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+11 → +12",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "00:34:59",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Giáp Hoàng Thiên",
+                         "capDo":  "135",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+11 → +12",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "00:34:39",
                          "kenh":  1,
                          "nhanVat":  "sutu2",
@@ -419,72 +496,6 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "16:51:09",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Đế Tinh-Nghiêm Linh",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc Vận Phù 30%",
-                         "thayDoi":  "+12 → +10 • GIẢM 2 CẤP",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "16:50:59",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "16:50:46",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc vận phù (20%)(Event)",
-                         "thayDoi":  "+10 → +11",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "16:49:40",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+12 → +13",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "16:49:26",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+12 → +10 • GIẢM 2 CẤP",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "16:49:08",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc vận phù (20%)(Event)",
-                         "thayDoi":  "+11 → +12",
-                         "thanhCong":  true
-                     },
-                     {
                          "thoiGian":  "16:04:52",
                          "kenh":  1,
                          "nhanVat":  "sutu1",
@@ -640,17 +651,6 @@
                      },
                      {
                          "thoiGian":  "13:24:50",
-                         "kenh":  1,
-                         "nhanVat":  "BigCityBoiz",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Hoàng Long Thần Phiấn",
-                         "capDo":  "130",
-                         "nguyenLieu":  "Kim Cang Thạch Siêu Cấp",
-                         "thayDoi":  "Công lực võ công +32%",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "13:24:48",
                          "kenh":  1,
                          "nhanVat":  "BigCityBoiz",
                          "loai":  "hop-thanh",
