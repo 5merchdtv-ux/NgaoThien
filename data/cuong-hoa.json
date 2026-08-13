@@ -1,6 +1,39 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "22:40:40",
+                         "kenh":  1,
+                         "nhanVat":  "BuffFree",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Thiên Thần Đao",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Phúc vận phù (15%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "22:40:17",
+                         "kenh":  1,
+                         "nhanVat":  "BuffFree",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Thiên Thần Đao",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Phúc vận phù (15%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "22:39:53",
+                         "kenh":  1,
+                         "nhanVat":  "BuffFree",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Thiên Thần Đao",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Phúc vận phù (15%)",
+                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
                          "thoiGian":  "22:30:22",
                          "kenh":  1,
                          "nhanVat":  "BuffFree",
@@ -618,39 +651,6 @@
                      },
                      {
                          "thoiGian":  "12:33:03",
-                         "kenh":  1,
-                         "nhanVat":  "BigCityBoiz",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Nguyệt quang thần cung-Chân",
-                         "capDo":  "140",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+11 → +12",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "12:33:00",
-                         "kenh":  1,
-                         "nhanVat":  "BigCityBoiz",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Nguyệt quang thần cung-Chân",
-                         "capDo":  "140",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+10 → +11",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "12:32:27",
-                         "kenh":  1,
-                         "nhanVat":  "BigCityBoiz",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Nguyệt quang thần cung-Chân",
-                         "capDo":  "140",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+12 → +10 • GIẢM 2 CẤP",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "12:32:23",
                          "kenh":  1,
                          "nhanVat":  "BigCityBoiz",
                          "loai":  "cuong-hoa",
