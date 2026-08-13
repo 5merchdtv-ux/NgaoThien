@@ -1,9 +1,86 @@
 {
     "danhSach":  [
                      {
-                         "thoiGian":  "07:20:06",
+                         "thoiGian":  "10:34:41",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
+                         "nhanVat":  "DemonicBlade",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Trang phục gốc (Bích Phong Thất Đao)",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Hiệu ứng đặc biệt +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:33:00",
+                         "kenh":  1,
+                         "nhanVat":  "DemonicBlade",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Áo Choàng Thời Trang ( Nam)",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Tỷ lệ hợp thành/cường hóa +2%",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:32:57",
+                         "kenh":  1,
+                         "nhanVat":  "DemonicBlade",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Áo Choàng Thời Trang ( Nam)",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Nhiệt Huyết Thạch",
+                         "thayDoi":  "Tỷ lệ hợp thành/cường hóa +2%",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:30:44",
+                         "kenh":  1,
+                         "nhanVat":  "BaVuong",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Đế Tinh-Nghiêm Linh",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Phúc Vận Phù 30%",
+                         "thayDoi":  "+11 → +12",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:30:22",
+                         "kenh":  1,
+                         "nhanVat":  "BaVuong",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Đế Tinh-Nghiêm Linh",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Phúc Vận Phù 30%",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:29:34",
+                         "kenh":  1,
+                         "nhanVat":  "BaVuong",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Đế Tinh-Nghiêm Linh",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Phúc Vận Phù 30%",
+                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "10:29:30",
+                         "kenh":  1,
+                         "nhanVat":  "BaVuong",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Đế Tinh-Nghiêm Linh",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Phúc Vận Phù 30%",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:20:44",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
                          "loai":  "hop-thanh",
                          "trangBi":  "Giáp tay Phẫn Thiên",
                          "capDo":  "120",
@@ -12,53 +89,9 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "07:20:04",
+                         "thoiGian":  "10:20:40",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:20:02",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:20:01",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:59",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:56",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
+                         "nhanVat":  "ThuongAcMa",
                          "loai":  "hop-thanh",
                          "trangBi":  "Giáp tay Phẫn Thiên",
                          "capDo":  "120",
@@ -67,9 +100,9 @@
                          "thanhCong":  false
                      },
                      {
-                         "thoiGian":  "07:19:54",
+                         "thoiGian":  "10:20:36",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
+                         "nhanVat":  "ThuongAcMa",
                          "loai":  "hop-thanh",
                          "trangBi":  "Giáp tay Phẫn Thiên",
                          "capDo":  "120",
@@ -78,9 +111,9 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "07:19:52",
+                         "thoiGian":  "10:20:31",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
+                         "nhanVat":  "ThuongAcMa",
                          "loai":  "hop-thanh",
                          "trangBi":  "Giáp tay Phẫn Thiên",
                          "capDo":  "120",
@@ -89,9 +122,9 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "07:19:50",
+                         "thoiGian":  "10:20:28",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
+                         "nhanVat":  "ThuongAcMa",
                          "loai":  "hop-thanh",
                          "trangBi":  "Giáp tay Phẫn Thiên",
                          "capDo":  "120",
@@ -100,9 +133,9 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "07:19:44",
+                         "thoiGian":  "10:20:21",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
+                         "nhanVat":  "ThuongAcMa",
                          "loai":  "hop-thanh",
                          "trangBi":  "Giáp tay Phẫn Thiên",
                          "capDo":  "120",
@@ -111,9 +144,9 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "07:19:42",
+                         "thoiGian":  "10:20:17",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
+                         "nhanVat":  "ThuongAcMa",
                          "loai":  "hop-thanh",
                          "trangBi":  "Giáp tay Phẫn Thiên",
                          "capDo":  "120",
@@ -122,75 +155,9 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "07:19:40",
+                         "thoiGian":  "10:20:09",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:38",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:36",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:33",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:32",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:29",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:26",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
+                         "nhanVat":  "ThuongAcMa",
                          "loai":  "hop-thanh",
                          "trangBi":  "Giáp tay Phẫn Thiên",
                          "capDo":  "120",
@@ -199,9 +166,9 @@
                          "thanhCong":  false
                      },
                      {
-                         "thoiGian":  "07:19:23",
+                         "thoiGian":  "10:20:04",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
+                         "nhanVat":  "ThuongAcMa",
                          "loai":  "hop-thanh",
                          "trangBi":  "Giáp tay Phẫn Thiên",
                          "capDo":  "120",
@@ -210,9 +177,42 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "07:19:22",
+                         "thoiGian":  "10:20:00",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp tay Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:55",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp tay Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:50",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp tay Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:45",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
                          "loai":  "hop-thanh",
                          "trangBi":  "Giáp tay Phẫn Thiên",
                          "capDo":  "120",
@@ -221,114 +221,180 @@
                          "thanhCong":  false
                      },
                      {
-                         "thoiGian":  "07:19:19",
+                         "thoiGian":  "10:19:42",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
+                         "nhanVat":  "ThuongAcMa",
                          "loai":  "hop-thanh",
                          "trangBi":  "Giáp tay Phẫn Thiên",
                          "capDo":  "120",
                          "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
                          "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:39",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp tay Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:34",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp tay Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:29",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp tay Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:26",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp tay Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:22",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp tay Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:17",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:12",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:09",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:06",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:19:02",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:18:59",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:18:56",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:18:53",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Ủng Phẫn Thiên",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Phòng ngự võ công +80",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "10:03:24",
+                         "kenh":  1,
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Hoạch Thần Thương (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Phúc Vận Phù 30%",
+                         "thayDoi":  "+12 → +10 • GIẢM 2 CẤP",
                          "thanhCong":  false
                      },
                      {
-                         "thoiGian":  "07:19:18",
+                         "thoiGian":  "10:00:37",
                          "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:16",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:12",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:10",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:08",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:19:06",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:18:51",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Phẫn Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:18:42",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Thương Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "07:18:40",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Giáp tay Thương Thiên",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Phòng ngự võ công +80",
-                         "thanhCong":  true
+                         "nhanVat":  "ThuongAcMa",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Hoạch Thần Thương (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Phúc Vận Phù 30%",
+                         "thayDoi":  "+13 → +11 • GIẢM 2 CẤP",
+                         "thanhCong":  false
                      },
                      {
                          "thoiGian":  "00:49:29",
@@ -591,72 +657,6 @@
                          "trangBi":  "U Minh-Thực Hồn",
                          "capDo":  "120",
                          "nguyenLieu":  "Phúc vận phù (20%)(Event)",
-                         "thayDoi":  "+10 → +11",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "16:53:56",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc vận phù (25%)",
-                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "16:53:41",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc vận phù (15%)",
-                         "thayDoi":  "+10 → +11",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "16:52:05",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Đế Tinh-Nghiêm Linh",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc vận phù (20%)(Event)",
-                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "16:51:58",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Đế Tinh-Nghiêm Linh",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc vận phù (15%)",
-                         "thayDoi":  "+10 → +11",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "16:51:51",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc vận phù (15%)",
-                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "16:51:44",
-                         "kenh":  1,
-                         "nhanVat":  "love11",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "U Minh-Thực Hồn",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc vận phù (15%)",
                          "thayDoi":  "+10 → +11",
                          "thanhCong":  true
                      }
