@@ -227,6 +227,35 @@ if ($dbConn -and $dbConn.State -eq 'Open') {
   } catch { Write-Log ("Bỏ qua BXH (lỗi truy vấn): {0}" -f $_.Exception.Message) }
 }
 
+# ===== 3b) MÁY DƯA HẤU (Xổ Số Đột Vàng) — hũ Jackpot + lượt trúng gần đây =====
+if ($dbConn -and $dbConn.State -eq 'Open') {
+  try {
+    $ch = $dbConn.CreateCommand(); $ch.Connection.ChangeDatabase($GameDb)
+    $ch.CommandText = "SELECT FLD_KENH, ISNULL(FLD_VANG,0) vang, FLD_NGUOINO, FLD_LANNO, ISNULL(FLD_VANGNO,0) vangno FROM HKNT_XoSo_Hu WITH(NOLOCK) ORDER BY FLD_KENH"
+    $th = New-Object System.Data.DataTable; [void]$th.Load($ch.ExecuteReader())
+    $hu = @()
+    foreach ($r in $th.Rows) {
+      $hu += [pscustomobject][ordered]@{
+        kenh = [int]$r['FLD_KENH']; vang = [int64]$r['vang']
+        nguoiNo = [string]$r['FLD_NGUOINO']; vangNo = [int64]$r['vangno']
+        lanNo = $(if ($r['FLD_LANNO'] -is [DateTime]) { ([DateTime]$r['FLD_LANNO']).ToString('yyyy-MM-dd HH:mm') } else { $null })
+      }
+    }
+    $cl = $dbConn.CreateCommand(); $cl.Connection.ChangeDatabase($GameDb)
+    $cl.CommandText = "SELECT TOP 30 FLD_TIME, FLD_NAME, FLD_KENH, FLD_TENQUA, ISNULL(FLD_VANGTHUONG,0) vt FROM HKNT_Log_XoSo WITH(NOLOCK) WHERE ISNULL(FLD_TRUNG,0)=1 AND ISNULL(FLD_TENQUA,'')<>'' ORDER BY ID DESC"
+    $tl = New-Object System.Data.DataTable; [void]$tl.Load($cl.ExecuteReader())
+    $trung = @()
+    foreach ($r in $tl.Rows) {
+      $trung += [pscustomobject][ordered]@{
+        thoiGian = $(if ($r['FLD_TIME'] -is [DateTime]) { ([DateTime]$r['FLD_TIME']).ToString('yyyy-MM-dd HH:mm') } else { '' })
+        ten = [string]$r['FLD_NAME']; kenh = [int]$r['FLD_KENH']; qua = [string]$r['FLD_TENQUA']; vangThuong = [int64]$r['vt']
+      }
+    }
+    $mdh = [ordered]@{ capNhat = (Get-Date -Format 'yyyy-MM-dd HH:mm'); hu = @($hu); trung = @($trung) }
+    Push-IfChanged "data/may-dua-hau.json" ($mdh | ConvertTo-Json -Depth 6) "cập nhật Máy Dưa Hấu"
+  } catch { Write-Log ("Bỏ qua Máy Dưa Hấu (lỗi truy vấn): {0}" -f $_.Exception.Message) }
+}
+
 # ===== 4) CƯỜNG HÓA TRỰC TUYẾN (feed đập đồ / hợp thành) =====
 try {
   # Hai mẻ riêng rồi trộn. Mỗi mẻ API đã trả ORDER BY EventId DESC, nhưng trộn hai mẻ thì phải

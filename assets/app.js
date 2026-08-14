@@ -3,7 +3,7 @@
   "use strict";
 
   var STATE_LABEL = { open: "Đang mở", maintenance: "Bảo trì", offline: "Tạm ngưng" };
-  var store = { trangThai: null, noiDung: null, tinTuc: null, bxh: null, feed: null, suKien: null };
+  var store = { trangThai: null, noiDung: null, tinTuc: null, bxh: null, feed: null, suKien: null, mdh: null };
 
   function bust(u) { return u + (u.indexOf("?") === -1 ? "?" : "&") + "_=" + Date.now(); }
   function getJson(u) {
@@ -236,6 +236,49 @@
     });
   }
 
+  /* ---------- MÁY DƯA HẤU ---------- */
+  function renderMayDuaHau() {
+    var d = store.mdh; if (!d) return;
+    var huBox = byId("mdh-hu");
+    if (huBox) {
+      huBox.innerHTML = "";
+      var hu = d.hu || [];
+      if (!hu.length) { huBox.innerHTML = '<div class="skeleton">Chưa có dữ liệu.</div>'; }
+      hu.forEach(function (h) {
+        var card = el("div", "mdh-pot");
+        card.appendChild(el("div", "mdh-pot-kenh", "Kênh " + h.kenh));
+        card.appendChild(el("div", "mdh-pot-vang", "🪙 " + groupNum(h.vang)));
+        card.appendChild(el("div", "mdh-pot-label", "Hũ Jackpot hiện tại"));
+        if (h.nguoiNo) {
+          card.appendChild(el("div", "mdh-pot-no", "💥 " + h.nguoiNo + " nổ hũ +" + groupNum(h.vangNo) + (h.lanNo ? " · " + h.lanNo : "")));
+        }
+        huBox.appendChild(card);
+      });
+    }
+    var tb = byId("mdh-trung");
+    if (tb) {
+      var arr = d.trung || [];
+      if (!arr.length) { tb.innerHTML = '<div class="news-empty">Chưa có lượt trúng.</div>'; return; }
+      var table = el("table", "grid"), thead = el("thead"), htr = el("tr");
+      ["Thời gian", "Nhân vật", "Kênh", "Phần thưởng", "Vàng thưởng"].forEach(function (h, i) {
+        htr.appendChild(el("th", (i === 2 ? "center" : (i === 4 ? "num" : "")), h));
+      });
+      thead.appendChild(htr); table.appendChild(thead);
+      var body = el("tbody");
+      arr.forEach(function (r) {
+        var tr = el("tr");
+        tr.appendChild(el("td", "mdh-time", r.thoiGian || ""));
+        tr.appendChild(el("td", null, r.ten || ""));
+        tr.appendChild(el("td", "center", "K" + r.kenh));
+        tr.appendChild(el("td", null, r.qua || ""));
+        tr.appendChild(el("td", "num", r.vangThuong > 0 ? groupNum(r.vangThuong) : "—"));
+        body.appendChild(tr);
+      });
+      table.appendChild(body);
+      tb.innerHTML = ""; tb.appendChild(table);
+    }
+  }
+
   /* ---------- TABS ---------- */
   function initTabs() {
     document.querySelectorAll(".tabs").forEach(function (group) {
@@ -261,6 +304,8 @@
     getJson("data/cuong-hoa.json").then(function (d) { store.feed = d; renderDapDo("all"); renderHomeFeed(); })
       .catch(function () { byId("ch-body").innerHTML = '<div class="news-empty">Không tải được.</div>'; });
     getJson("data/su-kien.json").then(function (d) { store.suKien = d; renderSuKien(); }).catch(function () {});
+    getJson("data/may-dua-hau.json").then(function (d) { store.mdh = d; renderMayDuaHau(); })
+      .catch(function () { var b = byId("mdh-hu"); if (b) b.innerHTML = '<div class="skeleton">Không tải được.</div>'; });
   }
 
   initNav(); initTabs(); initModal();
