@@ -1,6 +1,39 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "20:54:58",
+                         "kenh":  1,
+                         "nhanVat":  "HoaNgucVuong",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Hồn Phi Kiếm (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Phúc vận phù (15%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "20:54:28",
+                         "kenh":  1,
+                         "nhanVat":  "HoaNgucVuong",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Hồn Phi Kiếm (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "20:54:18",
+                         "kenh":  1,
+                         "nhanVat":  "HoaNgucVuong",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Phá Hồn Phi Kiếm (Chân)",
+                         "capDo":  "130",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "20:21:30",
                          "kenh":  1,
                          "nhanVat":  "BaDao",
@@ -625,39 +658,6 @@
                          "capDo":  "1",
                          "nguyenLieu":  "Phúc vận phù (15%)",
                          "thayDoi":  "+4 → +5",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "14:13:57",
-                         "kenh":  1,
-                         "nhanVat":  "BigCityBoiz",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Chúa tể hắc ám(Nam)",
-                         "capDo":  "1",
-                         "nguyenLieu":  "Phúc vận phù (15%)",
-                         "thayDoi":  "+3 → +4",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "13:26:19",
-                         "kenh":  1,
-                         "nhanVat":  "BigCityBoiz",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Chúa tể hắc ám(Nam)",
-                         "capDo":  "1",
-                         "nguyenLieu":  "Vải hợp thành Áo choàng",
-                         "thayDoi":  "+2 → +3",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "13:26:16",
-                         "kenh":  1,
-                         "nhanVat":  "BigCityBoiz",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Chúa tể hắc ám(Nam)",
-                         "capDo":  "1",
-                         "nguyenLieu":  "Vải hợp thành Áo choàng",
-                         "thayDoi":  "+1 → +2",
                          "thanhCong":  true
                      }
                  ]
