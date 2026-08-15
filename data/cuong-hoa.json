@@ -1,6 +1,39 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "19:29:30",
+                         "kenh":  1,
+                         "nhanVat":  "BigCityBoiz",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Chúa tể hắc ám(Nam)",
+                         "capDo":  "1",
+                         "nguyenLieu":  "Vải hợp thành Áo choàng",
+                         "thayDoi":  "+0 → +1",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:39:54",
+                         "kenh":  1,
+                         "nhanVat":  "TienNu",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp Thăng Tiên",
+                         "capDo":  "118",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Sức phòng ngự +13",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "18:39:51",
+                         "kenh":  1,
+                         "nhanVat":  "TienNu",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp Thăng Tiên",
+                         "capDo":  "118",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
+                         "thayDoi":  "Sức phòng ngự +13",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "18:27:46",
                          "kenh":  1,
                          "nhanVat":  "taolao1",
@@ -595,28 +628,6 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "15:57:00",
-                         "kenh":  1,
-                         "nhanVat":  "BuffFree",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Trang Phục Phẫn Thiên (Đao)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Sức phòng ngự +10",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "15:56:57",
-                         "kenh":  1,
-                         "nhanVat":  "BuffFree",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Trang Phục Phẫn Thiên (Đao)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Sức phòng ngự +10",
-                         "thanhCong":  true
-                     },
-                     {
                          "thoiGian":  "14:19:35",
                          "kenh":  1,
                          "nhanVat":  "sutu2",
@@ -647,17 +658,6 @@
                          "capDo":  "120",
                          "nguyenLieu":  "Cây kim",
                          "thayDoi":  "+5 → +6",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "14:19:27",
-                         "kenh":  1,
-                         "nhanVat":  "sutu2",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Khuyên Huyết Long-(ma)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Cây kim",
-                         "thayDoi":  "+4 → +5",
                          "thanhCong":  true
                      }
                  ]
