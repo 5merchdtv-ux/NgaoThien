@@ -1,5 +1,5 @@
 {
-    "capNhat":  "2026-08-15 16:36",
+    "capNhat":  "2026-08-15 17:34",
     "hu":  [
                {
                    "kenh":  1,
@@ -10,13 +10,41 @@
                },
                {
                    "kenh":  2,
-                   "vang":  5700,
+                   "vang":  8500,
                    "nguoiNo":  "",
                    "vangNo":  0,
                    "lanNo":  null
                }
            ],
     "trung":  [
+                  {
+                      "thoiGian":  "2026-08-15 17:09",
+                      "ten":  "testthuong",
+                      "kenh":  2,
+                      "qua":  "Do 14x Thuong",
+                      "vangThuong":  0
+                  },
+                  {
+                      "thoiGian":  "2026-08-15 16:40",
+                      "ten":  "testthuong",
+                      "kenh":  2,
+                      "qua":  "Vo Huan 20k",
+                      "vangThuong":  0
+                  },
+                  {
+                      "thoiGian":  "2026-08-15 16:40",
+                      "ten":  "testthuong",
+                      "kenh":  2,
+                      "qua":  "Trang Suc 13x",
+                      "vangThuong":  0
+                  },
+                  {
+                      "thoiGian":  "2026-08-15 16:40",
+                      "ten":  "testthuong",
+                      "kenh":  2,
+                      "qua":  "Vo Huan 20k",
+                      "vangThuong":  0
+                  },
                   {
                       "thoiGian":  "2026-08-15 14:56",
                       "ten":  "LaoTu",
@@ -197,34 +225,6 @@
                       "ten":  "QuyKiemSau",
                       "kenh":  1,
                       "qua":  "EXP 30%",
-                      "vangThuong":  0
-                  },
-                  {
-                      "thoiGian":  "2026-08-15 11:41",
-                      "ten":  "SonGoKu",
-                      "kenh":  1,
-                      "qua":  "Do 13x Thuong",
-                      "vangThuong":  0
-                  },
-                  {
-                      "thoiGian":  "2026-08-15 11:41",
-                      "ten":  "QuyKiemSau",
-                      "kenh":  1,
-                      "qua":  "Meo Tai Phu",
-                      "vangThuong":  0
-                  },
-                  {
-                      "thoiGian":  "2026-08-15 11:41",
-                      "ten":  "SonGoKu",
-                      "kenh":  1,
-                      "qua":  "Meo Tai Phu",
-                      "vangThuong":  0
-                  },
-                  {
-                      "thoiGian":  "2026-08-15 11:41",
-                      "ten":  "QuyKiemSau",
-                      "kenh":  1,
-                      "qua":  "Keo Luyen Cap",
                       "vangThuong":  0
                   }
               ]
