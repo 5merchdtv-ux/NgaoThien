@@ -1,6 +1,17 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "20:25:47",
+                         "kenh":  1,
+                         "nhanVat":  "BigCityBoiz",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Khuyên Huyết Vương",
+                         "capDo":  "110",
+                         "nguyenLieu":  "Cây kim",
+                         "thayDoi":  "+0 → +1",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "19:29:30",
                          "kenh":  1,
                          "nhanVat":  "BigCityBoiz",
@@ -647,17 +658,6 @@
                          "capDo":  "120",
                          "nguyenLieu":  "Cây kim",
                          "thayDoi":  "+6 → +7",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "14:19:29",
-                         "kenh":  1,
-                         "nhanVat":  "sutu2",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Khuyên Huyết Long-(ma)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Cây kim",
-                         "thayDoi":  "+5 → +6",
                          "thanhCong":  true
                      }
                  ]
