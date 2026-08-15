@@ -1,22 +1,36 @@
 {
-    "capNhat":  "2026-08-15 12:34",
+    "capNhat":  "2026-08-15 13:34",
     "hu":  [
                {
                    "kenh":  1,
-                   "vang":  6400,
+                   "vang":  7100,
                    "nguoiNo":  "QuyKiemSau",
                    "vangNo":  86900,
                    "lanNo":  "2026-08-15 11:42"
                },
                {
                    "kenh":  2,
-                   "vang":  5000,
+                   "vang":  5700,
                    "nguoiNo":  "",
                    "vangNo":  0,
                    "lanNo":  null
                }
            ],
     "trung":  [
+                  {
+                      "thoiGian":  "2026-08-15 13:29",
+                      "ten":  "TirGe",
+                      "kenh":  1,
+                      "qua":  "Meo Tai Phu",
+                      "vangThuong":  0
+                  },
+                  {
+                      "thoiGian":  "2026-08-15 13:24",
+                      "ten":  "test",
+                      "kenh":  2,
+                      "qua":  "Meo Tai Phu",
+                      "vangThuong":  0
+                  },
                   {
                       "thoiGian":  "2026-08-15 11:42",
                       "ten":  "SonGoKu",
@@ -211,20 +225,6 @@
                       "ten":  "SonGoKu",
                       "kenh":  1,
                       "qua":  "Meo Tai Phu",
-                      "vangThuong":  0
-                  },
-                  {
-                      "thoiGian":  "2026-08-15 11:40",
-                      "ten":  "SonGoKu",
-                      "kenh":  1,
-                      "qua":  "Keo PK",
-                      "vangThuong":  0
-                  },
-                  {
-                      "thoiGian":  "2026-08-15 11:40",
-                      "ten":  "SonGoKu",
-                      "kenh":  1,
-                      "qua":  "EXP 30%",
                       "vangThuong":  0
                   }
               ]
