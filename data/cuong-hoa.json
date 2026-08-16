@@ -1,6 +1,61 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "08:50:06",
+                         "kenh":  1,
+                         "nhanVat":  "HoaNgucVuong",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp Hoàng Thiên",
+                         "capDo":  "135",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +19",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "08:50:02",
+                         "kenh":  1,
+                         "nhanVat":  "HoaNgucVuong",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Giáp Hoàng Thiên",
+                         "capDo":  "135",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +19",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "08:38:20",
+                         "kenh":  1,
+                         "nhanVat":  "HoaNgucVuong",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Môn phái phục (Cấp 7/Thành viên môn phái)",
+                         "capDo":  "35",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "08:38:11",
+                         "kenh":  1,
+                         "nhanVat":  "HoaNgucVuong",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Môn phái phục (Cấp 7/Thành viên môn phái)",
+                         "capDo":  "35",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+8 → +9",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "08:38:04",
+                         "kenh":  1,
+                         "nhanVat":  "HoaNgucVuong",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Môn phái phục (Cấp 7/Thành viên môn phái)",
+                         "capDo":  "35",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+7 → +8",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "08:23:12",
                          "kenh":  1,
                          "nhanVat":  "HoaNgucVuong",
@@ -375,28 +430,6 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "23:28:48",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Huyền Tôn Vân Tước Bào (Nữ)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Sức phòng ngự +15",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "23:28:45",
-                         "kenh":  1,
-                         "nhanVat":  "HungCa",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Huyền Tôn Vân Tước Bào (Nữ)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Sức phòng ngự +15",
-                         "thanhCong":  true
-                     },
-                     {
                          "thoiGian":  "22:48:44",
                          "kenh":  1,
                          "nhanVat":  "MaThannCung",
@@ -625,39 +658,6 @@
                          "capDo":  "120",
                          "nguyenLieu":  "Dây chuyền quý phái",
                          "thayDoi":  "+0 → +1",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "22:40:23",
-                         "kenh":  1,
-                         "nhanVat":  "QuyKiemSau",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Dây chuyền Huyết Long",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Dây chuyền quý phái",
-                         "thayDoi":  "+7 → mất vật phẩm • MẤT VẬT PHẨM",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "22:40:12",
-                         "kenh":  1,
-                         "nhanVat":  "QuyKiemSau",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Dây chuyền Huyết Long",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Dây chuyền quý phái",
-                         "thayDoi":  "+6 → +7",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "22:40:09",
-                         "kenh":  1,
-                         "nhanVat":  "QuyKiemSau",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Dây chuyền Huyết Long",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Dây chuyền quý phái",
-                         "thayDoi":  "+5 → +6",
                          "thanhCong":  true
                      }
                  ]
