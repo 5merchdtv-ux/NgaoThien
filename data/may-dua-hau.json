@@ -1,9 +1,9 @@
 {
-    "capNhat":  "2026-08-16 16:34",
+    "capNhat":  "2026-08-16 17:34",
     "hu":  [
                {
                    "kenh":  1,
-                   "vang":  8500,
+                   "vang":  9900,
                    "nguoiNo":  "QuyKiemSau",
                    "vangNo":  116300,
                    "lanNo":  "2026-08-16 09:23"
@@ -17,6 +17,20 @@
                }
            ],
     "trung":  [
+                  {
+                      "thoiGian":  "2026-08-16 17:27",
+                      "ten":  "sutu1",
+                      "kenh":  1,
+                      "qua":  "Vo Huan 10k",
+                      "vangThuong":  0
+                  },
+                  {
+                      "thoiGian":  "2026-08-16 16:40",
+                      "ten":  "taolao2",
+                      "kenh":  1,
+                      "qua":  "Meo Tai Phu",
+                      "vangThuong":  0
+                  },
                   {
                       "thoiGian":  "2026-08-16 16:22",
                       "ten":  "love11",
@@ -211,20 +225,6 @@
                       "ten":  "QuyKiemSau",
                       "kenh":  1,
                       "qua":  "Keo PK",
-                      "vangThuong":  0
-                  },
-                  {
-                      "thoiGian":  "2026-08-16 09:20",
-                      "ten":  "QuyKiemSau",
-                      "kenh":  1,
-                      "qua":  "Vo Huan 20k",
-                      "vangThuong":  0
-                  },
-                  {
-                      "thoiGian":  "2026-08-16 09:20",
-                      "ten":  "QuyKiemSau",
-                      "kenh":  1,
-                      "qua":  "Vo Huan 10k",
                       "vangThuong":  0
                   }
               ]
