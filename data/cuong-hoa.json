@@ -1,6 +1,160 @@
 {
     "danhSach":  [
                      {
+                         "thoiGian":  "01:44:04",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Xích dạ tiên bào(nữ)",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+11 → +12",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:43:51",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Xích dạ tiên bào(nữ)",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:43:05",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Xích dạ tiên bào(nữ)",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Phúc vận phù (15%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:42:31",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Xích dạ tiên bào(nữ)",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+11 → +9 • GIẢM 2 CẤP",
+                         "thanhCong":  false
+                     },
+                     {
+                         "thoiGian":  "01:42:22",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Xích dạ tiên bào(nữ)",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Phúc vận phù (25%)",
+                         "thayDoi":  "+10 → +11",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:40:44",
+                         "kenh":  1,
+                         "nhanVat":  "taolao1",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Âm Hắc",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Kim Cang Thạch Cao Cấp",
+                         "thayDoi":  "Hiệu ứng đặc biệt +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:40:41",
+                         "kenh":  1,
+                         "nhanVat":  "taolao1",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Âm Hắc",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Kim Cang Thạch Cao Cấp",
+                         "thayDoi":  "Hiệu ứng đặc biệt +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:40:39",
+                         "kenh":  1,
+                         "nhanVat":  "taolao1",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Âm Hắc",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Kim Cang Thạch Cao Cấp",
+                         "thayDoi":  "Hiệu ứng đặc biệt +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:40:36",
+                         "kenh":  1,
+                         "nhanVat":  "taolao1",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "U Minh-Âm Hắc",
+                         "capDo":  "120",
+                         "nguyenLieu":  "Kim Cang Thạch Cao Cấp",
+                         "thayDoi":  "Hiệu ứng đặc biệt +2",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:39:22",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "cuong-hoa",
+                         "trangBi":  "Xích dạ tiên bào(nữ)",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Phúc vận phù (15%)",
+                         "thayDoi":  "+9 → +10",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:37:24",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Xích dạ tiên bào(nữ)",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:37:19",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Xích dạ tiên bào(nữ)",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:37:14",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Xích dạ tiên bào(nữ)",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
+                         "thoiGian":  "01:37:06",
+                         "kenh":  1,
+                         "nhanVat":  "sutu2",
+                         "loai":  "hop-thanh",
+                         "trangBi":  "Xích dạ tiên bào(nữ)",
+                         "capDo":  "140",
+                         "nguyenLieu":  "Hàn Ngọc Thạch Siêu Cấp",
+                         "thayDoi":  "Sức phòng ngự +25",
+                         "thanhCong":  true
+                     },
+                     {
                          "thoiGian":  "23:21:02",
                          "kenh":  1,
                          "nhanVat":  "CungXiKe",
@@ -265,72 +419,6 @@
                          "thanhCong":  true
                      },
                      {
-                         "thoiGian":  "22:58:59",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Trang Phục Phẫn Thiên (Cung)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Sức phòng ngự +15",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "22:58:52",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Trang Phục Phẫn Thiên (Cung)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Hàn Ngọc Thạch Cao Cấp",
-                         "thayDoi":  "Sức phòng ngự +15",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "22:58:43",
-                         "kenh":  1,
-                         "nhanVat":  "CungXiKe",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Đế Tinh-Lưu Li",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Kim Cang Thạch Cao Cấp",
-                         "thayDoi":  "Hiệu ứng đặc biệt +2",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "22:58:40",
-                         "kenh":  1,
-                         "nhanVat":  "CungXiKe",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Đế Tinh-Lưu Li",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Kim Cang Thạch Cao Cấp",
-                         "thayDoi":  "Hiệu ứng đặc biệt +2",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "22:58:38",
-                         "kenh":  1,
-                         "nhanVat":  "CungXiKe",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Đế Tinh-Lưu Li",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Kim Cang Thạch Cao Cấp",
-                         "thayDoi":  "Hiệu ứng đặc biệt +2",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "22:58:35",
-                         "kenh":  1,
-                         "nhanVat":  "CungXiKe",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "Đế Tinh-Lưu Li",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Kim Cang Thạch Cao Cấp",
-                         "thayDoi":  "Hiệu ứng đặc biệt +2",
-                         "thanhCong":  true
-                     },
-                     {
                          "thoiGian":  "22:47:25",
                          "kenh":  1,
                          "nhanVat":  "Crow",
@@ -339,28 +427,6 @@
                          "capDo":  "120",
                          "nguyenLieu":  "Phúc vận phù (25%)",
                          "thayDoi":  "+12 → +13",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "22:42:36",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "U Minh-Âm Hắc",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Kim Cang Thạch Cao Cấp",
-                         "thayDoi":  "Hiệu ứng đặc biệt +2",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "22:42:34",
-                         "kenh":  1,
-                         "nhanVat":  "Crow",
-                         "loai":  "hop-thanh",
-                         "trangBi":  "U Minh-Âm Hắc",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Kim Cang Thạch Cao Cấp",
-                         "thayDoi":  "Hiệu ứng đặc biệt +2",
                          "thanhCong":  true
                      },
                      {
@@ -590,72 +656,6 @@
                          "loai":  "cuong-hoa",
                          "trangBi":  "Trang Phục Thương Thiên (Cung)",
                          "capDo":  "120",
-                         "nguyenLieu":  "Phúc Vận Phù 30%",
-                         "thayDoi":  "+12 → +13",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "19:46:59",
-                         "kenh":  1,
-                         "nhanVat":  "love222",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Trang Phục Thương Thiên (Cung)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc Vận Phù 30%",
-                         "thayDoi":  "+11 → +12",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "19:46:36",
-                         "kenh":  1,
-                         "nhanVat":  "love222",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Trang Phục Thương Thiên (Cung)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc Vận Phù 30%",
-                         "thayDoi":  "+12 → +10 • GIẢM 2 CẤP",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "19:46:29",
-                         "kenh":  1,
-                         "nhanVat":  "love222",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Trang Phục Thương Thiên (Cung)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc Vận Phù 30%",
-                         "thayDoi":  "+11 → +12",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "19:46:10",
-                         "kenh":  1,
-                         "nhanVat":  "love222",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Trang Phục Thương Thiên (Cung)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc Vận Phù 30%",
-                         "thayDoi":  "+12 → +10 • GIẢM 2 CẤP",
-                         "thanhCong":  false
-                     },
-                     {
-                         "thoiGian":  "19:46:01",
-                         "kenh":  1,
-                         "nhanVat":  "love222",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Trang Phục Thương Thiên (Cung)",
-                         "capDo":  "120",
-                         "nguyenLieu":  "Phúc Vận Phù 30%",
-                         "thayDoi":  "+11 → +12",
-                         "thanhCong":  true
-                     },
-                     {
-                         "thoiGian":  "19:45:29",
-                         "kenh":  1,
-                         "nhanVat":  "love222",
-                         "loai":  "cuong-hoa",
-                         "trangBi":  "Hỏa Trảo Cung",
-                         "capDo":  "130",
                          "nguyenLieu":  "Phúc Vận Phù 30%",
                          "thayDoi":  "+12 → +13",
                          "thanhCong":  true
