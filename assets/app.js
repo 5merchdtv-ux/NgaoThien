@@ -142,7 +142,11 @@
     rows.forEach(function (r) {
       var tr = el("tr");
       var c0 = el("td", "center"); c0.appendChild(el("span", "rankcell " + (r.rank <= 3 ? "top" + r.rank : "norm"), r.rank)); tr.appendChild(c0);
-      var c1 = el("td"); var nm = el("span", "chname", r.ten || ""); if (r.online) nm.appendChild(el("span", "on")); c1.appendChild(nm); tr.appendChild(c1);
+      var c1 = el("td"); var nm = el("span", "chname", r.ten || ""); if (r.online) nm.appendChild(el("span", "on")); c1.appendChild(nm);
+      // Trùng Sinh đặt lại cấp về 100, nên người đã trùng sinh đứng trên dù số cấp nhỏ hơn.
+      // Không gắn dấu này thì nhìn bảng tưởng xếp sai thứ tự.
+      if (r.trungSinh > 0) { c1.appendChild(el("span", "ts-badge", "TS" + r.trungSinh)); }
+      tr.appendChild(c1);
       tr.appendChild(el("td", null, r.nghe || ""));
       var c3 = el("td"); c3.appendChild(factionTag(r.phai)); tr.appendChild(c3);
       tr.appendChild(el("td", "num", col.fmt(r[col.key])));

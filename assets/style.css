@@ -331,6 +331,7 @@ table.grid td.center, table.grid th.center { text-align: center; }
 .rankcell.norm { color: var(--muted); }
 .chname { font-weight: 700; color: var(--ink); }
 .chname .on { display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--green); box-shadow:0 0 7px var(--green); margin-left:6px; vertical-align:middle; }
+.ts-badge { margin-left:7px; font-size:10px; font-weight:800; letter-spacing:.4px; padding:1px 6px; border-radius:8px; color:#ffd479; background:rgba(245,166,35,.16); border:1px solid rgba(245,166,35,.35); vertical-align:middle; }
 .tag-phai { font-size: 11px; padding: 2px 8px; border-radius: 10px; font-weight: 700; }
 .tag-phai.chinh { color:#7fc8ff; background:rgba(70,150,220,.16); }
 .tag-phai.ta { color:#ff8a6a; background:rgba(224,80,40,.16); }

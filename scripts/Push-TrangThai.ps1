@@ -204,7 +204,7 @@ if ($dbConn -and $dbConn.State -eq 'Open') {
   try {
     function Get-Rank($orderBy, $valCol) {
       $c = $dbConn.CreateCommand(); $c.Connection.ChangeDatabase($GameDb)
-      $c.CommandText = "SELECT TOP $RankLimit FLD_NAME, ISNULL(FLD_JOB,0) job, ISNULL(FLD_ZX,0) zx, ISNULL(FLD_LEVEL,0) lv, ISNULL(FLD_JOB_LEVEL,0) jl, ISNULL($valCol,0) val, CONVERT(bit,CASE WHEN ISNULL(FLD_ONLINE,0)<>0 THEN 1 ELSE 0 END) onl FROM TBL_XWWL_Char WITH(NOLOCK) WHERE ISNULL(FLD_J9,0)=0 AND ISNULL(FLD_NAME,'')<>'' ORDER BY $orderBy"
+      $c.CommandText = "SELECT TOP $RankLimit FLD_NAME, ISNULL(FLD_JOB,0) job, ISNULL(FLD_ZX,0) zx, ISNULL(FLD_LEVEL,0) lv, ISNULL(FLD_JOB_LEVEL,0) jl, ISNULL(FLD_ZS,0) ts, ISNULL($valCol,0) val, CONVERT(bit,CASE WHEN ISNULL(FLD_ONLINE,0)<>0 THEN 1 ELSE 0 END) onl FROM TBL_XWWL_Char WITH(NOLOCK) WHERE ISNULL(FLD_J9,0)=0 AND ISNULL(FLD_NAME,'')<>'' ORDER BY $orderBy"
       $t = New-Object System.Data.DataTable; [void]$t.Load($c.ExecuteReader()); ,$t
     }
     function Build-Rank($tbl) {
@@ -213,12 +213,16 @@ if ($dbConn -and $dbConn.State -eq 'Open') {
         $i++
         $arr += [pscustomobject][ordered]@{
           rank = $i; ten = [string]$row['FLD_NAME']; nghe = Get-JobName $row['job']; phai = Get-FactionName $row['zx']
-          cap = [int]$row['lv']; capNghe = [int]$row['jl']; online = [bool]$row['onl']; thanhTuu = [string]([int64]$row['val'])
+          cap = [int]$row['lv']; capNghe = [int]$row['jl']; trungSinh = [int]$row['ts']
+          online = [bool]$row['onl']; thanhTuu = [string]([int64]$row['val'])
         }
       }
       return ,@($arr)
     }
-    $expOrder = "FLD_LEVEL DESC, (CASE WHEN ISNUMERIC(FLD_EXP)=1 THEN CAST(FLD_EXP AS decimal(38,0)) ELSE 0 END) DESC, FLD_NAME ASC"
+    # Trùng Sinh ĐẶT LẠI cấp về 100 (kèm trần 145 và điểm cộng vĩnh viễn), nên xếp thuần theo cấp
+    # là sai hẳn: người trùng sinh 1 lần đang cấp 126 bị đẩy xuống dưới người cấp 142 chưa trùng
+    # sinh. Số lần trùng sinh phải đứng trước cấp.
+    $expOrder = "ISNULL(FLD_ZS,0) DESC, FLD_LEVEL DESC, (CASE WHEN ISNUMERIC(FLD_EXP)=1 THEN CAST(FLD_EXP AS decimal(38,0)) ELSE 0 END) DESC, FLD_NAME ASC"
     $bxh = [ordered]@{
       level = Build-Rank (Get-Rank $expOrder 'FLD_LEVEL')
       wx    = Build-Rank (Get-Rank "ISNULL(FLD_WX,0) DESC, ISNULL(FLD_LEVEL,0) DESC, FLD_NAME ASC" 'FLD_WX')
