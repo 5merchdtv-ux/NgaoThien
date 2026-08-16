@@ -135,20 +135,31 @@
     var rows = store.bxh[tab] || [], col = BXH_COL[tab] || BXH_COL.level;
     body.innerHTML = "";
     if (!rows.length) { body.appendChild(el("div", "news-empty", "Chưa có dữ liệu.")); return; }
+    // Hạng Cấp độ có thêm cột Trùng sinh, vì trùng sinh ĐẶT LẠI cấp về 100: không thấy cột này
+    // thì nhìn bảng tưởng xếp sai (người cấp 126 đứng trên người cấp 142).
+    var coTrungSinh = (tab === "level");
     var table = el("table", "grid"), thead = el("thead"), htr = el("tr");
-    ["#", "Nhân vật", "Nghề", "Phái", col.label].forEach(function (h, i) { htr.appendChild(el("th", (i === 0 ? "center" : (i === 4 ? "num" : "")), h)); });
+    var tieuDe = coTrungSinh
+      ? ["#", "Nhân vật", "Nghề", "Phái", "Trùng sinh", col.label]
+      : ["#", "Nhân vật", "Nghề", "Phái", col.label];
+    tieuDe.forEach(function (h, i) {
+      htr.appendChild(el("th", (i === 0 ? "center" : (i >= 4 ? "num" : "")), h));
+    });
     thead.appendChild(htr); table.appendChild(thead);
     var tb = el("tbody");
     rows.forEach(function (r) {
       var tr = el("tr");
       var c0 = el("td", "center"); c0.appendChild(el("span", "rankcell " + (r.rank <= 3 ? "top" + r.rank : "norm"), r.rank)); tr.appendChild(c0);
       var c1 = el("td"); var nm = el("span", "chname", r.ten || ""); if (r.online) nm.appendChild(el("span", "on")); c1.appendChild(nm);
-      // Trùng Sinh đặt lại cấp về 100, nên người đã trùng sinh đứng trên dù số cấp nhỏ hơn.
-      // Không gắn dấu này thì nhìn bảng tưởng xếp sai thứ tự.
-      if (r.trungSinh > 0) { c1.appendChild(el("span", "ts-badge", "TS" + r.trungSinh)); }
       tr.appendChild(c1);
       tr.appendChild(el("td", null, r.nghe || ""));
       var c3 = el("td"); c3.appendChild(factionTag(r.phai)); tr.appendChild(c3);
+      if (coTrungSinh) {
+        var ts = r.trungSinh || 0;
+        var c4 = el("td", "num");
+        c4.appendChild(ts > 0 ? el("span", "ts-badge", "TS" + ts) : el("span", "ts-khong", "—"));
+        tr.appendChild(c4);
+      }
       tr.appendChild(el("td", "num", col.fmt(r[col.key])));
       tb.appendChild(tr);
     });
