@@ -18,9 +18,10 @@ $GitHubBranch = "main"
 $TokenEnv     = "HKNT_GH_TOKEN"
 $TokenFile    = "C:\HKServer\Secrets\github-status-push.token"
 $K1Host       = "127.0.0.1"
-$K1Port       = 15001
-$NewsUrl      = "https://hkngaothien.duckdns.org/api/launcher/public/news"
-$RankUrlBase  = "https://hkngaothien.duckdns.org/api/launcher/public/rankings"
+$K1Port       = 11241
+$K2Port       = 11242
+$NewsUrl      = "http://127.0.0.1:18092/api/launcher/public/news"
+$RankUrlBase  = "http://127.0.0.1:18092/api/launcher/public/rankings"
 $RankLimit    = 100
 # Feed cường hóa: lấy RIÊNG từng loại rồi trộn, KHÔNG lấy chung một mẻ như trước.
 #
@@ -31,7 +32,7 @@ $RankLimit    = 100
 #
 # API có filter sẵn ở phía server theo EventType và limit tới 200, nên lấy mỗi loại một mẻ riêng
 # thì tab nào cũng đủ số dòng, bất kể lúc đó ai đang spam loại nào.
-$ItemEventsBase   = "https://hkngaothien.duckdns.org/api/launcher/public/item-events?afterId=0"
+$ItemEventsBase   = "http://127.0.0.1:18092/api/launcher/public/item-events?afterId=0"
 $FeedLimitMoiLoai = 30
 # =============================================
 
@@ -156,10 +157,13 @@ function Push-IfChanged($relPath, $jsonString, $message) {
 
 # ===== 1) TRẠNG THÁI KÊNH =====
 $k1Open = Test-Port $K1Host $K1Port
+$k2Open = Test-Port $K1Host $K2Port
 Write-Log ("Cổng Kênh 1 {0}:{1} -> {2}" -f $K1Host, $K1Port, ($(if ($k1Open) {"MỞ"} else {"đóng"})))
+Write-Log ("Cổng Kênh 2 {0}:{1} -> {2}" -f $K1Host, $K2Port, ($(if ($k2Open) {"MỞ"} else {"đóng"})))
 $k1 = if ($k1Open) { [ordered]@{ ten="Kênh 1"; trangThai="open"; ghiChu="Hoạt động bình thường" } }
       else          { [ordered]@{ ten="Kênh 1"; trangThai="maintenance"; ghiChu="Đang bảo trì" } }
-$k2 = [ordered]@{ ten="Kênh 2"; trangThai="maintenance"; ghiChu="Kênh thử nghiệm" }
+$k2 = if ($k2Open) { [ordered]@{ ten="Kênh 2"; trangThai="open"; ghiChu="Hoạt động bình thường" } }
+      else          { [ordered]@{ ten="Kênh 2"; trangThai="maintenance"; ghiChu="Đang bảo trì" } }
 $trangThai = [ordered]@{ capNhat=(Get-Date).ToString("yyyy-MM-ddTHH:mm:sszzz"); kenh=@($k1,$k2) }
 Push-IfChanged "data/trang-thai.json" ($trangThai | ConvertTo-Json -Depth 6) ("cập nhật trạng thái kênh " + (Get-Date -Format "yyyy-MM-dd HH:mm"))
 
@@ -182,9 +186,10 @@ try {
 } catch { Write-Log ("Bỏ qua tin tức (lỗi nguồn): {0}" -f $_.Exception.Message) }
 
 # ===== DB read-only (chuỗi kết nối đọc từ config LoginServer lúc chạy — KHÔNG lưu mật khẩu vào repo) =====
-$LoginConfig = "C:\HKServer\Server\LoginServer\bin\Debug\config.ini"
-$GameDb   = "v22Game_Hkgiangho"
-$PublicDb = "v22PublicDB_HKgiangho"
+$LoginConfig = "C:\HKServer24\Server\LoginServer\bin\Debug\config.ini"
+$GameDb   = "24game"
+$PublicDb = "24pub"
+$AccDbName = "24acc"
 $Script:ItemLevel = @{}
 $dbConn = $null
 try {
@@ -204,7 +209,7 @@ if ($dbConn -and $dbConn.State -eq 'Open') {
   try {
     function Get-Rank($orderBy, $valCol) {
       $c = $dbConn.CreateCommand(); $c.Connection.ChangeDatabase($GameDb)
-      $c.CommandText = "SELECT TOP $RankLimit FLD_NAME, ISNULL(FLD_JOB,0) job, ISNULL(FLD_ZX,0) zx, ISNULL(FLD_LEVEL,0) lv, ISNULL(FLD_JOB_LEVEL,0) jl, ISNULL(FLD_ZS,0) ts, ISNULL($valCol,0) val, CONVERT(bit,CASE WHEN ISNULL(FLD_ONLINE,0)<>0 THEN 1 ELSE 0 END) onl FROM TBL_XWWL_Char WITH(NOLOCK) WHERE ISNULL(FLD_J9,0)=0 AND ISNULL(FLD_NAME,'')<>'' ORDER BY $orderBy"
+      $c.CommandText = "SELECT TOP $RankLimit c.FLD_NAME, ISNULL(c.FLD_JOB,0) job, ISNULL(c.FLD_ZX,0) zx, ISNULL(c.FLD_LEVEL,0) lv, ISNULL(c.FLD_JOB_LEVEL,0) jl, ISNULL(c.FLD_ZS,0) ts, ISNULL(c.$valCol,0) val, CONVERT(bit,CASE WHEN ISNULL(a.FLD_ONLINE,0)<>0 THEN 1 ELSE 0 END) onl FROM TBL_XWWL_Char c WITH(NOLOCK) LEFT JOIN [$AccDbName]..TBL_ACCOUNT a WITH(NOLOCK) ON a.FLD_ID = c.FLD_ID WHERE ISNULL(c.FLD_J9,0)=0 AND ISNULL(c.FLD_NAME,'')<>'' ORDER BY $orderBy"
       $t = New-Object System.Data.DataTable; [void]$t.Load($c.ExecuteReader()); ,$t
     }
     function Build-Rank($tbl) {
