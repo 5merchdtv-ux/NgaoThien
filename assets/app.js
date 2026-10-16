@@ -315,10 +315,14 @@
     getJson("data/tin-tuc.json").then(function (d) { store.tinTuc = d; renderNewsInto("news"); renderNewsInto("home-news", 3); })
       .catch(function () { byId("news").innerHTML = '<div class="news-empty">Không tải được tin tức.</div>'; });
     getJson("data/bxh.json").then(function (d) { store.bxh = d; renderBxh("level"); renderLvMax(); renderTopCaoThu(); })
-      .catch(function () { byId("bxh-body").innerHTML = '<div class="news-empty">Không tải được xếp hạng.</div>'; });
+      .catch(function () {
+        byId("bxh-body").innerHTML = '<div class="news-empty">Không tải được xếp hạng.</div>';
+        var top = byId("top-cao-thu"); if (top) top.innerHTML = '<div class="news-empty">Không tải được.</div>';
+      });
     getJson("data/cuong-hoa.json").then(function (d) { store.feed = d; renderDapDo("all"); renderHomeFeed(); })
       .catch(function () { byId("ch-body").innerHTML = '<div class="news-empty">Không tải được.</div>'; });
-    getJson("data/su-kien.json").then(function (d) { store.suKien = d; renderSuKien(); }).catch(function () {});
+    getJson("data/su-kien.json").then(function (d) { store.suKien = d; renderSuKien(); })
+      .catch(function () { var b = byId("su-kien"); if (b) b.innerHTML = '<div class="news-empty">Không tải được.</div>'; });
     getJson("data/may-dua-hau.json").then(function (d) { store.mdh = d; renderMayDuaHau(); })
       .catch(function () { var b = byId("mdh-hu"); if (b) b.innerHTML = '<div class="skeleton">Không tải được.</div>'; });
   }
