@@ -39,7 +39,7 @@
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
                       "cap":  130,
-                      "capNghe":  7,
+                      "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
                       "thanhTuu":  "130"
@@ -50,7 +50,7 @@
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
                       "cap":  130,
-                      "capNghe":  7,
+                      "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
                       "thanhTuu":  "130"
@@ -61,7 +61,7 @@
                       "nghe":  "Thương",
                       "phai":  "Chính",
                       "cap":  130,
-                      "capNghe":  7,
+                      "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
                       "thanhTuu":  "130"
@@ -313,11 +313,11 @@
                       "ten":  "taolao0",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
-                      "cap":  120,
+                      "cap":  121,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "120"
+                      "thanhTuu":  "121"
                   },
                   {
                       "rank":  30,
@@ -354,8 +354,8 @@
                   },
                   {
                       "rank":  33,
-                      "ten":  "cafe0",
-                      "nghe":  "Đại phu",
+                      "ten":  "taolao2",
+                      "nghe":  "Tử Hào",
                       "phai":  "Tà",
                       "cap":  119,
                       "capNghe":  6,
@@ -365,8 +365,8 @@
                   },
                   {
                       "rank":  34,
-                      "ten":  "taolao2",
-                      "nghe":  "Tử Hào",
+                      "ten":  "cafe0",
+                      "nghe":  "Đại phu",
                       "phai":  "Tà",
                       "cap":  119,
                       "capNghe":  6,
@@ -489,25 +489,14 @@
                       "ten":  "00000",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Tà",
-                      "cap":  114,
+                      "cap":  115,
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "114"
+                      "thanhTuu":  "115"
                   },
                   {
                       "rank":  46,
-                      "ten":  "DaizenZ1",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Chính",
-                      "cap":  114,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "114"
-                  },
-                  {
-                      "rank":  47,
                       "ten":  "taolao3",
                       "nghe":  "Thần Nữ",
                       "phai":  "Chính",
@@ -515,6 +504,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "114"
+                  },
+                  {
+                      "rank":  47,
+                      "ten":  "DaizenZ1",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Chính",
+                      "cap":  114,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "114"
                   },
                   {
@@ -1069,17 +1069,6 @@
                   },
                   {
                       "rank":  98,
-                      "ten":  "November",
-                      "nghe":  "Cầm sư",
-                      "phai":  "Tà",
-                      "cap":  100,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "100"
-                  },
-                  {
-                      "rank":  99,
                       "ten":  "cafe7",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Tà",
@@ -1087,6 +1076,17 @@
                       "capNghe":  4,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "100"
+                  },
+                  {
+                      "rank":  99,
+                      "ten":  "November",
+                      "nghe":  "Cầm sư",
+                      "phai":  "Tà",
+                      "cap":  100,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "100"
                   },
                   {
@@ -1108,7 +1108,7 @@
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
                    "cap":  130,
-                   "capNghe":  7,
+                   "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "40000"
@@ -1119,7 +1119,7 @@
                    "nghe":  "Đàm Hoa Liên",
                    "phai":  "Chính",
                    "cap":  130,
-                   "capNghe":  7,
+                   "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "40000"
@@ -1218,7 +1218,7 @@
                    "nghe":  "Thương",
                    "phai":  "Chính",
                    "cap":  130,
-                   "capNghe":  7,
+                   "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "30000"
@@ -1434,10 +1434,10 @@
                },
                {
                    "rank":  31,
-                   "ten":  "000000",
-                   "nghe":  "Đao",
-                   "phai":  "Tà",
-                   "cap":  120,
+                   "ten":  "taolao0",
+                   "nghe":  "Hàn Bảo Quân",
+                   "phai":  "Chính",
+                   "cap":  121,
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  true,
@@ -1445,9 +1445,9 @@
                },
                {
                    "rank":  32,
-                   "ten":  "taolao0",
-                   "nghe":  "Hàn Bảo Quân",
-                   "phai":  "Chính",
+                   "ten":  "000000",
+                   "nghe":  "Đao",
+                   "phai":  "Tà",
                    "cap":  120,
                    "capNghe":  7,
                    "trungSinh":  0,
@@ -1613,7 +1613,7 @@
                    "ten":  "00000",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
-                   "cap":  114,
+                   "cap":  115,
                    "capNghe":  6,
                    "trungSinh":  0,
                    "online":  true,
