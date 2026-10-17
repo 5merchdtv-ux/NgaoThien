@@ -71,11 +71,11 @@
                       "ten":  "TraiAnChoi",
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
-                      "cap":  130,
+                      "cap":  131,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "130"
+                      "thanhTuu":  "131"
                   },
                   {
                       "rank":  8,
@@ -519,17 +519,6 @@
                   },
                   {
                       "rank":  48,
-                      "ten":  "September",
-                      "nghe":  "Đao",
-                      "phai":  "Tà",
-                      "cap":  124,
-                      "capNghe":  7,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "124"
-                  },
-                  {
-                      "rank":  49,
                       "ten":  "MaLong",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
@@ -537,6 +526,17 @@
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "124"
+                  },
+                  {
+                      "rank":  49,
+                      "ten":  "September",
+                      "nghe":  "Đao",
+                      "phai":  "Tà",
+                      "cap":  124,
+                      "capNghe":  7,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "124"
                   },
                   {
@@ -981,6 +981,17 @@
                   },
                   {
                       "rank":  90,
+                      "ten":  "GirlBlack",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Tà",
+                      "cap":  109,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  true,
+                      "thanhTuu":  "109"
+                  },
+                  {
+                      "rank":  91,
                       "ten":  "MaMaKaKa",
                       "nghe":  "Kiếm",
                       "phai":  "Chính",
@@ -991,7 +1002,7 @@
                       "thanhTuu":  "109"
                   },
                   {
-                      "rank":  91,
+                      "rank":  92,
                       "ten":  "TrieuVan",
                       "nghe":  "Thương",
                       "phai":  "Tà",
@@ -999,17 +1010,6 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  false,
-                      "thanhTuu":  "109"
-                  },
-                  {
-                      "rank":  92,
-                      "ten":  "GirlBlack",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Tà",
-                      "cap":  109,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  true,
                       "thanhTuu":  "109"
                   },
                   {
@@ -1401,6 +1401,17 @@
                },
                {
                    "rank":  28,
+                   "ten":  "TraiAnChoi",
+                   "nghe":  "Đàm Hoa Liên",
+                   "phai":  "Chính",
+                   "cap":  131,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "40000"
+               },
+               {
+                   "rank":  29,
                    "ten":  "AnhNongDan",
                    "nghe":  "Đao",
                    "phai":  "Chính",
@@ -1411,20 +1422,9 @@
                    "thanhTuu":  "40000"
                },
                {
-                   "rank":  29,
+                   "rank":  30,
                    "ten":  "GaiNhaQue",
                    "nghe":  "Cung",
-                   "phai":  "Chính",
-                   "cap":  130,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "40000"
-               },
-               {
-                   "rank":  30,
-                   "ten":  "TraiAnChoi",
-                   "nghe":  "Đàm Hoa Liên",
                    "phai":  "Chính",
                    "cap":  130,
                    "capNghe":  8,
