@@ -167,9 +167,19 @@ $k2 = if ($k2Open) { [ordered]@{ ten="Kênh 2"; trangThai="open"; ghiChu="Hoạt
 $trangThai = [ordered]@{ capNhat=(Get-Date).ToString("yyyy-MM-ddTHH:mm:sszzz"); kenh=@($k1,$k2) }
 Push-IfChanged "data/trang-thai.json" ($trangThai | ConvertTo-Json -Depth 6) ("cập nhật trạng thái kênh " + (Get-Date -Format "yyyy-MM-dd HH:mm"))
 
+# Invoke-RestMethod tren PowerShell 5.1 doan sai ma hoa khi response khong khai bao
+# charset=utf-8 ro trong Content-Type (thuong roi ve codepage he thong, 936 tren may nay) ->
+# pha het dau tieng Viet + emoji. Ep doc bang WebClient voi Encoding=UTF8 de doc dung tuyet doi.
+function Get-JsonUtf8($uri) {
+  $wc = New-Object System.Net.WebClient
+  $wc.Encoding = [System.Text.Encoding]::UTF8
+  try { return ($wc.DownloadString($uri) | ConvertFrom-Json) }
+  finally { $wc.Dispose() }
+}
+
 # ===== 2) TIN TỨC (từ nguồn tin của Launcher) =====
 try {
-  $news = Invoke-RestMethod -Uri $NewsUrl -TimeoutSec 30
+  $news = Get-JsonUtf8 $NewsUrl
   $tin = @()
   foreach ($n in $news) {
     $tin += [pscustomobject][ordered]@{
@@ -205,7 +215,12 @@ try {
 } catch { Write-Log ("Không kết nối được DB (BXH/level sẽ bỏ qua): {0}" -f $_.Exception.Message) }
 
 # ===== 3) BẢNG XẾP HẠNG (đọc DB read-only — võ huân/cấp ĐÚNG; bỏ PVP vì toàn 0) =====
-if ($dbConn -and $dbConn.State -eq 'Open') {
+# Da bat lai 11/10/2026 sau khi reset 14h xong (xac nhan: 31 nhan vat, cap cao nhat 96 - khac han
+# du lieu truoc reset nhu BlackBoy LV200). Tam tat tu 12:34 den gio.
+$BxhTamTat = $false
+if ($BxhTamTat) {
+  Write-Log "BXH tạm tắt (chờ reset 14h 11/10/2026) — không truy vấn, không đẩy."
+} elseif ($dbConn -and $dbConn.State -eq 'Open') {
   try {
     function Get-Rank($orderBy, $valCol) {
       $c = $dbConn.CreateCommand(); $c.Connection.ChangeDatabase($GameDb)
@@ -273,7 +288,7 @@ try {
   $events = @()
   foreach ($loaiApi in @("cuong-hoa", "hop-thanh")) {
     try {
-      $mot = Invoke-RestMethod -Uri "$ItemEventsBase&limit=$FeedLimitMoiLoai&filter=$loaiApi" -TimeoutSec 30
+      $mot = Get-JsonUtf8 "$ItemEventsBase&limit=$FeedLimitMoiLoai&filter=$loaiApi"
       if ($mot) { $events += @($mot) }
     } catch { Write-Log ("Bỏ qua mẻ {0}: {1}" -f $loaiApi, $_.Exception.Message) }
   }
