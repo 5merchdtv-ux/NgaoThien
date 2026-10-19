@@ -379,22 +379,22 @@
                       "ten":  "GaChoi2",
                       "nghe":  "Cung",
                       "phai":  "Tà",
-                      "cap":  132,
+                      "cap":  133,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "132"
+                      "thanhTuu":  "133"
                   },
                   {
                       "rank":  36,
                       "ten":  "TraiAnChoi",
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
-                      "cap":  132,
+                      "cap":  133,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "132"
+                      "thanhTuu":  "133"
                   },
                   {
                       "rank":  37,
@@ -437,7 +437,7 @@
                       "cap":  132,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "132"
                   },
                   {
@@ -481,7 +481,7 @@
                       "cap":  130,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "130"
                   },
                   {
@@ -492,7 +492,7 @@
                       "cap":  130,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "130"
                   },
                   {
@@ -525,7 +525,7 @@
                       "cap":  129,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "129"
                   },
                   {
@@ -569,7 +569,7 @@
                       "cap":  127,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "127"
                   },
                   {
@@ -580,7 +580,7 @@
                       "cap":  126,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "126"
                   },
                   {
@@ -591,7 +591,7 @@
                       "cap":  126,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "126"
                   },
                   {
@@ -739,9 +739,9 @@
                   },
                   {
                       "rank":  68,
-                      "ten":  "tesstcung",
-                      "nghe":  "Cung",
-                      "phai":  "Chính",
+                      "ten":  "00000",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Tà",
                       "cap":  120,
                       "capNghe":  7,
                       "trungSinh":  0,
@@ -750,13 +750,13 @@
                   },
                   {
                       "rank":  69,
-                      "ten":  "00000",
-                      "nghe":  "Hàn Bảo Quân",
+                      "ten":  "BuffFree",
+                      "nghe":  "Đại phu",
                       "phai":  "Tà",
                       "cap":  120,
-                      "capNghe":  7,
+                      "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "120"
                   },
                   {
@@ -772,14 +772,14 @@
                   },
                   {
                       "rank":  71,
-                      "ten":  "BuffFree",
-                      "nghe":  "Đại phu",
+                      "ten":  "cafe7",
+                      "nghe":  "Hàn Bảo Quân",
                       "phai":  "Tà",
-                      "cap":  119,
+                      "cap":  117,
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "119"
+                      "thanhTuu":  "117"
                   },
                   {
                       "rank":  72,
@@ -794,17 +794,6 @@
                   },
                   {
                       "rank":  73,
-                      "ten":  "cafe7",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Tà",
-                      "cap":  117,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  true,
-                      "thanhTuu":  "117"
-                  },
-                  {
-                      "rank":  74,
                       "ten":  "DonQuixote",
                       "nghe":  "Thần Nữ",
                       "phai":  "Chính",
@@ -815,7 +804,7 @@
                       "thanhTuu":  "117"
                   },
                   {
-                      "rank":  75,
+                      "rank":  74,
                       "ten":  "DaiZenz",
                       "nghe":  "Đao",
                       "phai":  "Chính",
@@ -826,18 +815,18 @@
                       "thanhTuu":  "117"
                   },
                   {
-                      "rank":  76,
+                      "rank":  75,
                       "ten":  "cafe3",
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
-                      "cap":  116,
+                      "cap":  117,
                       "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  true,
-                      "thanhTuu":  "116"
+                      "online":  false,
+                      "thanhTuu":  "117"
                   },
                   {
-                      "rank":  77,
+                      "rank":  76,
                       "ten":  "0000",
                       "nghe":  "Đao",
                       "phai":  "Chính",
@@ -848,7 +837,7 @@
                       "thanhTuu":  "116"
                   },
                   {
-                      "rank":  78,
+                      "rank":  77,
                       "ten":  "TestDP",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
@@ -859,7 +848,7 @@
                       "thanhTuu":  "116"
                   },
                   {
-                      "rank":  79,
+                      "rank":  78,
                       "ten":  "GirlBlack",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Tà",
@@ -870,7 +859,7 @@
                       "thanhTuu":  "116"
                   },
                   {
-                      "rank":  80,
+                      "rank":  79,
                       "ten":  "AiRi",
                       "nghe":  "Thần Nữ",
                       "phai":  "Chính",
@@ -881,7 +870,7 @@
                       "thanhTuu":  "116"
                   },
                   {
-                      "rank":  81,
+                      "rank":  80,
                       "ten":  "DaizenZ1",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
@@ -889,6 +878,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  false,
+                      "thanhTuu":  "114"
+                  },
+                  {
+                      "rank":  81,
+                      "ten":  "cafeden",
+                      "nghe":  "Đàm Hoa Liên",
+                      "phai":  "Chính",
+                      "cap":  114,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  true,
                       "thanhTuu":  "114"
                   },
                   {
@@ -948,17 +948,6 @@
                   },
                   {
                       "rank":  87,
-                      "ten":  "cafeden",
-                      "nghe":  "Đàm Hoa Liên",
-                      "phai":  "Chính",
-                      "cap":  114,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  true,
-                      "thanhTuu":  "114"
-                  },
-                  {
-                      "rank":  88,
                       "ten":  "Draken",
                       "nghe":  "Cung",
                       "phai":  "Tà",
@@ -969,7 +958,7 @@
                       "thanhTuu":  "112"
                   },
                   {
-                      "rank":  89,
+                      "rank":  88,
                       "ten":  "TieuDiep",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
@@ -980,7 +969,7 @@
                       "thanhTuu":  "112"
                   },
                   {
-                      "rank":  90,
+                      "rank":  89,
                       "ten":  "Takeru",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -991,7 +980,7 @@
                       "thanhTuu":  "112"
                   },
                   {
-                      "rank":  91,
+                      "rank":  90,
                       "ten":  "LeviAckerman",
                       "nghe":  "Thương",
                       "phai":  "Tà",
@@ -1002,7 +991,7 @@
                       "thanhTuu":  "112"
                   },
                   {
-                      "rank":  92,
+                      "rank":  91,
                       "ten":  "ZinZyn",
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
@@ -1013,7 +1002,7 @@
                       "thanhTuu":  "112"
                   },
                   {
-                      "rank":  93,
+                      "rank":  92,
                       "ten":  "DapMayConCho",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -1024,7 +1013,7 @@
                       "thanhTuu":  "111"
                   },
                   {
-                      "rank":  94,
+                      "rank":  93,
                       "ten":  "DaizenZ2",
                       "nghe":  "Tử Hào",
                       "phai":  "Chính",
@@ -1035,7 +1024,7 @@
                       "thanhTuu":  "111"
                   },
                   {
-                      "rank":  95,
+                      "rank":  94,
                       "ten":  "DaMayConCho",
                       "nghe":  "Ninja",
                       "phai":  "Tà",
@@ -1046,7 +1035,7 @@
                       "thanhTuu":  "111"
                   },
                   {
-                      "rank":  96,
+                      "rank":  95,
                       "ten":  "cafe2",
                       "nghe":  "Thương",
                       "phai":  "Tà",
@@ -1057,7 +1046,7 @@
                       "thanhTuu":  "110"
                   },
                   {
-                      "rank":  97,
+                      "rank":  96,
                       "ten":  "OMen",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -1068,7 +1057,7 @@
                       "thanhTuu":  "110"
                   },
                   {
-                      "rank":  98,
+                      "rank":  97,
                       "ten":  "MaMaKaKa",
                       "nghe":  "Kiếm",
                       "phai":  "Chính",
@@ -1079,7 +1068,7 @@
                       "thanhTuu":  "109"
                   },
                   {
-                      "rank":  99,
+                      "rank":  98,
                       "ten":  "TrieuVan",
                       "nghe":  "Thương",
                       "phai":  "Tà",
@@ -1090,9 +1079,20 @@
                       "thanhTuu":  "109"
                   },
                   {
-                      "rank":  100,
+                      "rank":  99,
                       "ten":  "Stress",
                       "nghe":  "Tử Hào",
+                      "phai":  "Tà",
+                      "cap":  108,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
+                      "thanhTuu":  "108"
+                  },
+                  {
+                      "rank":  100,
+                      "ten":  "zKiem",
+                      "nghe":  "Kiếm",
                       "phai":  "Tà",
                       "cap":  108,
                       "capNghe":  5,
@@ -1434,19 +1434,19 @@
                },
                {
                    "rank":  31,
-                   "ten":  "tesstcung",
-                   "nghe":  "Cung",
+                   "ten":  "GaiMaiDam",
+                   "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
-                   "cap":  120,
-                   "capNghe":  7,
+                   "cap":  133,
+                   "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  false,
-                   "thanhTuu":  "47000"
+                   "online":  true,
+                   "thanhTuu":  "40000"
                },
                {
                    "rank":  32,
-                   "ten":  "GaiMaiDam",
-                   "nghe":  "Hàn Bảo Quân",
+                   "ten":  "TraiAnChoi",
+                   "nghe":  "Đàm Hoa Liên",
                    "phai":  "Chính",
                    "cap":  133,
                    "capNghe":  8,
@@ -1473,33 +1473,22 @@
                    "cap":  132,
                    "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "40000"
                },
                {
                    "rank":  35,
-                   "ten":  "TraiAnChoi",
-                   "nghe":  "Đàm Hoa Liên",
-                   "phai":  "Chính",
-                   "cap":  132,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "40000"
-               },
-               {
-                   "rank":  36,
                    "ten":  "taolao1",
                    "nghe":  "Quyền sư",
                    "phai":  "Tà",
                    "cap":  127,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "40000"
                },
                {
-                   "rank":  37,
+                   "rank":  36,
                    "ten":  "taolao3",
                    "nghe":  "Thần Nữ",
                    "phai":  "Chính",
@@ -1510,7 +1499,7 @@
                    "thanhTuu":  "40000"
                },
                {
-                   "rank":  38,
+                   "rank":  37,
                    "ten":  "SODA",
                    "nghe":  "Ninja",
                    "phai":  "Chính",
@@ -1521,7 +1510,7 @@
                    "thanhTuu":  "40000"
                },
                {
-                   "rank":  39,
+                   "rank":  38,
                    "ten":  "SatThan",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
@@ -1532,7 +1521,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  40,
+                   "rank":  39,
                    "ten":  "GaChoi4",
                    "nghe":  "Thần Nữ",
                    "phai":  "Tà",
@@ -1543,7 +1532,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  41,
+                   "rank":  40,
                    "ten":  "SonGoKu",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -1554,10 +1543,21 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  42,
+                   "rank":  41,
                    "ten":  "GaChoi1",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
+                   "cap":  133,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  42,
+                   "ten":  "GaChoi2",
+                   "nghe":  "Cung",
+                   "phai":  "Tà",
                    "cap":  133,
                    "capNghe":  8,
                    "trungSinh":  0,
@@ -1577,17 +1577,6 @@
                },
                {
                    "rank":  44,
-                   "ten":  "GaChoi2",
-                   "nghe":  "Cung",
-                   "phai":  "Tà",
-                   "cap":  132,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  45,
                    "ten":  "SatNhan",
                    "nghe":  "Đại phu",
                    "phai":  "Chính",
@@ -1598,7 +1587,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  46,
+                   "rank":  45,
                    "ten":  "TieuLong",
                    "nghe":  "Tử Hào",
                    "phai":  "Tà",
@@ -1609,7 +1598,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  47,
+                   "rank":  46,
                    "ten":  "TieuPhung",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -1620,7 +1609,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  48,
+                   "rank":  47,
                    "ten":  "ChiChi",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
@@ -1631,18 +1620,18 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  49,
+                   "rank":  48,
                    "ten":  "Carlsberg",
                    "nghe":  "Thần Nữ",
                    "phai":  "Tà",
                    "cap":  130,
                    "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  50,
+                   "rank":  49,
                    "ten":  "Notepad",
                    "nghe":  "Cung",
                    "phai":  "Tà",
@@ -1653,29 +1642,29 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  51,
+                   "rank":  50,
                    "ten":  "Telegram",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
                    "cap":  130,
                    "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  52,
+                   "rank":  51,
                    "ten":  "123456",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
                    "cap":  129,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  53,
+                   "rank":  52,
                    "ten":  "654321",
                    "nghe":  "Đàm Hoa Liên",
                    "phai":  "Chính",
@@ -1686,7 +1675,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  54,
+                   "rank":  53,
                    "ten":  "NeverDonate",
                    "nghe":  "Thương",
                    "phai":  "Tà",
@@ -1697,7 +1686,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  55,
+                   "rank":  54,
                    "ten":  "taolao0",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
@@ -1708,7 +1697,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  56,
+                   "rank":  55,
                    "ten":  "cafe0",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
@@ -1719,18 +1708,18 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  57,
+                   "rank":  56,
                    "ten":  "HBQ018",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
                    "cap":  126,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  58,
+                   "rank":  57,
                    "ten":  "MaLong",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
@@ -1741,7 +1730,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  59,
+                   "rank":  58,
                    "ten":  "NgaoThien",
                    "nghe":  "Ninja",
                    "phai":  "Tà",
@@ -1752,18 +1741,18 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  60,
+                   "rank":  59,
                    "ten":  "taolao2",
                    "nghe":  "Tử Hào",
                    "phai":  "Tà",
                    "cap":  126,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  61,
+                   "rank":  60,
                    "ten":  "BigDaddy",
                    "nghe":  "Tử Hào",
                    "phai":  "Tà",
@@ -1774,7 +1763,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  62,
+                   "rank":  61,
                    "ten":  "cafe1",
                    "nghe":  "Đao",
                    "phai":  "Chính",
@@ -1785,7 +1774,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  63,
+                   "rank":  62,
                    "ten":  "LongNhi",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
@@ -1796,7 +1785,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  64,
+                   "rank":  63,
                    "ten":  "August",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -1807,7 +1796,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  65,
+                   "rank":  64,
                    "ten":  "September",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -1818,7 +1807,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  66,
+                   "rank":  65,
                    "ten":  "00000",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -1829,7 +1818,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  67,
+                   "rank":  66,
                    "ten":  "000000",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -1840,7 +1829,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  68,
+                   "rank":  67,
                    "ten":  "Black",
                    "nghe":  "Thương",
                    "phai":  "Tà",
@@ -1851,7 +1840,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  69,
+                   "rank":  68,
                    "ten":  "BlackBoy",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -1862,12 +1851,23 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  70,
+                   "rank":  69,
                    "ten":  "BlackGirl",
                    "nghe":  "Kiếm",
                    "phai":  "Tà",
                    "cap":  120,
                    "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  70,
+                   "ten":  "BuffFree",
+                   "nghe":  "Đại phu",
+                   "phai":  "Tà",
+                   "cap":  120,
+                   "capNghe":  6,
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "30000"
@@ -1885,13 +1885,13 @@
                },
                {
                    "rank":  72,
-                   "ten":  "BuffFree",
-                   "nghe":  "Đại phu",
-                   "phai":  "Tà",
-                   "cap":  119,
+                   "ten":  "cafe3",
+                   "nghe":  "Đàm Hoa Liên",
+                   "phai":  "Chính",
+                   "cap":  117,
                    "capNghe":  6,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
@@ -1962,17 +1962,6 @@
                },
                {
                    "rank":  79,
-                   "ten":  "cafe3",
-                   "nghe":  "Đàm Hoa Liên",
-                   "phai":  "Chính",
-                   "cap":  116,
-                   "capNghe":  6,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  80,
                    "ten":  "GirlBlack",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -1983,7 +1972,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  81,
+                   "rank":  80,
                    "ten":  "TestDP",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
@@ -1994,7 +1983,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  82,
+                   "rank":  81,
                    "ten":  "AnhDpDay",
                    "nghe":  "Đại phu",
                    "phai":  "Chính",
@@ -2005,7 +1994,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  83,
+                   "rank":  82,
                    "ten":  "cafeden",
                    "nghe":  "Đàm Hoa Liên",
                    "phai":  "Chính",
@@ -2016,7 +2005,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  84,
+                   "rank":  83,
                    "ten":  "CungXinhXinh",
                    "nghe":  "Cung",
                    "phai":  "Chính",
@@ -2027,7 +2016,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  85,
+                   "rank":  84,
                    "ten":  "DaizenZ1",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
@@ -2038,7 +2027,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  86,
+                   "rank":  85,
                    "ten":  "DonQuixate",
                    "nghe":  "Quyền sư",
                    "phai":  "Chính",
@@ -2049,7 +2038,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  87,
+                   "rank":  86,
                    "ten":  "HanBaoDao",
                    "nghe":  "Đao",
                    "phai":  "Chính",
@@ -2060,7 +2049,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  88,
+                   "rank":  87,
                    "ten":  "ThuongXinh",
                    "nghe":  "Thương",
                    "phai":  "Chính",
@@ -2071,7 +2060,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  89,
+                   "rank":  88,
                    "ten":  "Draken",
                    "nghe":  "Cung",
                    "phai":  "Tà",
@@ -2082,7 +2071,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  90,
+                   "rank":  89,
                    "ten":  "LeviAckerman",
                    "nghe":  "Thương",
                    "phai":  "Tà",
@@ -2093,7 +2082,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  91,
+                   "rank":  90,
                    "ten":  "Takeru",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -2104,7 +2093,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  92,
+                   "rank":  91,
                    "ten":  "TieuDiep",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
@@ -2115,7 +2104,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  93,
+                   "rank":  92,
                    "ten":  "ZinZyn",
                    "nghe":  "Đại phu",
                    "phai":  "Chính",
@@ -2126,7 +2115,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  94,
+                   "rank":  93,
                    "ten":  "DaizenZ2",
                    "nghe":  "Tử Hào",
                    "phai":  "Chính",
@@ -2137,7 +2126,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  95,
+                   "rank":  94,
                    "ten":  "DaMayConCho",
                    "nghe":  "Ninja",
                    "phai":  "Tà",
@@ -2148,7 +2137,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  96,
+                   "rank":  95,
                    "ten":  "DapMayConCho",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -2159,7 +2148,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  97,
+                   "rank":  96,
                    "ten":  "cafe2",
                    "nghe":  "Thương",
                    "phai":  "Tà",
@@ -2170,7 +2159,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  98,
+                   "rank":  97,
                    "ten":  "OMen",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -2181,7 +2170,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  99,
+                   "rank":  98,
                    "ten":  "MaMaKaKa",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
@@ -2192,11 +2181,22 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  100,
+                   "rank":  99,
                    "ten":  "TrieuVan",
                    "nghe":  "Thương",
                    "phai":  "Tà",
                    "cap":  109,
+                   "capNghe":  5,
+                   "trungSinh":  0,
+                   "online":  false,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  100,
+                   "ten":  "Stress",
+                   "nghe":  "Tử Hào",
+                   "phai":  "Tà",
+                   "cap":  108,
                    "capNghe":  5,
                    "trungSinh":  0,
                    "online":  false,
