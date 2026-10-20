@@ -720,11 +720,11 @@
                       "ten":  "BanLa",
                       "nghe":  "Đao",
                       "phai":  "Tà",
-                      "cap":  110,
+                      "cap":  111,
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "110"
+                      "thanhTuu":  "111"
                   },
                   {
                       "rank":  67,
@@ -783,17 +783,6 @@
                   },
                   {
                       "rank":  72,
-                      "ten":  "OMen",
-                      "nghe":  "Đao",
-                      "phai":  "Tà",
-                      "cap":  110,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "110"
-                  },
-                  {
-                      "rank":  73,
                       "ten":  "MayKhau",
                       "nghe":  "Quyền sư",
                       "phai":  "Tà",
@@ -801,6 +790,17 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "110"
+                  },
+                  {
+                      "rank":  73,
+                      "ten":  "OMen",
+                      "nghe":  "Đao",
+                      "phai":  "Tà",
+                      "cap":  110,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "110"
                   },
                   {
@@ -1140,7 +1140,7 @@
                    "ten":  "BanLa",
                    "nghe":  "Đao",
                    "phai":  "Tà",
-                   "cap":  110,
+                   "cap":  111,
                    "capNghe":  6,
                    "trungSinh":  0,
                    "online":  true,
