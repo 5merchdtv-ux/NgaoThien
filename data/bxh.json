@@ -434,11 +434,11 @@
                       "ten":  "BuffFree",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
-                      "cap":  121,
+                      "cap":  122,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "121"
+                      "thanhTuu":  "122"
                   },
                   {
                       "rank":  41,
@@ -739,17 +739,6 @@
                   },
                   {
                       "rank":  68,
-                      "ten":  "MaMaKaKa",
-                      "nghe":  "Kiếm",
-                      "phai":  "Chính",
-                      "cap":  109,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "109"
-                  },
-                  {
-                      "rank":  69,
                       "ten":  "QuatChay",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
@@ -757,6 +746,17 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "109"
+                  },
+                  {
+                      "rank":  69,
+                      "ten":  "MaMaKaKa",
+                      "nghe":  "Kiếm",
+                      "phai":  "Chính",
+                      "cap":  109,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "109"
                   },
                   {
@@ -1580,7 +1580,7 @@
                    "ten":  "BuffFree",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
-                   "cap":  121,
+                   "cap":  122,
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  true,
