@@ -756,7 +756,7 @@
                       "cap":  128,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "128"
                   },
                   {
@@ -822,7 +822,7 @@
                       "cap":  125,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "125"
                   },
                   {
@@ -866,7 +866,7 @@
                       "cap":  123,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "123"
                   },
                   {
@@ -941,7 +941,7 @@
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
                       "cap":  120,
-                      "capNghe":  6,
+                      "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
                       "thanhTuu":  "120"
@@ -1858,7 +1858,7 @@
                    "cap":  128,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
@@ -1935,7 +1935,7 @@
                    "cap":  125,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
@@ -1979,7 +1979,7 @@
                    "cap":  123,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
@@ -2054,7 +2054,7 @@
                    "nghe":  "Đàm Hoa Liên",
                    "phai":  "Chính",
                    "cap":  120,
-                   "capNghe":  6,
+                   "capNghe":  7,
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "30000"
