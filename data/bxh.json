@@ -742,25 +742,14 @@
                       "ten":  "QuatChay",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
-                      "cap":  109,
-                      "capNghe":  5,
+                      "cap":  110,
+                      "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "109"
+                      "thanhTuu":  "110"
                   },
                   {
                       "rank":  69,
-                      "ten":  "MaMaKaKa",
-                      "nghe":  "Kiếm",
-                      "phai":  "Chính",
-                      "cap":  109,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "109"
-                  },
-                  {
-                      "rank":  70,
                       "ten":  "BanLa",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -768,6 +757,17 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "109"
+                  },
+                  {
+                      "rank":  70,
+                      "ten":  "MaMaKaKa",
+                      "nghe":  "Kiếm",
+                      "phai":  "Chính",
+                      "cap":  109,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "109"
                   },
                   {
@@ -860,17 +860,6 @@
                   },
                   {
                       "rank":  79,
-                      "ten":  "AMiLy",
-                      "nghe":  "Đao",
-                      "phai":  "Chính",
-                      "cap":  108,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "108"
-                  },
-                  {
-                      "rank":  80,
                       "ten":  "NoiComDien",
                       "nghe":  "Thương",
                       "phai":  "Chính",
@@ -878,6 +867,17 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "108"
+                  },
+                  {
+                      "rank":  80,
+                      "ten":  "AMiLy",
+                      "nghe":  "Đao",
+                      "phai":  "Chính",
+                      "cap":  108,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "108"
                   },
                   {
@@ -1885,6 +1885,17 @@
                },
                {
                    "rank":  72,
+                   "ten":  "QuatChay",
+                   "nghe":  "Đại phu",
+                   "phai":  "Tà",
+                   "cap":  110,
+                   "capNghe":  6,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  73,
                    "ten":  "MaMaKaKa",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
@@ -1895,20 +1906,9 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  73,
+                   "rank":  74,
                    "ten":  "MayKhau",
                    "nghe":  "Quyền sư",
-                   "phai":  "Tà",
-                   "cap":  109,
-                   "capNghe":  5,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  74,
-                   "ten":  "QuatChay",
-                   "nghe":  "Đại phu",
                    "phai":  "Tà",
                    "cap":  109,
                    "capNghe":  5,
