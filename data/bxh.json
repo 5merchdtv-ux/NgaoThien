@@ -35,8 +35,8 @@
                   },
                   {
                       "rank":  4,
-                      "ten":  "TraiAnChoi",
-                      "nghe":  "Đàm Hoa Liên",
+                      "ten":  "GaChoi3",
+                      "nghe":  "Thương",
                       "phai":  "Chính",
                       "cap":  135,
                       "capNghe":  8,
@@ -46,8 +46,8 @@
                   },
                   {
                       "rank":  5,
-                      "ten":  "GaChoi3",
-                      "nghe":  "Thương",
+                      "ten":  "TraiAnChoi",
+                      "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
                       "cap":  135,
                       "capNghe":  8,
@@ -68,9 +68,9 @@
                   },
                   {
                       "rank":  7,
-                      "ten":  "AnhNongDan",
-                      "nghe":  "Đao",
-                      "phai":  "Chính",
+                      "ten":  "GaChoi2",
+                      "nghe":  "Cung",
+                      "phai":  "Tà",
                       "cap":  135,
                       "capNghe":  8,
                       "trungSinh":  0,
@@ -79,9 +79,9 @@
                   },
                   {
                       "rank":  8,
-                      "ten":  "GaChoi2",
-                      "nghe":  "Cung",
-                      "phai":  "Tà",
+                      "ten":  "AnhNongDan",
+                      "nghe":  "Đao",
+                      "phai":  "Chính",
                       "cap":  135,
                       "capNghe":  8,
                       "trungSinh":  0,
@@ -800,7 +800,7 @@
                       "cap":  111,
                       "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "111"
                   },
                   {
@@ -1154,7 +1154,7 @@
                    "cap":  111,
                    "capNghe":  6,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "41800"
                },
                {
