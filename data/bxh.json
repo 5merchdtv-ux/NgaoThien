@@ -712,7 +712,7 @@
                       "cap":  112,
                       "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "112"
                   },
                   {
@@ -1137,6 +1137,28 @@
                },
                {
                    "rank":  4,
+                   "ten":  "AnhNongDan",
+                   "nghe":  "Đao",
+                   "phai":  "Chính",
+                   "cap":  136,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "58500"
+               },
+               {
+                   "rank":  5,
+                   "ten":  "TraiAnChoi",
+                   "nghe":  "Đàm Hoa Liên",
+                   "phai":  "Chính",
+                   "cap":  136,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "56500"
+               },
+               {
+                   "rank":  6,
                    "ten":  "GaiMaiDam",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
@@ -1147,7 +1169,7 @@
                    "thanhTuu":  "56000"
                },
                {
-                   "rank":  5,
+                   "rank":  7,
                    "ten":  "BanLa",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -1158,7 +1180,7 @@
                    "thanhTuu":  "55300"
                },
                {
-                   "rank":  6,
+                   "rank":  8,
                    "ten":  "HiHiHi",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -1167,28 +1189,6 @@
                    "trungSinh":  0,
                    "online":  false,
                    "thanhTuu":  "50500"
-               },
-               {
-                   "rank":  7,
-                   "ten":  "AnhNongDan",
-                   "nghe":  "Đao",
-                   "phai":  "Chính",
-                   "cap":  136,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "48500"
-               },
-               {
-                   "rank":  8,
-                   "ten":  "TraiAnChoi",
-                   "nghe":  "Đàm Hoa Liên",
-                   "phai":  "Chính",
-                   "cap":  136,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "46500"
                },
                {
                    "rank":  9,
@@ -1253,7 +1253,7 @@
                    "cap":  112,
                    "capNghe":  6,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "33000"
                },
                {
