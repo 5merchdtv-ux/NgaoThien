@@ -159,11 +159,11 @@
                       "ten":  "Telegram",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
-                      "cap":  133,
+                      "cap":  134,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "133"
+                      "thanhTuu":  "134"
                   },
                   {
                       "rank":  16,
@@ -860,17 +860,6 @@
                   },
                   {
                       "rank":  79,
-                      "ten":  "zKiem",
-                      "nghe":  "Kiếm",
-                      "phai":  "Tà",
-                      "cap":  108,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "108"
-                  },
-                  {
-                      "rank":  80,
                       "ten":  "AMiLy",
                       "nghe":  "Đao",
                       "phai":  "Chính",
@@ -878,6 +867,17 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "108"
+                  },
+                  {
+                      "rank":  80,
+                      "ten":  "zKiem",
+                      "nghe":  "Kiếm",
+                      "phai":  "Tà",
+                      "cap":  108,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "108"
                   },
                   {
@@ -1291,6 +1291,17 @@
                },
                {
                    "rank":  18,
+                   "ten":  "Telegram",
+                   "nghe":  "Đại phu",
+                   "phai":  "Tà",
+                   "cap":  134,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  19,
                    "ten":  "TieuLong",
                    "nghe":  "Tử Hào",
                    "phai":  "Tà",
@@ -1301,7 +1312,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  19,
+                   "rank":  20,
                    "ten":  "TieuPhung",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -1312,21 +1323,10 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  20,
+                   "rank":  21,
                    "ten":  "123456",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
-                   "cap":  133,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  21,
-                   "ten":  "Telegram",
-                   "nghe":  "Đại phu",
-                   "phai":  "Tà",
                    "cap":  133,
                    "capNghe":  8,
                    "trungSinh":  0,
