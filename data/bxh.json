@@ -893,17 +893,6 @@
                   },
                   {
                       "rank":  82,
-                      "ten":  "taolaoga",
-                      "nghe":  "Cung",
-                      "phai":  "Chính",
-                      "cap":  107,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "107"
-                  },
-                  {
-                      "rank":  83,
                       "ten":  "BBGGo",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
@@ -911,6 +900,17 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "107"
+                  },
+                  {
+                      "rank":  83,
+                      "ten":  "taolaoga",
+                      "nghe":  "Cung",
+                      "phai":  "Chính",
+                      "cap":  107,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "107"
                   },
                   {
@@ -1198,7 +1198,7 @@
                    "cap":  93,
                    "capNghe":  4,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "37500"
                },
                {
