@@ -159,11 +159,11 @@
                       "ten":  "Carlsberg",
                       "nghe":  "Thần Nữ",
                       "phai":  "Tà",
-                      "cap":  132,
+                      "cap":  133,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "132"
+                      "thanhTuu":  "133"
                   },
                   {
                       "rank":  16,
@@ -739,6 +739,17 @@
                   },
                   {
                       "rank":  68,
+                      "ten":  "TiVi",
+                      "nghe":  "Cầm sư",
+                      "phai":  "Tà",
+                      "cap":  111,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  true,
+                      "thanhTuu":  "111"
+                  },
+                  {
+                      "rank":  69,
                       "ten":  "DaizenZ2",
                       "nghe":  "Tử Hào",
                       "phai":  "Chính",
@@ -749,7 +760,7 @@
                       "thanhTuu":  "111"
                   },
                   {
-                      "rank":  69,
+                      "rank":  70,
                       "ten":  "DaMayConCho",
                       "nghe":  "Ninja",
                       "phai":  "Tà",
@@ -757,17 +768,6 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  false,
-                      "thanhTuu":  "111"
-                  },
-                  {
-                      "rank":  70,
-                      "ten":  "TiVi",
-                      "nghe":  "Cầm sư",
-                      "phai":  "Tà",
-                      "cap":  111,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  true,
                       "thanhTuu":  "111"
                   },
                   {
@@ -1291,6 +1291,17 @@
                },
                {
                    "rank":  18,
+                   "ten":  "Carlsberg",
+                   "nghe":  "Thần Nữ",
+                   "phai":  "Tà",
+                   "cap":  133,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  19,
                    "ten":  "Telegram",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
@@ -1301,7 +1312,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  19,
+                   "rank":  20,
                    "ten":  "TieuLong",
                    "nghe":  "Tử Hào",
                    "phai":  "Tà",
@@ -1312,21 +1323,10 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  20,
+                   "rank":  21,
                    "ten":  "123456",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
-                   "cap":  132,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  21,
-                   "ten":  "Carlsberg",
-                   "nghe":  "Thần Nữ",
-                   "phai":  "Tà",
                    "cap":  132,
                    "capNghe":  8,
                    "trungSinh":  0,
