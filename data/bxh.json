@@ -665,11 +665,11 @@
                       "ten":  "QuatChay",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
-                      "cap":  112,
+                      "cap":  113,
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "112"
+                      "thanhTuu":  "113"
                   },
                   {
                       "rank":  62,
@@ -1786,6 +1786,17 @@
                },
                {
                    "rank":  63,
+                   "ten":  "QuatChay",
+                   "nghe":  "Đại phu",
+                   "phai":  "Tà",
+                   "cap":  113,
+                   "capNghe":  6,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  64,
                    "ten":  "SatVun",
                    "nghe":  "Cung",
                    "phai":  "Chính",
@@ -1796,7 +1807,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  64,
+                   "rank":  65,
                    "ten":  "XeDap",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
@@ -1807,7 +1818,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  65,
+                   "rank":  66,
                    "ten":  "Draken",
                    "nghe":  "Cung",
                    "phai":  "Tà",
@@ -1818,7 +1829,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  66,
+                   "rank":  67,
                    "ten":  "LeviAckerman",
                    "nghe":  "Thương",
                    "phai":  "Tà",
@@ -1829,21 +1840,10 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  67,
+                   "rank":  68,
                    "ten":  "NoiComDien",
                    "nghe":  "Thương",
                    "phai":  "Chính",
-                   "cap":  112,
-                   "capNghe":  6,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  68,
-                   "ten":  "QuatChay",
-                   "nghe":  "Đại phu",
-                   "phai":  "Tà",
                    "cap":  112,
                    "capNghe":  6,
                    "trungSinh":  0,
