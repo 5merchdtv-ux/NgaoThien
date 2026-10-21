@@ -181,11 +181,11 @@
                       "ten":  "ChiChi",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
-                      "cap":  131,
+                      "cap":  132,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "131"
+                      "thanhTuu":  "132"
                   },
                   {
                       "rank":  18,
@@ -684,17 +684,6 @@
                   },
                   {
                       "rank":  63,
-                      "ten":  "TieuDiep",
-                      "nghe":  "Đại phu",
-                      "phai":  "Tà",
-                      "cap":  112,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "112"
-                  },
-                  {
-                      "rank":  64,
                       "ten":  "TiVi",
                       "nghe":  "Cầm sư",
                       "phai":  "Tà",
@@ -702,6 +691,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "112"
+                  },
+                  {
+                      "rank":  64,
+                      "ten":  "TieuDiep",
+                      "nghe":  "Đại phu",
+                      "phai":  "Tà",
+                      "cap":  112,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "112"
                   },
                   {
@@ -739,17 +739,6 @@
                   },
                   {
                       "rank":  68,
-                      "ten":  "ZinZyn",
-                      "nghe":  "Đại phu",
-                      "phai":  "Chính",
-                      "cap":  112,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "112"
-                  },
-                  {
-                      "rank":  69,
                       "ten":  "NoiComDien",
                       "nghe":  "Thương",
                       "phai":  "Chính",
@@ -757,6 +746,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "112"
+                  },
+                  {
+                      "rank":  69,
+                      "ten":  "ZinZyn",
+                      "nghe":  "Đại phu",
+                      "phai":  "Chính",
+                      "cap":  112,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "112"
                   },
                   {
@@ -1338,7 +1338,7 @@
                    "ten":  "ChiChi",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
-                   "cap":  131,
+                   "cap":  132,
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
