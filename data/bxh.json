@@ -321,17 +321,6 @@
                   },
                   {
                       "rank":  30,
-                      "ten":  "MaLong",
-                      "nghe":  "Đại phu",
-                      "phai":  "Tà",
-                      "cap":  126,
-                      "capNghe":  7,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "126"
-                  },
-                  {
-                      "rank":  31,
                       "ten":  "cafeden",
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
@@ -339,6 +328,17 @@
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "126"
+                  },
+                  {
+                      "rank":  31,
+                      "ten":  "MaLong",
+                      "nghe":  "Đại phu",
+                      "phai":  "Tà",
+                      "cap":  126,
+                      "capNghe":  7,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "126"
                   },
                   {
@@ -635,7 +635,7 @@
                       "cap":  112,
                       "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "112"
                   },
                   {
@@ -712,7 +712,7 @@
                       "cap":  112,
                       "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "112"
                   },
                   {
@@ -1836,7 +1836,7 @@
                    "cap":  112,
                    "capNghe":  6,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
@@ -1880,7 +1880,7 @@
                    "cap":  112,
                    "capNghe":  6,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
