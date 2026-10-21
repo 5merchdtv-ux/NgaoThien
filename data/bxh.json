@@ -706,17 +706,6 @@
                   },
                   {
                       "rank":  65,
-                      "ten":  "TieuDiep",
-                      "nghe":  "Đại phu",
-                      "phai":  "Tà",
-                      "cap":  112,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "112"
-                  },
-                  {
-                      "rank":  66,
                       "ten":  "NoiComDien",
                       "nghe":  "Thương",
                       "phai":  "Chính",
@@ -724,6 +713,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "112"
+                  },
+                  {
+                      "rank":  66,
+                      "ten":  "TieuDiep",
+                      "nghe":  "Đại phu",
+                      "phai":  "Tà",
+                      "cap":  112,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "112"
                   },
                   {
@@ -915,8 +915,8 @@
                   },
                   {
                       "rank":  84,
-                      "ten":  "BBGGo",
-                      "nghe":  "Hàn Bảo Quân",
+                      "ten":  "BBGG",
+                      "nghe":  "Đao",
                       "phai":  "Chính",
                       "cap":  107,
                       "capNghe":  5,
@@ -926,8 +926,8 @@
                   },
                   {
                       "rank":  85,
-                      "ten":  "BBGG",
-                      "nghe":  "Đao",
+                      "ten":  "BBGGo",
+                      "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
                       "cap":  107,
                       "capNghe":  5,
