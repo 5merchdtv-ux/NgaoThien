@@ -302,11 +302,11 @@
                       "ten":  "taolao3",
                       "nghe":  "Thần Nữ",
                       "phai":  "Chính",
-                      "cap":  127,
+                      "cap":  128,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "127"
+                      "thanhTuu":  "128"
                   },
                   {
                       "rank":  29,
@@ -849,17 +849,6 @@
                   },
                   {
                       "rank":  78,
-                      "ten":  "Stress",
-                      "nghe":  "Tử Hào",
-                      "phai":  "Tà",
-                      "cap":  108,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "108"
-                  },
-                  {
-                      "rank":  79,
                       "ten":  "AMiLy",
                       "nghe":  "Đao",
                       "phai":  "Chính",
@@ -867,6 +856,17 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "108"
+                  },
+                  {
+                      "rank":  79,
+                      "ten":  "Stress",
+                      "nghe":  "Tử Hào",
+                      "phai":  "Tà",
+                      "cap":  108,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "108"
                   },
                   {
@@ -1162,7 +1162,7 @@
                    "ten":  "taolao3",
                    "nghe":  "Thần Nữ",
                    "phai":  "Chính",
-                   "cap":  127,
+                   "cap":  128,
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  true,
