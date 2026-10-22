@@ -112,17 +112,6 @@
                   },
                   {
                       "rank":  11,
-                      "ten":  "Telegram",
-                      "nghe":  "Đại phu",
-                      "phai":  "Tà",
-                      "cap":  135,
-                      "capNghe":  8,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "135"
-                  },
-                  {
-                      "rank":  12,
                       "ten":  "SonGoKu",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Tà",
@@ -130,6 +119,17 @@
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "135"
+                  },
+                  {
+                      "rank":  12,
+                      "ten":  "Telegram",
+                      "nghe":  "Đại phu",
+                      "phai":  "Tà",
+                      "cap":  135,
+                      "capNghe":  8,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "135"
                   },
                   {
@@ -563,8 +563,8 @@
                   },
                   {
                       "rank":  52,
-                      "ten":  "TiVi",
-                      "nghe":  "Cầm sư",
+                      "ten":  "TuLanh",
+                      "nghe":  "Ninja",
                       "phai":  "Tà",
                       "cap":  117,
                       "capNghe":  6,
@@ -574,8 +574,8 @@
                   },
                   {
                       "rank":  53,
-                      "ten":  "TuLanh",
-                      "nghe":  "Ninja",
+                      "ten":  "TiVi",
+                      "nghe":  "Cầm sư",
                       "phai":  "Tà",
                       "cap":  117,
                       "capNghe":  6,
