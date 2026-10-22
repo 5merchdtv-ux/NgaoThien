@@ -60,11 +60,11 @@
                       "ten":  "TraiAnChoi",
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
-                      "cap":  136,
+                      "cap":  137,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "136"
+                      "thanhTuu":  "137"
                   },
                   {
                       "rank":  7,
@@ -552,17 +552,6 @@
                   },
                   {
                       "rank":  51,
-                      "ten":  "0000",
-                      "nghe":  "Đao",
-                      "phai":  "Chính",
-                      "cap":  116,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "116"
-                  },
-                  {
-                      "rank":  52,
                       "ten":  "MayKhau",
                       "nghe":  "Quyền sư",
                       "phai":  "Tà",
@@ -570,6 +559,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "116"
+                  },
+                  {
+                      "rank":  52,
+                      "ten":  "0000",
+                      "nghe":  "Đao",
+                      "phai":  "Chính",
+                      "cap":  116,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "116"
                   },
                   {
@@ -1162,7 +1162,7 @@
                    "ten":  "TraiAnChoi",
                    "nghe":  "Đàm Hoa Liên",
                    "phai":  "Chính",
-                   "cap":  136,
+                   "cap":  137,
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
