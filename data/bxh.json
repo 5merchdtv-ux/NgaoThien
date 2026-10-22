@@ -123,8 +123,8 @@
                   },
                   {
                       "rank":  12,
-                      "ten":  "SonGoKu",
-                      "nghe":  "Hàn Bảo Quân",
+                      "ten":  "TieuLong",
+                      "nghe":  "Tử Hào",
                       "phai":  "Tà",
                       "cap":  136,
                       "capNghe":  8,
@@ -134,8 +134,8 @@
                   },
                   {
                       "rank":  13,
-                      "ten":  "TieuLong",
-                      "nghe":  "Tử Hào",
+                      "ten":  "SonGoKu",
+                      "nghe":  "Hàn Bảo Quân",
                       "phai":  "Tà",
                       "cap":  136,
                       "capNghe":  8,
@@ -574,17 +574,6 @@
                   },
                   {
                       "rank":  53,
-                      "ten":  "DonQuijote",
-                      "nghe":  "Đao",
-                      "phai":  "Chính",
-                      "cap":  117,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "117"
-                  },
-                  {
-                      "rank":  54,
                       "ten":  "NoiComDien",
                       "nghe":  "Thương",
                       "phai":  "Chính",
@@ -592,6 +581,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "117"
+                  },
+                  {
+                      "rank":  54,
+                      "ten":  "DonQuijote",
+                      "nghe":  "Đao",
+                      "phai":  "Chính",
+                      "cap":  117,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "117"
                   },
                   {
