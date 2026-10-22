@@ -200,8 +200,8 @@
                   },
                   {
                       "rank":  19,
-                      "ten":  "ChiChi",
-                      "nghe":  "Đại phu",
+                      "ten":  "taolao2",
+                      "nghe":  "Tử Hào",
                       "phai":  "Tà",
                       "cap":  133,
                       "capNghe":  8,
@@ -211,8 +211,8 @@
                   },
                   {
                       "rank":  20,
-                      "ten":  "taolao2",
-                      "nghe":  "Tử Hào",
+                      "ten":  "ChiChi",
+                      "nghe":  "Đại phu",
                       "phai":  "Tà",
                       "cap":  133,
                       "capNghe":  8,
@@ -343,17 +343,6 @@
                   },
                   {
                       "rank":  32,
-                      "ten":  "654321",
-                      "nghe":  "Đàm Hoa Liên",
-                      "phai":  "Chính",
-                      "cap":  128,
-                      "capNghe":  7,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "128"
-                  },
-                  {
-                      "rank":  33,
                       "ten":  "MaLong",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
@@ -361,6 +350,17 @@
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "128"
+                  },
+                  {
+                      "rank":  33,
+                      "ten":  "654321",
+                      "nghe":  "Đàm Hoa Liên",
+                      "phai":  "Chính",
+                      "cap":  128,
+                      "capNghe":  7,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "128"
                   },
                   {
@@ -544,22 +544,22 @@
                       "ten":  "TuLanh",
                       "nghe":  "Ninja",
                       "phai":  "Tà",
-                      "cap":  118,
+                      "cap":  119,
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "118"
+                      "thanhTuu":  "119"
                   },
                   {
                       "rank":  51,
                       "ten":  "TiVi",
                       "nghe":  "Cầm sư",
                       "phai":  "Tà",
-                      "cap":  118,
+                      "cap":  119,
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "118"
+                      "thanhTuu":  "119"
                   },
                   {
                       "rank":  52,
@@ -1698,9 +1698,9 @@
                },
                {
                    "rank":  55,
-                   "ten":  "XeDap",
-                   "nghe":  "Kiếm",
-                   "phai":  "Chính",
+                   "ten":  "TiVi",
+                   "nghe":  "Cầm sư",
+                   "phai":  "Tà",
                    "cap":  119,
                    "capNghe":  6,
                    "trungSinh":  0,
@@ -1709,10 +1709,10 @@
                },
                {
                    "rank":  56,
-                   "ten":  "TiVi",
-                   "nghe":  "Cầm sư",
+                   "ten":  "TuLanh",
+                   "nghe":  "Ninja",
                    "phai":  "Tà",
-                   "cap":  118,
+                   "cap":  119,
                    "capNghe":  6,
                    "trungSinh":  0,
                    "online":  true,
@@ -1720,10 +1720,10 @@
                },
                {
                    "rank":  57,
-                   "ten":  "TuLanh",
-                   "nghe":  "Ninja",
-                   "phai":  "Tà",
-                   "cap":  118,
+                   "ten":  "XeDap",
+                   "nghe":  "Kiếm",
+                   "phai":  "Chính",
+                   "cap":  119,
                    "capNghe":  6,
                    "trungSinh":  0,
                    "online":  true,
