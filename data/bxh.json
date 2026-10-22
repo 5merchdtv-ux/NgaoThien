@@ -156,17 +156,6 @@
                   },
                   {
                       "rank":  15,
-                      "ten":  "123456",
-                      "nghe":  "Kiếm",
-                      "phai":  "Chính",
-                      "cap":  135,
-                      "capNghe":  8,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "135"
-                  },
-                  {
-                      "rank":  16,
                       "ten":  "TieuLong",
                       "nghe":  "Tử Hào",
                       "phai":  "Tà",
@@ -174,6 +163,17 @@
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "135"
+                  },
+                  {
+                      "rank":  16,
+                      "ten":  "123456",
+                      "nghe":  "Kiếm",
+                      "phai":  "Chính",
+                      "cap":  135,
+                      "capNghe":  8,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "135"
                   },
                   {
@@ -610,11 +610,11 @@
                       "ten":  "NoiComDien",
                       "nghe":  "Thương",
                       "phai":  "Chính",
-                      "cap":  116,
+                      "cap":  117,
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "116"
+                      "thanhTuu":  "117"
                   },
                   {
                       "rank":  57,
@@ -1250,7 +1250,7 @@
                    "ten":  "NoiComDien",
                    "nghe":  "Thương",
                    "phai":  "Chính",
-                   "cap":  116,
+                   "cap":  117,
                    "capNghe":  6,
                    "trungSinh":  0,
                    "online":  true,
