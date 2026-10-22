@@ -46,9 +46,9 @@
                   },
                   {
                       "rank":  5,
-                      "ten":  "GaiNhaQue",
+                      "ten":  "GaChoi2",
                       "nghe":  "Cung",
-                      "phai":  "Chính",
+                      "phai":  "Tà",
                       "cap":  137,
                       "capNghe":  8,
                       "trungSinh":  0,
@@ -57,9 +57,9 @@
                   },
                   {
                       "rank":  6,
-                      "ten":  "GaChoi2",
+                      "ten":  "GaiNhaQue",
                       "nghe":  "Cung",
-                      "phai":  "Tà",
+                      "phai":  "Chính",
                       "cap":  137,
                       "capNghe":  8,
                       "trungSinh":  0,
@@ -145,17 +145,6 @@
                   },
                   {
                       "rank":  14,
-                      "ten":  "123456",
-                      "nghe":  "Kiếm",
-                      "phai":  "Chính",
-                      "cap":  135,
-                      "capNghe":  8,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "135"
-                  },
-                  {
-                      "rank":  15,
                       "ten":  "TieuPhung",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -163,6 +152,17 @@
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "135"
+                  },
+                  {
+                      "rank":  15,
+                      "ten":  "123456",
+                      "nghe":  "Kiếm",
+                      "phai":  "Chính",
+                      "cap":  135,
+                      "capNghe":  8,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "135"
                   },
                   {
