@@ -13,8 +13,8 @@
                   },
                   {
                       "rank":  2,
-                      "ten":  "GaChoi3",
-                      "nghe":  "Thương",
+                      "ten":  "GaChoi1",
+                      "nghe":  "Kiếm",
                       "phai":  "Chính",
                       "cap":  139,
                       "capNghe":  8,
@@ -24,8 +24,8 @@
                   },
                   {
                       "rank":  3,
-                      "ten":  "GaChoi1",
-                      "nghe":  "Kiếm",
+                      "ten":  "GaChoi3",
+                      "nghe":  "Thương",
                       "phai":  "Chính",
                       "cap":  139,
                       "capNghe":  8,
@@ -140,7 +140,7 @@
                       "cap":  136,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "136"
                   },
                   {
@@ -239,7 +239,7 @@
                       "cap":  134,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "134"
                   },
                   {
@@ -1154,7 +1154,7 @@
                    "cap":  136,
                    "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "70000"
                },
                {
@@ -1385,7 +1385,7 @@
                    "cap":  134,
                    "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
