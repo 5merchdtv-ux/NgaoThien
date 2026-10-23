@@ -489,11 +489,11 @@
                       "ten":  "SatVun",
                       "nghe":  "Cung",
                       "phai":  "Chính",
-                      "cap":  120,
+                      "cap":  121,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "120"
+                      "thanhTuu":  "121"
                   },
                   {
                       "rank":  46,
@@ -1654,6 +1654,17 @@
                },
                {
                    "rank":  51,
+                   "ten":  "SatVun",
+                   "nghe":  "Cung",
+                   "phai":  "Chính",
+                   "cap":  121,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  52,
                    "ten":  "00000",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -1664,7 +1675,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  52,
+                   "rank":  53,
                    "ten":  "000000",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -1675,21 +1686,10 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  53,
+                   "rank":  54,
                    "ten":  "MayKhau",
                    "nghe":  "Quyền sư",
                    "phai":  "Tà",
-                   "cap":  120,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  54,
-                   "ten":  "SatVun",
-                   "nghe":  "Cung",
-                   "phai":  "Chính",
                    "cap":  120,
                    "capNghe":  7,
                    "trungSinh":  0,
