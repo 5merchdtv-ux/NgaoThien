@@ -41,7 +41,7 @@
                       "cap":  138,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "138"
                   },
                   {
@@ -277,6 +277,17 @@
                   },
                   {
                       "rank":  26,
+                      "ten":  "NgaoThien",
+                      "nghe":  "Ninja",
+                      "phai":  "Tà",
+                      "cap":  130,
+                      "capNghe":  7,
+                      "trungSinh":  0,
+                      "online":  true,
+                      "thanhTuu":  "130"
+                  },
+                  {
+                      "rank":  27,
                       "ten":  "ninnnn",
                       "nghe":  "Ninja",
                       "phai":  "Chính",
@@ -287,7 +298,7 @@
                       "thanhTuu":  "130"
                   },
                   {
-                      "rank":  27,
+                      "rank":  28,
                       "ten":  "hello",
                       "nghe":  "Đao",
                       "phai":  "Chính",
@@ -296,17 +307,6 @@
                       "trungSinh":  0,
                       "online":  false,
                       "thanhTuu":  "130"
-                  },
-                  {
-                      "rank":  28,
-                      "ten":  "NgaoThien",
-                      "nghe":  "Ninja",
-                      "phai":  "Tà",
-                      "cap":  129,
-                      "capNghe":  7,
-                      "trungSinh":  0,
-                      "online":  true,
-                      "thanhTuu":  "129"
                   },
                   {
                       "rank":  29,
@@ -1121,7 +1121,7 @@
                    "cap":  138,
                    "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "216008"
                },
                {
@@ -1239,7 +1239,7 @@
                    "ten":  "NgaoThien",
                    "nghe":  "Ninja",
                    "phai":  "Tà",
-                   "cap":  129,
+                   "cap":  130,
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  true,
