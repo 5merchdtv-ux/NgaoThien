@@ -1111,7 +1111,7 @@
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "340000"
+                   "thanhTuu":  "441000"
                },
                {
                    "rank":  2,
@@ -1122,7 +1122,7 @@
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "216508"
+                   "thanhTuu":  "225308"
                },
                {
                    "rank":  3,
@@ -1133,7 +1133,7 @@
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "99800"
+                   "thanhTuu":  "108800"
                },
                {
                    "rank":  4,
@@ -1144,7 +1144,7 @@
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "98300"
+                   "thanhTuu":  "104300"
                },
                {
                    "rank":  5,
@@ -1165,8 +1165,8 @@
                    "cap":  93,
                    "capNghe":  4,
                    "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "64500"
+                   "online":  false,
+                   "thanhTuu":  "70000"
                },
                {
                    "rank":  7,
@@ -1203,17 +1203,39 @@
                },
                {
                    "rank":  10,
+                   "ten":  "NoiComDien",
+                   "nghe":  "Thương",
+                   "phai":  "Chính",
+                   "cap":  120,
+                   "capNghe":  6,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "46500"
+               },
+               {
+                   "rank":  11,
                    "ten":  "HaHaHa",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
                    "cap":  93,
                    "capNghe":  4,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "45500"
                },
                {
-                   "rank":  11,
+                   "rank":  12,
+                   "ten":  "NgaoThien",
+                   "nghe":  "Ninja",
+                   "phai":  "Tà",
+                   "cap":  130,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "41500"
+               },
+               {
+                   "rank":  13,
                    "ten":  "taolao3",
                    "nghe":  "Thần Nữ",
                    "phai":  "Chính",
@@ -1224,7 +1246,7 @@
                    "thanhTuu":  "40000"
                },
                {
-                   "rank":  12,
+                   "rank":  14,
                    "ten":  "SODA",
                    "nghe":  "Ninja",
                    "phai":  "Chính",
@@ -1233,28 +1255,6 @@
                    "trungSinh":  0,
                    "online":  false,
                    "thanhTuu":  "40000"
-               },
-               {
-                   "rank":  13,
-                   "ten":  "NgaoThien",
-                   "nghe":  "Ninja",
-                   "phai":  "Tà",
-                   "cap":  130,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "38000"
-               },
-               {
-                   "rank":  14,
-                   "ten":  "NoiComDien",
-                   "nghe":  "Thương",
-                   "phai":  "Chính",
-                   "cap":  120,
-                   "capNghe":  6,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "37500"
                },
                {
                    "rank":  15,
