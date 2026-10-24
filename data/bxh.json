@@ -489,11 +489,11 @@
                       "ten":  "MayKhau",
                       "nghe":  "Quyền sư",
                       "phai":  "Tà",
-                      "cap":  122,
+                      "cap":  123,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "122"
+                      "thanhTuu":  "123"
                   },
                   {
                       "rank":  46,
@@ -1632,6 +1632,17 @@
                },
                {
                    "rank":  49,
+                   "ten":  "MayKhau",
+                   "nghe":  "Quyền sư",
+                   "phai":  "Tà",
+                   "cap":  123,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  50,
                    "ten":  "QuatChay",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
@@ -1642,7 +1653,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  50,
+                   "rank":  51,
                    "ten":  "SatVun",
                    "nghe":  "Cung",
                    "phai":  "Chính",
@@ -1653,20 +1664,9 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  51,
+                   "rank":  52,
                    "ten":  "GirlBlack",
                    "nghe":  "Hàn Bảo Quân",
-                   "phai":  "Tà",
-                   "cap":  122,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  52,
-                   "ten":  "MayKhau",
-                   "nghe":  "Quyền sư",
                    "phai":  "Tà",
                    "cap":  122,
                    "capNghe":  7,
