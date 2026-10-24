@@ -74,7 +74,7 @@
                       "cap":  138,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "138"
                   },
                   {
@@ -104,16 +104,16 @@
                       "ten":  "SatNhan",
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
-                      "cap":  137,
+                      "cap":  138,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "137"
+                      "thanhTuu":  "138"
                   },
                   {
                       "rank":  11,
                       "ten":  "TieuPhung",
-                      "nghe":  "Đao",
+                      "nghe":  "Mai Liễu Chân",
                       "phai":  "Tà",
                       "cap":  137,
                       "capNghe":  8,
@@ -442,17 +442,6 @@
                   },
                   {
                       "rank":  41,
-                      "ten":  "August",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Tà",
-                      "cap":  124,
-                      "capNghe":  7,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "124"
-                  },
-                  {
-                      "rank":  42,
                       "ten":  "BlackGirl",
                       "nghe":  "Kiếm",
                       "phai":  "Tà",
@@ -460,6 +449,17 @@
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "124"
+                  },
+                  {
+                      "rank":  42,
+                      "ten":  "August",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Tà",
+                      "cap":  124,
+                      "capNghe":  7,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "124"
                   },
                   {
@@ -1110,7 +1110,7 @@
                    "cap":  138,
                    "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "451000"
                },
                {
@@ -1305,7 +1305,7 @@
                    "ten":  "SatNhan",
                    "nghe":  "Đại phu",
                    "phai":  "Chính",
-                   "cap":  137,
+                   "cap":  138,
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
@@ -1325,7 +1325,7 @@
                {
                    "rank":  21,
                    "ten":  "TieuPhung",
-                   "nghe":  "Đao",
+                   "nghe":  "Mai Liễu Chân",
                    "phai":  "Tà",
                    "cap":  137,
                    "capNghe":  8,
