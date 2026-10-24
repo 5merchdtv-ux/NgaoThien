@@ -486,8 +486,8 @@
                   },
                   {
                       "rank":  45,
-                      "ten":  "GirlBlack",
-                      "nghe":  "Hàn Bảo Quân",
+                      "ten":  "MayKhau",
+                      "nghe":  "Quyền sư",
                       "phai":  "Tà",
                       "cap":  122,
                       "capNghe":  7,
@@ -497,8 +497,8 @@
                   },
                   {
                       "rank":  46,
-                      "ten":  "MayKhau",
-                      "nghe":  "Quyền sư",
+                      "ten":  "GirlBlack",
+                      "nghe":  "Hàn Bảo Quân",
                       "phai":  "Tà",
                       "cap":  122,
                       "capNghe":  7,
@@ -533,11 +533,11 @@
                       "ten":  "TuLanh",
                       "nghe":  "Ninja",
                       "phai":  "Tà",
-                      "cap":  121,
+                      "cap":  122,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "121"
+                      "thanhTuu":  "122"
                   },
                   {
                       "rank":  50,
@@ -1676,6 +1676,17 @@
                },
                {
                    "rank":  53,
+                   "ten":  "TuLanh",
+                   "nghe":  "Ninja",
+                   "phai":  "Tà",
+                   "cap":  122,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  54,
                    "ten":  "XeDap",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
@@ -1686,20 +1697,9 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  54,
+                   "rank":  55,
                    "ten":  "TiVi",
                    "nghe":  "Cầm sư",
-                   "phai":  "Tà",
-                   "cap":  121,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  55,
-                   "ten":  "TuLanh",
-                   "nghe":  "Ninja",
                    "phai":  "Tà",
                    "cap":  121,
                    "capNghe":  7,
