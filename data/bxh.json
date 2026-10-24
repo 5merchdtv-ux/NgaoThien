@@ -291,11 +291,11 @@
                       "ten":  "MaLong",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
-                      "cap":  130,
+                      "cap":  131,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "130"
+                      "thanhTuu":  "131"
                   },
                   {
                       "rank":  28,
@@ -1456,6 +1456,17 @@
                },
                {
                    "rank":  33,
+                   "ten":  "MaLong",
+                   "nghe":  "Đại phu",
+                   "phai":  "Tà",
+                   "cap":  131,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  34,
                    "ten":  "hello",
                    "nghe":  "Đao",
                    "phai":  "Chính",
@@ -1466,7 +1477,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  34,
+                   "rank":  35,
                    "ten":  "LongNhi",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
@@ -1474,17 +1485,6 @@
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  false,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  35,
-                   "ten":  "MaLong",
-                   "nghe":  "Đại phu",
-                   "phai":  "Tà",
-                   "cap":  130,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
