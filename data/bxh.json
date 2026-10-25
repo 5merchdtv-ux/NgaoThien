@@ -497,9 +497,9 @@
                   },
                   {
                       "rank":  46,
-                      "ten":  "NoiComDien",
-                      "nghe":  "Thương",
-                      "phai":  "Chính",
+                      "ten":  "BanLa",
+                      "nghe":  "Đao",
+                      "phai":  "Tà",
                       "cap":  124,
                       "capNghe":  7,
                       "trungSinh":  0,
@@ -508,9 +508,9 @@
                   },
                   {
                       "rank":  47,
-                      "ten":  "BanLa",
-                      "nghe":  "Đao",
-                      "phai":  "Tà",
+                      "ten":  "NoiComDien",
+                      "nghe":  "Thương",
+                      "phai":  "Chính",
                       "cap":  124,
                       "capNghe":  7,
                       "trungSinh":  0,
@@ -882,28 +882,6 @@
                   },
                   {
                       "rank":  81,
-                      "ten":  "Stress",
-                      "nghe":  "Tử Hào",
-                      "phai":  "Tà",
-                      "cap":  108,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "108"
-                  },
-                  {
-                      "rank":  82,
-                      "ten":  "zKiem",
-                      "nghe":  "Kiếm",
-                      "phai":  "Tà",
-                      "cap":  108,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "108"
-                  },
-                  {
-                      "rank":  83,
                       "ten":  "JiZo",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -914,7 +892,7 @@
                       "thanhTuu":  "108"
                   },
                   {
-                      "rank":  84,
+                      "rank":  82,
                       "ten":  "JoZo",
                       "nghe":  "Đao",
                       "phai":  "Chính",
@@ -922,6 +900,28 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "108"
+                  },
+                  {
+                      "rank":  83,
+                      "ten":  "Stress",
+                      "nghe":  "Tử Hào",
+                      "phai":  "Tà",
+                      "cap":  108,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
+                      "thanhTuu":  "108"
+                  },
+                  {
+                      "rank":  84,
+                      "ten":  "zKiem",
+                      "nghe":  "Kiếm",
+                      "phai":  "Tà",
+                      "cap":  108,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "108"
                   },
                   {
