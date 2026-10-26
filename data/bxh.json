@@ -145,9 +145,9 @@
                   },
                   {
                       "rank":  14,
-                      "ten":  "taolao0",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Chính",
+                      "ten":  "taolao2",
+                      "nghe":  "Tử Hào",
+                      "phai":  "Tà",
                       "cap":  138,
                       "capNghe":  8,
                       "trungSinh":  0,
@@ -156,9 +156,9 @@
                   },
                   {
                       "rank":  15,
-                      "ten":  "taolao2",
-                      "nghe":  "Tử Hào",
-                      "phai":  "Tà",
+                      "ten":  "taolao0",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Chính",
                       "cap":  138,
                       "capNghe":  8,
                       "trungSinh":  0,
@@ -508,17 +508,6 @@
                   },
                   {
                       "rank":  47,
-                      "ten":  "September",
-                      "nghe":  "Đao",
-                      "phai":  "Tà",
-                      "cap":  124,
-                      "capNghe":  7,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "124"
-                  },
-                  {
-                      "rank":  48,
                       "ten":  "BanLa",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -526,6 +515,17 @@
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "124"
+                  },
+                  {
+                      "rank":  48,
+                      "ten":  "September",
+                      "nghe":  "Đao",
+                      "phai":  "Tà",
+                      "cap":  124,
+                      "capNghe":  7,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "124"
                   },
                   {
