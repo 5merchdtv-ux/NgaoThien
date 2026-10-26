@@ -140,7 +140,7 @@
                       "cap":  138,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "138"
                   },
                   {
@@ -217,7 +217,7 @@
                       "cap":  137,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "137"
                   },
                   {
@@ -492,7 +492,7 @@
                       "cap":  125,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "125"
                   },
                   {
@@ -1111,7 +1111,7 @@
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "612000"
+                   "thanhTuu":  "636000"
                },
                {
                    "rank":  2,
@@ -1122,7 +1122,7 @@
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "290308"
+                   "thanhTuu":  "290808"
                },
                {
                    "rank":  3,
@@ -1133,10 +1133,21 @@
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "141600"
+                   "thanhTuu":  "150900"
                },
                {
                    "rank":  4,
+                   "ten":  "HiHiHi",
+                   "nghe":  "Hàn Bảo Quân",
+                   "phai":  "Tà",
+                   "cap":  93,
+                   "capNghe":  4,
+                   "trungSinh":  0,
+                   "online":  false,
+                   "thanhTuu":  "112000"
+               },
+               {
+                   "rank":  5,
                    "ten":  "GaChoi1",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
@@ -1147,7 +1158,7 @@
                    "thanhTuu":  "101800"
                },
                {
-                   "rank":  5,
+                   "rank":  6,
                    "ten":  "GaiMaiDam",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
@@ -1158,37 +1169,26 @@
                    "thanhTuu":  "101500"
                },
                {
-                   "rank":  6,
-                   "ten":  "HiHiHi",
-                   "nghe":  "Hàn Bảo Quân",
-                   "phai":  "Tà",
-                   "cap":  93,
-                   "capNghe":  4,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "99000"
-               },
-               {
                    "rank":  7,
-                   "ten":  "SonGoKu",
-                   "nghe":  "Hàn Bảo Quân",
-                   "phai":  "Tà",
-                   "cap":  138,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  false,
-                   "thanhTuu":  "70000"
-               },
-               {
-                   "rank":  8,
                    "ten":  "NoiComDien",
                    "nghe":  "Thương",
                    "phai":  "Chính",
                    "cap":  125,
                    "capNghe":  7,
                    "trungSinh":  0,
+                   "online":  false,
+                   "thanhTuu":  "81000"
+               },
+               {
+                   "rank":  8,
+                   "ten":  "SonGoKu",
+                   "nghe":  "Hàn Bảo Quân",
+                   "phai":  "Tà",
+                   "cap":  138,
+                   "capNghe":  8,
+                   "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "69000"
+                   "thanhTuu":  "70000"
                },
                {
                    "rank":  9,
@@ -1232,7 +1232,7 @@
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "48800"
+                   "thanhTuu":  "52300"
                },
                {
                    "rank":  13,
@@ -1396,7 +1396,7 @@
                    "cap":  137,
                    "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
