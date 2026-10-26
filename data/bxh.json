@@ -159,11 +159,11 @@
                       "ten":  "taolao2",
                       "nghe":  "Tử Hào",
                       "phai":  "Tà",
-                      "cap":  137,
+                      "cap":  138,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "137"
+                      "thanhTuu":  "138"
                   },
                   {
                       "rank":  16,
@@ -456,11 +456,11 @@
                       "ten":  "QuatChay",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
-                      "cap":  124,
+                      "cap":  125,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "124"
+                      "thanhTuu":  "125"
                   },
                   {
                       "rank":  43,
@@ -1346,6 +1346,17 @@
                },
                {
                    "rank":  23,
+                   "ten":  "taolao2",
+                   "nghe":  "Tử Hào",
+                   "phai":  "Tà",
+                   "cap":  138,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  24,
                    "ten":  "cafe0",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
@@ -1356,7 +1367,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  24,
+                   "rank":  25,
                    "ten":  "cafeden",
                    "nghe":  "Đàm Hoa Liên",
                    "phai":  "Chính",
@@ -1367,20 +1378,9 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  25,
+                   "rank":  26,
                    "ten":  "taolao1",
                    "nghe":  "Quyền sư",
-                   "phai":  "Tà",
-                   "cap":  137,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  26,
-                   "ten":  "taolao2",
-                   "nghe":  "Tử Hào",
                    "phai":  "Tà",
                    "cap":  137,
                    "capNghe":  8,
@@ -1621,6 +1621,17 @@
                },
                {
                    "rank":  48,
+                   "ten":  "QuatChay",
+                   "nghe":  "Đại phu",
+                   "phai":  "Tà",
+                   "cap":  125,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  49,
                    "ten":  "August",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -1628,17 +1639,6 @@
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  false,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  49,
-                   "ten":  "QuatChay",
-                   "nghe":  "Đại phu",
-                   "phai":  "Tà",
-                   "cap":  124,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
