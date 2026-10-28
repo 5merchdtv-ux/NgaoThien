@@ -321,17 +321,6 @@
                   },
                   {
                       "rank":  30,
-                      "ten":  "Notepad",
-                      "nghe":  "Cung",
-                      "phai":  "Tà",
-                      "cap":  130,
-                      "capNghe":  8,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "130"
-                  },
-                  {
-                      "rank":  31,
                       "ten":  "cafe3",
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
@@ -339,6 +328,17 @@
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "130"
+                  },
+                  {
+                      "rank":  31,
+                      "ten":  "Notepad",
+                      "nghe":  "Cung",
+                      "phai":  "Tà",
+                      "cap":  130,
+                      "capNghe":  8,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "130"
                   },
                   {
@@ -401,11 +401,11 @@
                       "ten":  "XeDap",
                       "nghe":  "Kiếm",
                       "phai":  "Chính",
-                      "cap":  127,
+                      "cap":  128,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "127"
+                      "thanhTuu":  "128"
                   },
                   {
                       "rank":  38,
@@ -706,17 +706,6 @@
                   },
                   {
                       "rank":  65,
-                      "ten":  "DonQuixate",
-                      "nghe":  "Quyền sư",
-                      "phai":  "Chính",
-                      "cap":  114,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "114"
-                  },
-                  {
-                      "rank":  66,
                       "ten":  "JiZin",
                       "nghe":  "Thần Nữ",
                       "phai":  "Chính",
@@ -724,6 +713,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "114"
+                  },
+                  {
+                      "rank":  66,
+                      "ten":  "DonQuixate",
+                      "nghe":  "Quyền sư",
+                      "phai":  "Chính",
+                      "cap":  114,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "114"
                   },
                   {
@@ -1566,6 +1566,17 @@
                },
                {
                    "rank":  43,
+                   "ten":  "XeDap",
+                   "nghe":  "Kiếm",
+                   "phai":  "Chính",
+                   "cap":  128,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  44,
                    "ten":  "TiVi",
                    "nghe":  "Cầm sư",
                    "phai":  "Tà",
@@ -1576,21 +1587,10 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  44,
+                   "rank":  45,
                    "ten":  "TuLanh",
                    "nghe":  "Ninja",
                    "phai":  "Tà",
-                   "cap":  127,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  45,
-                   "ten":  "XeDap",
-                   "nghe":  "Kiếm",
-                   "phai":  "Chính",
                    "cap":  127,
                    "capNghe":  7,
                    "trungSinh":  0,
