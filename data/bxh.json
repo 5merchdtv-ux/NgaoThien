@@ -717,17 +717,6 @@
                   },
                   {
                       "rank":  66,
-                      "ten":  "DonQuixate",
-                      "nghe":  "Quyền sư",
-                      "phai":  "Chính",
-                      "cap":  114,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "114"
-                  },
-                  {
-                      "rank":  67,
                       "ten":  "JoZo",
                       "nghe":  "Đao",
                       "phai":  "Chính",
@@ -738,12 +727,23 @@
                       "thanhTuu":  "114"
                   },
                   {
+                      "rank":  67,
+                      "ten":  "DonQuixate",
+                      "nghe":  "Quyền sư",
+                      "phai":  "Chính",
+                      "cap":  114,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
+                      "thanhTuu":  "114"
+                  },
+                  {
                       "rank":  68,
                       "ten":  "JiZo",
                       "nghe":  "Đao",
                       "phai":  "Tà",
                       "cap":  113,
-                      "capNghe":  5,
+                      "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
                       "thanhTuu":  "113"
@@ -1889,7 +1889,7 @@
                    "nghe":  "Đao",
                    "phai":  "Tà",
                    "cap":  113,
-                   "capNghe":  5,
+                   "capNghe":  6,
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "30000"
