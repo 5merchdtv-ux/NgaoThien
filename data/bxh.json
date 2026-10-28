@@ -742,11 +742,11 @@
                       "ten":  "JiZo",
                       "nghe":  "Đao",
                       "phai":  "Tà",
-                      "cap":  112,
+                      "cap":  113,
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "112"
+                      "thanhTuu":  "113"
                   },
                   {
                       "rank":  69,
@@ -849,17 +849,6 @@
                   },
                   {
                       "rank":  78,
-                      "ten":  "OMen",
-                      "nghe":  "Đao",
-                      "phai":  "Tà",
-                      "cap":  110,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "110"
-                  },
-                  {
-                      "rank":  79,
                       "ten":  "JjZjn",
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
@@ -867,6 +856,17 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "110"
+                  },
+                  {
+                      "rank":  79,
+                      "ten":  "OMen",
+                      "nghe":  "Đao",
+                      "phai":  "Tà",
+                      "cap":  110,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "110"
                   },
                   {
@@ -1874,6 +1874,17 @@
                },
                {
                    "rank":  71,
+                   "ten":  "JiZo",
+                   "nghe":  "Đao",
+                   "phai":  "Tà",
+                   "cap":  113,
+                   "capNghe":  5,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  72,
                    "ten":  "JoZo",
                    "nghe":  "Đao",
                    "phai":  "Chính",
@@ -1884,7 +1895,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  72,
+                   "rank":  73,
                    "ten":  "Draken",
                    "nghe":  "Cung",
                    "phai":  "Tà",
@@ -1892,17 +1903,6 @@
                    "capNghe":  6,
                    "trungSinh":  0,
                    "online":  false,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  73,
-                   "ten":  "JiZo",
-                   "nghe":  "Đao",
-                   "phai":  "Tà",
-                   "cap":  112,
-                   "capNghe":  5,
-                   "trungSinh":  0,
-                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
