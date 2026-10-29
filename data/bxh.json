@@ -255,17 +255,6 @@
                   },
                   {
                       "rank":  24,
-                      "ten":  "123456",
-                      "nghe":  "Kiếm",
-                      "phai":  "Chính",
-                      "cap":  135,
-                      "capNghe":  8,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "135"
-                  },
-                  {
-                      "rank":  25,
                       "ten":  "NgaoThien",
                       "nghe":  "Ninja",
                       "phai":  "Tà",
@@ -273,6 +262,17 @@
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "135"
+                  },
+                  {
+                      "rank":  25,
+                      "ten":  "123456",
+                      "nghe":  "Kiếm",
+                      "phai":  "Chính",
+                      "cap":  135,
+                      "capNghe":  8,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "135"
                   },
                   {
@@ -525,7 +525,7 @@
                       "cap":  125,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "125"
                   },
                   {
@@ -1682,7 +1682,7 @@
                    "cap":  125,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
