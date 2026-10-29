@@ -467,11 +467,11 @@
                       "ten":  "QuatChay",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
-                      "cap":  127,
+                      "cap":  128,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "127"
+                      "thanhTuu":  "128"
                   },
                   {
                       "rank":  44,
@@ -1577,6 +1577,17 @@
                },
                {
                    "rank":  44,
+                   "ten":  "QuatChay",
+                   "nghe":  "Đại phu",
+                   "phai":  "Tà",
+                   "cap":  128,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  45,
                    "ten":  "SatVun",
                    "nghe":  "Cung",
                    "phai":  "Chính",
@@ -1587,7 +1598,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  45,
+                   "rank":  46,
                    "ten":  "TiVi",
                    "nghe":  "Cầm sư",
                    "phai":  "Tà",
@@ -1598,7 +1609,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  46,
+                   "rank":  47,
                    "ten":  "TuLanh",
                    "nghe":  "Ninja",
                    "phai":  "Tà",
@@ -1609,7 +1620,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  47,
+                   "rank":  48,
                    "ten":  "Black",
                    "nghe":  "Thương",
                    "phai":  "Tà",
@@ -1620,20 +1631,9 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  48,
+                   "rank":  49,
                    "ten":  "BlackBoy",
                    "nghe":  "Đao",
-                   "phai":  "Tà",
-                   "cap":  127,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  49,
-                   "ten":  "QuatChay",
-                   "nghe":  "Đại phu",
                    "phai":  "Tà",
                    "cap":  127,
                    "capNghe":  7,
