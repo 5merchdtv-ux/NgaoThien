@@ -2,8 +2,8 @@
     "level":  [
                   {
                       "rank":  1,
-                      "ten":  "GaChoi1",
-                      "nghe":  "Kiếm",
+                      "ten":  "SatThan",
+                      "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
                       "cap":  144,
                       "capNghe":  9,
@@ -13,8 +13,8 @@
                   },
                   {
                       "rank":  2,
-                      "ten":  "SatThan",
-                      "nghe":  "Hàn Bảo Quân",
+                      "ten":  "GaChoi1",
+                      "nghe":  "Kiếm",
                       "phai":  "Chính",
                       "cap":  144,
                       "capNghe":  9,
@@ -1111,7 +1111,7 @@
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "733300"
+                   "thanhTuu":  "733800"
                },
                {
                    "rank":  2,
@@ -1133,7 +1133,7 @@
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "194700"
+                   "thanhTuu":  "195200"
                },
                {
                    "rank":  4,
@@ -1144,10 +1144,21 @@
                    "capNghe":  4,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "133000"
+                   "thanhTuu":  "138000"
                },
                {
                    "rank":  5,
+                   "ten":  "NoiComDien",
+                   "nghe":  "Thương",
+                   "phai":  "Chính",
+                   "cap":  128,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "114000"
+               },
+               {
+                   "rank":  6,
                    "ten":  "GaChoi1",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
@@ -1156,17 +1167,6 @@
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "112800"
-               },
-               {
-                   "rank":  6,
-                   "ten":  "NoiComDien",
-                   "nghe":  "Thương",
-                   "phai":  "Chính",
-                   "cap":  128,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "109000"
                },
                {
                    "rank":  7,
@@ -1214,6 +1214,17 @@
                },
                {
                    "rank":  11,
+                   "ten":  "NgaoThien",
+                   "nghe":  "Ninja",
+                   "phai":  "Tà",
+                   "cap":  135,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "54500"
+               },
+               {
+                   "rank":  12,
                    "ten":  "taolao3",
                    "nghe":  "Thần Nữ",
                    "phai":  "Chính",
@@ -1222,17 +1233,6 @@
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "52300"
-               },
-               {
-                   "rank":  12,
-                   "ten":  "NgaoThien",
-                   "nghe":  "Ninja",
-                   "phai":  "Tà",
-                   "cap":  135,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "49500"
                },
                {
                    "rank":  13,
@@ -1287,7 +1287,7 @@
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "30000"
+                   "thanhTuu":  "30500"
                },
                {
                    "rank":  18,
