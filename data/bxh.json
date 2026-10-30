@@ -126,11 +126,11 @@
                       "ten":  "TieuPhung",
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Tà",
-                      "cap":  141,
+                      "cap":  142,
                       "capNghe":  9,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "141"
+                      "thanhTuu":  "142"
                   },
                   {
                       "rank":  13,
@@ -1047,17 +1047,6 @@
                   },
                   {
                       "rank":  96,
-                      "ten":  "SODA",
-                      "nghe":  "Ninja",
-                      "phai":  "Chính",
-                      "cap":  105,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "105"
-                  },
-                  {
-                      "rank":  97,
                       "ten":  "EMiu",
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
@@ -1065,6 +1054,17 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "105"
+                  },
+                  {
+                      "rank":  97,
+                      "ten":  "SODA",
+                      "nghe":  "Ninja",
+                      "phai":  "Chính",
+                      "cap":  105,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "105"
                   },
                   {
@@ -1335,6 +1335,17 @@
                },
                {
                    "rank":  22,
+                   "ten":  "TieuPhung",
+                   "nghe":  "Đàm Hoa Liên",
+                   "phai":  "Tà",
+                   "cap":  142,
+                   "capNghe":  9,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  23,
                    "ten":  "cafe0",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
@@ -1345,7 +1356,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  23,
+                   "rank":  24,
                    "ten":  "taolao1",
                    "nghe":  "Quyền sư",
                    "phai":  "Tà",
@@ -1356,20 +1367,9 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  24,
+                   "rank":  25,
                    "ten":  "TieuLong",
                    "nghe":  "Tử Hào",
-                   "phai":  "Tà",
-                   "cap":  141,
-                   "capNghe":  9,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  25,
-                   "ten":  "TieuPhung",
-                   "nghe":  "Đàm Hoa Liên",
                    "phai":  "Tà",
                    "cap":  141,
                    "capNghe":  9,
