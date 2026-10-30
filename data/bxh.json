@@ -1069,17 +1069,6 @@
                   },
                   {
                       "rank":  98,
-                      "ten":  "Notepads",
-                      "nghe":  "Thương",
-                      "phai":  "Tà",
-                      "cap":  106,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "106"
-                  },
-                  {
-                      "rank":  99,
                       "ten":  "HanPhiQuang",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
@@ -1090,14 +1079,25 @@
                       "thanhTuu":  "106"
                   },
                   {
+                      "rank":  99,
+                      "ten":  "Notepads",
+                      "nghe":  "Thương",
+                      "phai":  "Tà",
+                      "cap":  106,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
+                      "thanhTuu":  "106"
+                  },
+                  {
                       "rank":  100,
-                      "ten":  "Top1Buff",
+                      "ten":  "UyenHeo",
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
                       "cap":  106,
                       "capNghe":  5,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "106"
                   }
               ],
