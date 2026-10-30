@@ -181,11 +181,11 @@
                       "ten":  "cafeden",
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
-                      "cap":  140,
+                      "cap":  141,
                       "capNghe":  9,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "140"
+                      "thanhTuu":  "141"
                   },
                   {
                       "rank":  18,
@@ -354,17 +354,6 @@
                   },
                   {
                       "rank":  33,
-                      "ten":  "cafe3",
-                      "nghe":  "Đàm Hoa Liên",
-                      "phai":  "Chính",
-                      "cap":  130,
-                      "capNghe":  8,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "130"
-                  },
-                  {
-                      "rank":  34,
                       "ten":  "TiVi",
                       "nghe":  "Cầm sư",
                       "phai":  "Tà",
@@ -372,6 +361,17 @@
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "130"
+                  },
+                  {
+                      "rank":  34,
+                      "ten":  "cafe3",
+                      "nghe":  "Đàm Hoa Liên",
+                      "phai":  "Chính",
+                      "cap":  130,
+                      "capNghe":  8,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "130"
                   },
                   {
@@ -827,6 +827,17 @@
                   },
                   {
                       "rank":  76,
+                      "ten":  "UyenHeo",
+                      "nghe":  "Đại phu",
+                      "phai":  "Chính",
+                      "cap":  111,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  true,
+                      "thanhTuu":  "111"
+                  },
+                  {
+                      "rank":  77,
                       "ten":  "DaizenZ2",
                       "nghe":  "Tử Hào",
                       "phai":  "Chính",
@@ -837,7 +848,7 @@
                       "thanhTuu":  "111"
                   },
                   {
-                      "rank":  77,
+                      "rank":  78,
                       "ten":  "DaMayConCho",
                       "nghe":  "Ninja",
                       "phai":  "Tà",
@@ -845,17 +856,6 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  false,
-                      "thanhTuu":  "111"
-                  },
-                  {
-                      "rank":  78,
-                      "ten":  "UyenHeo",
-                      "nghe":  "Đại phu",
-                      "phai":  "Chính",
-                      "cap":  111,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  true,
                       "thanhTuu":  "111"
                   },
                   {
@@ -1368,6 +1368,17 @@
                },
                {
                    "rank":  25,
+                   "ten":  "cafeden",
+                   "nghe":  "Đàm Hoa Liên",
+                   "phai":  "Chính",
+                   "cap":  141,
+                   "capNghe":  9,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  26,
                    "ten":  "taolao0",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
@@ -1378,22 +1389,11 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  26,
+                   "rank":  27,
                    "ten":  "taolao1",
                    "nghe":  "Quyền sư",
                    "phai":  "Tà",
                    "cap":  141,
-                   "capNghe":  9,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  27,
-                   "ten":  "cafeden",
-                   "nghe":  "Đàm Hoa Liên",
-                   "phai":  "Chính",
-                   "cap":  140,
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
