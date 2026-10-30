@@ -5,11 +5,11 @@
                       "ten":  "SatThan",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
-                      "cap":  145,
+                      "cap":  146,
                       "capNghe":  9,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "145"
+                      "thanhTuu":  "146"
                   },
                   {
                       "rank":  2,
@@ -41,7 +41,7 @@
                       "cap":  145,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "145"
                   },
                   {
@@ -74,7 +74,7 @@
                       "cap":  143,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "143"
                   },
                   {
@@ -85,7 +85,7 @@
                       "cap":  143,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "143"
                   },
                   {
@@ -96,7 +96,7 @@
                       "cap":  143,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "143"
                   },
                   {
@@ -258,11 +258,11 @@
                       "ten":  "MaLong",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
-                      "cap":  135,
+                      "cap":  136,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "135"
+                      "thanhTuu":  "136"
                   },
                   {
                       "rank":  25,
@@ -1110,7 +1110,7 @@
                    "cap":  145,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "874800"
                },
                {
@@ -1118,7 +1118,7 @@
                    "ten":  "SatThan",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
-                   "cap":  145,
+                   "cap":  146,
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
@@ -1176,7 +1176,7 @@
                    "cap":  143,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "104000"
                },
                {
@@ -1187,7 +1187,7 @@
                    "cap":  143,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "102000"
                },
                {
@@ -1198,7 +1198,7 @@
                    "cap":  143,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "101500"
                },
                {
@@ -1434,6 +1434,17 @@
                },
                {
                    "rank":  31,
+                   "ten":  "MaLong",
+                   "nghe":  "Đại phu",
+                   "phai":  "Tà",
+                   "cap":  136,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  32,
                    "ten":  "123456",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
@@ -1444,7 +1455,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  32,
+                   "rank":  33,
                    "ten":  "Carlsberg",
                    "nghe":  "Thần Nữ",
                    "phai":  "Tà",
@@ -1452,17 +1463,6 @@
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  false,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  33,
-                   "ten":  "MaLong",
-                   "nghe":  "Đại phu",
-                   "phai":  "Tà",
-                   "cap":  135,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
