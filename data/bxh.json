@@ -38,11 +38,11 @@
                       "ten":  "SatNhan",
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
-                      "cap":  143,
+                      "cap":  144,
                       "capNghe":  9,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "143"
+                      "thanhTuu":  "144"
                   },
                   {
                       "rank":  5,
@@ -723,7 +723,7 @@
                       "cap":  114,
                       "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "114"
                   },
                   {
@@ -822,7 +822,7 @@
                       "cap":  111,
                       "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "111"
                   },
                   {
@@ -1302,10 +1302,10 @@
                },
                {
                    "rank":  19,
-                   "ten":  "GaChoi3",
-                   "nghe":  "Thương",
+                   "ten":  "SatNhan",
+                   "nghe":  "Đại phu",
                    "phai":  "Chính",
-                   "cap":  143,
+                   "cap":  144,
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
@@ -1313,8 +1313,8 @@
                },
                {
                    "rank":  20,
-                   "ten":  "SatNhan",
-                   "nghe":  "Đại phu",
+                   "ten":  "GaChoi3",
+                   "nghe":  "Thương",
                    "phai":  "Chính",
                    "cap":  143,
                    "capNghe":  9,
@@ -1869,7 +1869,7 @@
                    "cap":  114,
                    "capNghe":  6,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
@@ -1957,7 +1957,7 @@
                    "cap":  111,
                    "capNghe":  6,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
