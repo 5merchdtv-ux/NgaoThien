@@ -1047,13 +1047,13 @@
                   },
                   {
                       "rank":  96,
-                      "ten":  "Telegrams",
-                      "nghe":  "Cầm sư",
-                      "phai":  "Tà",
+                      "ten":  "EMiu",
+                      "nghe":  "Đại phu",
+                      "phai":  "Chính",
                       "cap":  105,
                       "capNghe":  5,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "105"
                   },
                   {
@@ -1069,19 +1069,8 @@
                   },
                   {
                       "rank":  98,
-                      "ten":  "EMiu",
-                      "nghe":  "Đại phu",
-                      "phai":  "Chính",
-                      "cap":  105,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  true,
-                      "thanhTuu":  "105"
-                  },
-                  {
-                      "rank":  99,
-                      "ten":  "VoDanh",
-                      "nghe":  "Kiếm",
+                      "ten":  "Telegrams",
+                      "nghe":  "Cầm sư",
                       "phai":  "Tà",
                       "cap":  105,
                       "capNghe":  5,
@@ -1090,7 +1079,7 @@
                       "thanhTuu":  "105"
                   },
                   {
-                      "rank":  100,
+                      "rank":  99,
                       "ten":  "OMenK",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -1098,6 +1087,17 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "105"
+                  },
+                  {
+                      "rank":  100,
+                      "ten":  "VoDanh",
+                      "nghe":  "Kiếm",
+                      "phai":  "Tà",
+                      "cap":  105,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "105"
                   }
               ],
