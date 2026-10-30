@@ -354,17 +354,6 @@
                   },
                   {
                       "rank":  33,
-                      "ten":  "Notepad",
-                      "nghe":  "Cung",
-                      "phai":  "Tà",
-                      "cap":  130,
-                      "capNghe":  8,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "130"
-                  },
-                  {
-                      "rank":  34,
                       "ten":  "TuLanh",
                       "nghe":  "Ninja",
                       "phai":  "Tà",
@@ -372,6 +361,17 @@
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "130"
+                  },
+                  {
+                      "rank":  34,
+                      "ten":  "Notepad",
+                      "nghe":  "Cung",
+                      "phai":  "Tà",
+                      "cap":  130,
+                      "capNghe":  8,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "130"
                   },
                   {
@@ -1091,13 +1091,13 @@
                   },
                   {
                       "rank":  100,
-                      "ten":  "Top1Kiem",
-                      "nghe":  "Kiếm",
-                      "phai":  "Chính",
+                      "ten":  "OMenK",
+                      "nghe":  "Đao",
+                      "phai":  "Tà",
                       "cap":  105,
-                      "capNghe":  5,
+                      "capNghe":  4,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "105"
                   }
               ],
