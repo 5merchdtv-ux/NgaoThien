@@ -233,17 +233,6 @@
                   },
                   {
                       "rank":  22,
-                      "ten":  "Telegram",
-                      "nghe":  "Đại phu",
-                      "phai":  "Tà",
-                      "cap":  135,
-                      "capNghe":  8,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "135"
-                  },
-                  {
-                      "rank":  23,
                       "ten":  "BigDaddy",
                       "nghe":  "Tử Hào",
                       "phai":  "Tà",
@@ -251,6 +240,17 @@
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "135"
+                  },
+                  {
+                      "rank":  23,
+                      "ten":  "Telegram",
+                      "nghe":  "Đại phu",
+                      "phai":  "Tà",
+                      "cap":  135,
+                      "capNghe":  8,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "135"
                   },
                   {
@@ -875,7 +875,7 @@
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
                       "cap":  110,
-                      "capNghe":  5,
+                      "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
                       "thanhTuu":  "110"
@@ -886,7 +886,7 @@
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
                       "cap":  110,
-                      "capNghe":  5,
+                      "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
                       "thanhTuu":  "110"
@@ -2010,7 +2010,7 @@
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
                    "cap":  110,
-                   "capNghe":  5,
+                   "capNghe":  6,
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "30000"
@@ -2054,7 +2054,7 @@
                    "nghe":  "Đại phu",
                    "phai":  "Chính",
                    "cap":  110,
-                   "capNghe":  5,
+                   "capNghe":  6,
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "30000"
