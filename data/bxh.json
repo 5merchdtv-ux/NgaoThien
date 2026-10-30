@@ -437,7 +437,7 @@
                       "cap":  129,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "129"
                   },
                   {
@@ -992,6 +992,17 @@
                   },
                   {
                       "rank":  91,
+                      "ten":  "KiemMa",
+                      "nghe":  "Kiếm",
+                      "phai":  "Tà",
+                      "cap":  108,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  true,
+                      "thanhTuu":  "108"
+                  },
+                  {
+                      "rank":  92,
                       "ten":  "LongKG",
                       "nghe":  "Kiếm",
                       "phai":  "Chính",
@@ -1002,7 +1013,7 @@
                       "thanhTuu":  "108"
                   },
                   {
-                      "rank":  92,
+                      "rank":  93,
                       "ten":  "zKiem",
                       "nghe":  "Kiếm",
                       "phai":  "Tà",
@@ -1010,17 +1021,6 @@
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  false,
-                      "thanhTuu":  "108"
-                  },
-                  {
-                      "rank":  93,
-                      "ten":  "KiemMa",
-                      "nghe":  "Kiếm",
-                      "phai":  "Tà",
-                      "cap":  108,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  true,
                       "thanhTuu":  "108"
                   },
                   {
@@ -1154,7 +1154,7 @@
                    "cap":  129,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "141000"
                },
                {
