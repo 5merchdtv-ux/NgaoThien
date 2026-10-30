@@ -1058,6 +1058,17 @@
                   },
                   {
                       "rank":  97,
+                      "ten":  "MieMie",
+                      "nghe":  "Thần Nữ",
+                      "phai":  "Chính",
+                      "cap":  105,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  true,
+                      "thanhTuu":  "105"
+                  },
+                  {
+                      "rank":  98,
                       "ten":  "VoDanh",
                       "nghe":  "Kiếm",
                       "phai":  "Tà",
@@ -1068,23 +1079,12 @@
                       "thanhTuu":  "105"
                   },
                   {
-                      "rank":  98,
+                      "rank":  99,
                       "ten":  "EMiu",
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
                       "cap":  105,
                       "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  true,
-                      "thanhTuu":  "105"
-                  },
-                  {
-                      "rank":  99,
-                      "ten":  "MieMie",
-                      "nghe":  "Thần Nữ",
-                      "phai":  "Chính",
-                      "cap":  105,
-                      "capNghe":  4,
                       "trungSinh":  0,
                       "online":  true,
                       "thanhTuu":  "105"
@@ -2182,20 +2182,20 @@
                },
                {
                    "rank":  99,
-                   "ten":  "MieMie",
-                   "nghe":  "Thần Nữ",
+                   "ten":  "LongKG",
+                   "nghe":  "Kiếm",
                    "phai":  "Chính",
                    "cap":  105,
-                   "capNghe":  4,
+                   "capNghe":  5,
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "30000"
                },
                {
                    "rank":  100,
-                   "ten":  "OMenK",
-                   "nghe":  "Đao",
-                   "phai":  "Tà",
+                   "ten":  "MieMie",
+                   "nghe":  "Thần Nữ",
+                   "phai":  "Chính",
                    "cap":  105,
                    "capNghe":  5,
                    "trungSinh":  0,
