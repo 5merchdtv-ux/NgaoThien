@@ -16,11 +16,11 @@
                       "ten":  "GaChoi1",
                       "nghe":  "Kiếm",
                       "phai":  "Chính",
-                      "cap":  144,
+                      "cap":  145,
                       "capNghe":  9,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "144"
+                      "thanhTuu":  "145"
                   },
                   {
                       "rank":  3,
@@ -849,6 +849,17 @@
                   },
                   {
                       "rank":  78,
+                      "ten":  "HanPhiQuang",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Chính",
+                      "cap":  110,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  true,
+                      "thanhTuu":  "110"
+                  },
+                  {
+                      "rank":  79,
                       "ten":  "cafe2",
                       "nghe":  "Thương",
                       "phai":  "Tà",
@@ -859,7 +870,7 @@
                       "thanhTuu":  "110"
                   },
                   {
-                      "rank":  79,
+                      "rank":  80,
                       "ten":  "OMen",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -867,17 +878,6 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  false,
-                      "thanhTuu":  "110"
-                  },
-                  {
-                      "rank":  80,
-                      "ten":  "HanPhiQuang",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Chính",
-                      "cap":  110,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  true,
                       "thanhTuu":  "110"
                   },
                   {
@@ -1162,7 +1162,7 @@
                    "ten":  "GaChoi1",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
-                   "cap":  144,
+                   "cap":  145,
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
