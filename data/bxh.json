@@ -68,8 +68,8 @@
                   },
                   {
                       "rank":  7,
-                      "ten":  "TraiAnChoi",
-                      "nghe":  "Đàm Hoa Liên",
+                      "ten":  "GaiMaiDam",
+                      "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
                       "cap":  143,
                       "capNghe":  9,
@@ -79,8 +79,8 @@
                   },
                   {
                       "rank":  8,
-                      "ten":  "GaiMaiDam",
-                      "nghe":  "Hàn Bảo Quân",
+                      "ten":  "TraiAnChoi",
+                      "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
                       "cap":  143,
                       "capNghe":  9,
@@ -1058,6 +1058,17 @@
                   },
                   {
                       "rank":  97,
+                      "ten":  "UyenHeo",
+                      "nghe":  "Đại phu",
+                      "phai":  "Chính",
+                      "cap":  107,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  true,
+                      "thanhTuu":  "107"
+                  },
+                  {
+                      "rank":  98,
                       "ten":  "VoDuyen",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -1066,17 +1077,6 @@
                       "trungSinh":  0,
                       "online":  false,
                       "thanhTuu":  "107"
-                  },
-                  {
-                      "rank":  98,
-                      "ten":  "UyenHeo",
-                      "nghe":  "Đại phu",
-                      "phai":  "Chính",
-                      "cap":  106,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  true,
-                      "thanhTuu":  "106"
                   },
                   {
                       "rank":  99,
@@ -2193,13 +2193,13 @@
                },
                {
                    "rank":  100,
-                   "ten":  "VoDuyen",
-                   "nghe":  "Đao",
-                   "phai":  "Tà",
+                   "ten":  "UyenHeo",
+                   "nghe":  "Đại phu",
+                   "phai":  "Chính",
                    "cap":  107,
                    "capNghe":  5,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                }
            ]
