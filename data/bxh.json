@@ -662,17 +662,6 @@
                   },
                   {
                       "rank":  61,
-                      "ten":  "HanPhiQuang",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Chính",
-                      "cap":  115,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "115"
-                  },
-                  {
-                      "rank":  62,
                       "ten":  "EMiu",
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
@@ -683,7 +672,7 @@
                       "thanhTuu":  "115"
                   },
                   {
-                      "rank":  63,
+                      "rank":  62,
                       "ten":  "MieMie",
                       "nghe":  "Thần Nữ",
                       "phai":  "Chính",
@@ -691,6 +680,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "115"
+                  },
+                  {
+                      "rank":  63,
+                      "ten":  "HanPhiQuang",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Chính",
+                      "cap":  115,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "115"
                   },
                   {
@@ -1080,6 +1080,17 @@
                   },
                   {
                       "rank":  99,
+                      "ten":  "BoyBlack",
+                      "nghe":  "Quyền sư",
+                      "phai":  "Tà",
+                      "cap":  107,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  true,
+                      "thanhTuu":  "107"
+                  },
+                  {
+                      "rank":  100,
                       "ten":  "VoDuyen",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -1088,17 +1099,6 @@
                       "trungSinh":  0,
                       "online":  false,
                       "thanhTuu":  "107"
-                  },
-                  {
-                      "rank":  100,
-                      "ten":  "BoyBlack",
-                      "nghe":  "Quyền sư",
-                      "phai":  "Tà",
-                      "cap":  106,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  true,
-                      "thanhTuu":  "106"
                   }
               ],
     "wx":  [
@@ -2171,6 +2171,17 @@
                },
                {
                    "rank":  98,
+                   "ten":  "BoyBlack",
+                   "nghe":  "Quyền sư",
+                   "phai":  "Tà",
+                   "cap":  107,
+                   "capNghe":  5,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  99,
                    "ten":  "coffee0",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
@@ -2181,20 +2192,9 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  99,
+                   "rank":  100,
                    "ten":  "DonQuixete",
                    "nghe":  "Mai Liễu Chân",
-                   "phai":  "Chính",
-                   "cap":  107,
-                   "capNghe":  5,
-                   "trungSinh":  0,
-                   "online":  false,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  100,
-                   "ten":  "MjMjn",
-                   "nghe":  "Thần Nữ",
                    "phai":  "Chính",
                    "cap":  107,
                    "capNghe":  5,
