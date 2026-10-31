@@ -629,13 +629,13 @@
                   },
                   {
                       "rank":  58,
-                      "ten":  "TestDP",
-                      "nghe":  "Đại phu",
-                      "phai":  "Tà",
+                      "ten":  "MieMie",
+                      "nghe":  "Thần Nữ",
+                      "phai":  "Chính",
                       "cap":  116,
                       "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "116"
                   },
                   {
@@ -651,13 +651,13 @@
                   },
                   {
                       "rank":  60,
-                      "ten":  "MieMie",
-                      "nghe":  "Thần Nữ",
-                      "phai":  "Chính",
+                      "ten":  "TestDP",
+                      "nghe":  "Đại phu",
+                      "phai":  "Tà",
                       "cap":  116,
                       "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "116"
                   },
                   {
@@ -1039,11 +1039,11 @@
                       "ten":  "BoyBlack",
                       "nghe":  "Quyền sư",
                       "phai":  "Tà",
-                      "cap":  107,
+                      "cap":  108,
                       "capNghe":  5,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "107"
+                      "thanhTuu":  "108"
                   },
                   {
                       "rank":  96,
@@ -2149,6 +2149,17 @@
                },
                {
                    "rank":  96,
+                   "ten":  "BoyBlack",
+                   "nghe":  "Quyền sư",
+                   "phai":  "Tà",
+                   "cap":  108,
+                   "capNghe":  5,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  97,
                    "ten":  "Stress",
                    "nghe":  "Tử Hào",
                    "phai":  "Tà",
@@ -2159,7 +2170,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  97,
+                   "rank":  98,
                    "ten":  "zKiem",
                    "nghe":  "Kiếm",
                    "phai":  "Tà",
@@ -2167,17 +2178,6 @@
                    "capNghe":  5,
                    "trungSinh":  0,
                    "online":  false,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  98,
-                   "ten":  "BoyBlack",
-                   "nghe":  "Quyền sư",
-                   "phai":  "Tà",
-                   "cap":  107,
-                   "capNghe":  5,
-                   "trungSinh":  0,
-                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
