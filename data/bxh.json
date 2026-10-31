@@ -8,7 +8,7 @@
                       "cap":  146,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "146"
                   },
                   {
@@ -41,7 +41,7 @@
                       "cap":  145,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "145"
                   },
                   {
@@ -228,7 +228,7 @@
                       "cap":  136,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "136"
                   },
                   {
@@ -239,7 +239,7 @@
                       "cap":  136,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "136"
                   },
                   {
@@ -250,7 +250,7 @@
                       "cap":  136,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "136"
                   },
                   {
@@ -596,17 +596,6 @@
                   },
                   {
                       "rank":  55,
-                      "ten":  "DonQuijote",
-                      "nghe":  "Đao",
-                      "phai":  "Chính",
-                      "cap":  117,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "117"
-                  },
-                  {
-                      "rank":  56,
                       "ten":  "MieMie",
                       "nghe":  "Thần Nữ",
                       "phai":  "Chính",
@@ -614,6 +603,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "117"
+                  },
+                  {
+                      "rank":  56,
+                      "ten":  "DonQuijote",
+                      "nghe":  "Đao",
+                      "phai":  "Chính",
+                      "cap":  117,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "117"
                   },
                   {
@@ -1121,7 +1121,7 @@
                    "cap":  146,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "607808"
                },
                {
@@ -1209,7 +1209,7 @@
                    "cap":  136,
                    "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "87000"
                },
                {
@@ -1308,7 +1308,7 @@
                    "cap":  145,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
@@ -1418,7 +1418,7 @@
                    "cap":  136,
                    "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
@@ -1429,7 +1429,7 @@
                    "cap":  136,
                    "capNghe":  8,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
