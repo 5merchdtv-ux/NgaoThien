@@ -393,7 +393,7 @@
                       "cap":  132,
                       "capNghe":  8,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "132"
                   },
                   {
@@ -1111,7 +1111,7 @@
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "999300"
+                   "thanhTuu":  "1069300"
                },
                {
                    "rank":  2,
@@ -1133,7 +1133,7 @@
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "262300"
+                   "thanhTuu":  "277600"
                },
                {
                    "rank":  4,
@@ -1144,7 +1144,7 @@
                    "capNghe":  4,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "199500"
+                   "thanhTuu":  "218500"
                },
                {
                    "rank":  5,
@@ -1155,7 +1155,7 @@
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "159500"
+                   "thanhTuu":  "178000"
                },
                {
                    "rank":  6,
@@ -1203,6 +1203,17 @@
                },
                {
                    "rank":  10,
+                   "ten":  "GaChoi2",
+                   "nghe":  "Cung",
+                   "phai":  "Tà",
+                   "cap":  145,
+                   "capNghe":  9,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "87300"
+               },
+               {
+                   "rank":  11,
                    "ten":  "NgaoThien",
                    "nghe":  "Ninja",
                    "phai":  "Tà",
@@ -1211,17 +1222,6 @@
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "87000"
-               },
-               {
-                   "rank":  11,
-                   "ten":  "GaChoi2",
-                   "nghe":  "Cung",
-                   "phai":  "Tà",
-                   "cap":  145,
-                   "capNghe":  9,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "84800"
                },
                {
                    "rank":  12,
@@ -1287,7 +1287,7 @@
                    "capNghe":  4,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "35000"
+                   "thanhTuu":  "37500"
                },
                {
                    "rank":  18,
