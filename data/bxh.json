@@ -299,17 +299,6 @@
                   },
                   {
                       "rank":  28,
-                      "ten":  "123456",
-                      "nghe":  "Kiếm",
-                      "phai":  "Chính",
-                      "cap":  135,
-                      "capNghe":  8,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "135"
-                  },
-                  {
-                      "rank":  29,
                       "ten":  "TuLanh",
                       "nghe":  "Ninja",
                       "phai":  "Tà",
@@ -317,6 +306,17 @@
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "135"
+                  },
+                  {
+                      "rank":  29,
+                      "ten":  "123456",
+                      "nghe":  "Kiếm",
+                      "phai":  "Chính",
+                      "cap":  135,
+                      "capNghe":  8,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "135"
                   },
                   {
@@ -467,11 +467,11 @@
                       "ten":  "BlackBoy",
                       "nghe":  "Đao",
                       "phai":  "Tà",
-                      "cap":  128,
+                      "cap":  129,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "128"
+                      "thanhTuu":  "129"
                   },
                   {
                       "rank":  44,
@@ -1621,6 +1621,17 @@
                },
                {
                    "rank":  48,
+                   "ten":  "BlackBoy",
+                   "nghe":  "Đao",
+                   "phai":  "Tà",
+                   "cap":  129,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  49,
                    "ten":  "654321",
                    "nghe":  "Đàm Hoa Liên",
                    "phai":  "Chính",
@@ -1628,17 +1639,6 @@
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  false,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  49,
-                   "ten":  "BlackBoy",
-                   "nghe":  "Đao",
-                   "phai":  "Tà",
-                   "cap":  128,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
