@@ -346,11 +346,11 @@
                       "ten":  "TiVi",
                       "nghe":  "Cầm sư",
                       "phai":  "Tà",
-                      "cap":  134,
+                      "cap":  135,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "134"
+                      "thanhTuu":  "135"
                   },
                   {
                       "rank":  33,
@@ -481,7 +481,7 @@
                       "cap":  128,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "128"
                   },
                   {
@@ -569,7 +569,7 @@
                       "cap":  120,
                       "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "120"
                   },
                   {
@@ -1500,6 +1500,17 @@
                },
                {
                    "rank":  37,
+                   "ten":  "TiVi",
+                   "nghe":  "Cầm sư",
+                   "phai":  "Tà",
+                   "cap":  135,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  38,
                    "ten":  "TuLanh",
                    "nghe":  "Ninja",
                    "phai":  "Tà",
@@ -1510,7 +1521,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  38,
+                   "rank":  39,
                    "ten":  "XeDap",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
@@ -1521,7 +1532,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  39,
+                   "rank":  40,
                    "ten":  "HBQ018",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -1532,20 +1543,9 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  40,
+                   "rank":  41,
                    "ten":  "QuatChay",
                    "nghe":  "Đại phu",
-                   "phai":  "Tà",
-                   "cap":  134,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  41,
-                   "ten":  "TiVi",
-                   "nghe":  "Cầm sư",
                    "phai":  "Tà",
                    "cap":  134,
                    "capNghe":  8,
@@ -1638,7 +1638,7 @@
                    "cap":  128,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
@@ -1748,7 +1748,7 @@
                    "cap":  120,
                    "capNghe":  6,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
