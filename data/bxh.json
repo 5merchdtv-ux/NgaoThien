@@ -35,17 +35,6 @@
                   },
                   {
                       "rank":  4,
-                      "ten":  "GaiNhaQue",
-                      "nghe":  "Cung",
-                      "phai":  "Chính",
-                      "cap":  146,
-                      "capNghe":  9,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "146"
-                  },
-                  {
-                      "rank":  5,
                       "ten":  "GaChoi2",
                       "nghe":  "Cung",
                       "phai":  "Tà",
@@ -53,6 +42,17 @@
                       "capNghe":  9,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "146"
+                  },
+                  {
+                      "rank":  5,
+                      "ten":  "GaiNhaQue",
+                      "nghe":  "Cung",
+                      "phai":  "Chính",
+                      "cap":  146,
+                      "capNghe":  9,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "146"
                   },
                   {
@@ -379,11 +379,11 @@
                       "ten":  "SatVun",
                       "nghe":  "Cung",
                       "phai":  "Chính",
-                      "cap":  133,
+                      "cap":  134,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "133"
+                      "thanhTuu":  "134"
                   },
                   {
                       "rank":  36,
@@ -1250,7 +1250,7 @@
                    "ten":  "SatVun",
                    "nghe":  "Cung",
                    "phai":  "Chính",
-                   "cap":  133,
+                   "cap":  134,
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
