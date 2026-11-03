@@ -335,25 +335,14 @@
                       "ten":  "SatVun",
                       "nghe":  "Cung",
                       "phai":  "Chính",
-                      "cap":  135,
+                      "cap":  136,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "135"
+                      "thanhTuu":  "136"
                   },
                   {
                       "rank":  32,
-                      "ten":  "Carlsberg",
-                      "nghe":  "Thần Nữ",
-                      "phai":  "Tà",
-                      "cap":  135,
-                      "capNghe":  8,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "135"
-                  },
-                  {
-                      "rank":  33,
                       "ten":  "NoiComDien",
                       "nghe":  "Thương",
                       "phai":  "Chính",
@@ -361,6 +350,17 @@
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "135"
+                  },
+                  {
+                      "rank":  33,
+                      "ten":  "Carlsberg",
+                      "nghe":  "Thần Nữ",
+                      "phai":  "Tà",
+                      "cap":  135,
+                      "capNghe":  8,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "135"
                   },
                   {
@@ -1217,7 +1217,7 @@
                    "ten":  "SatVun",
                    "nghe":  "Cung",
                    "phai":  "Chính",
-                   "cap":  135,
+                   "cap":  136,
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
