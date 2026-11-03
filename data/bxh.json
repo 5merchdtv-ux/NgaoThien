@@ -1214,6 +1214,17 @@
                },
                {
                    "rank":  11,
+                   "ten":  "SatVun",
+                   "nghe":  "Cung",
+                   "phai":  "Chính",
+                   "cap":  135,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "90000"
+               },
+               {
+                   "rank":  12,
                    "ten":  "NgaoThien",
                    "nghe":  "Ninja",
                    "phai":  "Tà",
@@ -1224,7 +1235,7 @@
                    "thanhTuu":  "87000"
                },
                {
-                   "rank":  12,
+                   "rank":  13,
                    "ten":  "SonGoKu",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -1233,17 +1244,6 @@
                    "trungSinh":  0,
                    "online":  false,
                    "thanhTuu":  "70000"
-               },
-               {
-                   "rank":  13,
-                   "ten":  "SatVun",
-                   "nghe":  "Cung",
-                   "phai":  "Chính",
-                   "cap":  135,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "60000"
                },
                {
                    "rank":  14,
