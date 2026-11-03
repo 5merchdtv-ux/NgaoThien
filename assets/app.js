@@ -312,7 +312,7 @@
     getJson("data/trang-thai.json").then(function (d) { store.trangThai = d; renderChannels(); renderUpdated(); })
       .catch(function () { byId("channels").innerHTML = '<div class="skeleton">Không tải được.</div>'; });
     getJson("data/noi-dung.json").then(function (d) { store.noiDung = d; renderLinks(); }).catch(function () {});
-    getJson("data/tin-tuc.json").then(function (d) { store.tinTuc = d; renderNewsInto("news"); renderNewsInto("home-news", 3); })
+    getJson("data/tin-tuc.json").then(function (d) { store.tinTuc = d; renderNewsInto("news"); renderNewsInto("home-news", 4); })
       .catch(function () { byId("news").innerHTML = '<div class="news-empty">Không tải được tin tức.</div>'; });
     getJson("data/bxh.json").then(function (d) { store.bxh = d; renderBxh("level"); renderLvMax(); renderTopCaoThu(); })
       .catch(function () {
