@@ -79,9 +79,9 @@
                   },
                   {
                       "rank":  8,
-                      "ten":  "GaChoi4",
-                      "nghe":  "Thần Nữ",
-                      "phai":  "Tà",
+                      "ten":  "GaiMaiDam",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Chính",
                       "cap":  147,
                       "capNghe":  9,
                       "trungSinh":  0,
@@ -90,9 +90,9 @@
                   },
                   {
                       "rank":  9,
-                      "ten":  "GaiMaiDam",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Chính",
+                      "ten":  "GaChoi4",
+                      "nghe":  "Thần Nữ",
+                      "phai":  "Tà",
                       "cap":  147,
                       "capNghe":  9,
                       "trungSinh":  0,
@@ -511,11 +511,11 @@
                       "ten":  "BoyBlack",
                       "nghe":  "Quyền sư",
                       "phai":  "Tà",
-                      "cap":  128,
+                      "cap":  129,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "128"
+                      "thanhTuu":  "129"
                   },
                   {
                       "rank":  48,
@@ -1665,6 +1665,17 @@
                },
                {
                    "rank":  52,
+                   "ten":  "BoyBlack",
+                   "nghe":  "Quyền sư",
+                   "phai":  "Tà",
+                   "cap":  129,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  53,
                    "ten":  "654321",
                    "nghe":  "Đàm Hoa Liên",
                    "phai":  "Chính",
@@ -1672,17 +1683,6 @@
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  false,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  53,
-                   "ten":  "BoyBlack",
-                   "nghe":  "Quyền sư",
-                   "phai":  "Tà",
-                   "cap":  128,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
