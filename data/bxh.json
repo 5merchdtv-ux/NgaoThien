@@ -897,7 +897,7 @@
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Tà",
                       "cap":  112,
-                      "capNghe":  5,
+                      "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
                       "thanhTuu":  "112"
@@ -926,6 +926,17 @@
                   },
                   {
                       "rank":  85,
+                      "ten":  "cafe01",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Chính",
+                      "cap":  112,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
+                      "thanhTuu":  "112"
+                  },
+                  {
+                      "rank":  86,
                       "ten":  "Takeru",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -936,7 +947,7 @@
                       "thanhTuu":  "112"
                   },
                   {
-                      "rank":  86,
+                      "rank":  87,
                       "ten":  "LeviAckerman",
                       "nghe":  "Thương",
                       "phai":  "Tà",
@@ -944,17 +955,6 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  false,
-                      "thanhTuu":  "112"
-                  },
-                  {
-                      "rank":  87,
-                      "ten":  "cafe01",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Chính",
-                      "cap":  112,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  true,
                       "thanhTuu":  "112"
                   },
                   {
@@ -2054,9 +2054,9 @@
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
                    "cap":  112,
-                   "capNghe":  5,
+                   "capNghe":  6,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
@@ -2065,7 +2065,7 @@
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
                    "cap":  112,
-                   "capNghe":  5,
+                   "capNghe":  6,
                    "trungSinh":  0,
                    "online":  true,
                    "thanhTuu":  "30000"
