@@ -580,7 +580,7 @@
                       "cap":  123,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "123"
                   },
                   {
@@ -591,7 +591,7 @@
                       "cap":  123,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "123"
                   },
                   {
@@ -602,7 +602,7 @@
                       "cap":  123,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "123"
                   },
                   {
@@ -613,7 +613,7 @@
                       "cap":  123,
                       "capNghe":  7,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "123"
                   },
                   {
@@ -750,17 +750,6 @@
                   },
                   {
                       "rank":  69,
-                      "ten":  "HanPhiQuang",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Chính",
-                      "cap":  115,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "115"
-                  },
-                  {
-                      "rank":  70,
                       "ten":  "cafe02",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Tà",
@@ -768,6 +757,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "115"
+                  },
+                  {
+                      "rank":  70,
+                      "ten":  "HanPhiQuang",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Chính",
+                      "cap":  115,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "115"
                   },
                   {
@@ -1737,7 +1737,7 @@
                    "cap":  123,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
@@ -1748,7 +1748,7 @@
                    "cap":  123,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
@@ -1759,7 +1759,7 @@
                    "cap":  123,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
@@ -1770,7 +1770,7 @@
                    "cap":  123,
                    "capNghe":  7,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
