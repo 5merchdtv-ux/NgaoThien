@@ -684,17 +684,6 @@
                   },
                   {
                       "rank":  63,
-                      "ten":  "OMenK",
-                      "nghe":  "Đao",
-                      "phai":  "Tà",
-                      "cap":  119,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "119"
-                  },
-                  {
-                      "rank":  64,
                       "ten":  "cafe01",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
@@ -702,6 +691,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "119"
+                  },
+                  {
+                      "rank":  64,
+                      "ten":  "OMenK",
+                      "nghe":  "Đao",
+                      "phai":  "Tà",
+                      "cap":  119,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "119"
                   },
                   {
@@ -1132,7 +1132,7 @@
                    "cap":  145,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "548900"
                },
                {
