@@ -266,17 +266,6 @@
                   },
                   {
                       "rank":  25,
-                      "ten":  "SonGoKu",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Tà",
-                      "cap":  140,
-                      "capNghe":  9,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "140"
-                  },
-                  {
-                      "rank":  26,
                       "ten":  "MayKhau",
                       "nghe":  "Quyền sư",
                       "phai":  "Tà",
@@ -284,6 +273,17 @@
                       "capNghe":  9,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "140"
+                  },
+                  {
+                      "rank":  26,
+                      "ten":  "SonGoKu",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Tà",
+                      "cap":  140,
+                      "capNghe":  9,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "140"
                   },
                   {
@@ -503,7 +503,7 @@
                       "cap":  130,
                       "capNghe":  12,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "130"
                   },
                   {
@@ -1660,7 +1660,7 @@
                    "cap":  130,
                    "capNghe":  12,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
