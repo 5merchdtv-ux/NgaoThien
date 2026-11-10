@@ -651,17 +651,6 @@
                   },
                   {
                       "rank":  60,
-                      "ten":  "DonQuixote",
-                      "nghe":  "Thần Nữ",
-                      "phai":  "Chính",
-                      "cap":  117,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "117"
-                  },
-                  {
-                      "rank":  61,
                       "ten":  "NaNa",
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
@@ -672,7 +661,7 @@
                       "thanhTuu":  "117"
                   },
                   {
-                      "rank":  62,
+                      "rank":  61,
                       "ten":  "EMie",
                       "nghe":  "Thần Nữ",
                       "phai":  "Chính",
@@ -683,7 +672,7 @@
                       "thanhTuu":  "117"
                   },
                   {
-                      "rank":  63,
+                      "rank":  62,
                       "ten":  "LongGx",
                       "nghe":  "Kiếm",
                       "phai":  "Chính",
@@ -694,9 +683,20 @@
                       "thanhTuu":  "117"
                   },
                   {
-                      "rank":  64,
-                      "ten":  "DaiZenz",
+                      "rank":  63,
+                      "ten":  "OMenDao",
                       "nghe":  "Đao",
+                      "phai":  "Tà",
+                      "cap":  117,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  true,
+                      "thanhTuu":  "117"
+                  },
+                  {
+                      "rank":  64,
+                      "ten":  "DonQuixote",
+                      "nghe":  "Thần Nữ",
                       "phai":  "Chính",
                       "cap":  117,
                       "capNghe":  6,
@@ -706,13 +706,13 @@
                   },
                   {
                       "rank":  65,
-                      "ten":  "OMenDao",
+                      "ten":  "DaiZenz",
                       "nghe":  "Đao",
-                      "phai":  "Tà",
+                      "phai":  "Chính",
                       "cap":  117,
                       "capNghe":  6,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "117"
                   },
                   {
