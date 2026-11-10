@@ -610,11 +610,11 @@
                       "ten":  "LongGx",
                       "nghe":  "Kiếm",
                       "phai":  "Chính",
-                      "cap":  122,
+                      "cap":  123,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "122"
+                      "thanhTuu":  "123"
                   },
                   {
                       "rank":  57,
@@ -1742,6 +1742,17 @@
                },
                {
                    "rank":  59,
+                   "ten":  "LongGx",
+                   "nghe":  "Kiếm",
+                   "phai":  "Chính",
+                   "cap":  123,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  60,
                    "ten":  "NaNa",
                    "nghe":  "Đại phu",
                    "phai":  "Chính",
@@ -1752,22 +1763,11 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  60,
+                   "rank":  61,
                    "ten":  "OMenDao",
                    "nghe":  "Đao",
                    "phai":  "Tà",
                    "cap":  123,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  61,
-                   "ten":  "LongGx",
-                   "nghe":  "Kiếm",
-                   "phai":  "Chính",
-                   "cap":  122,
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  true,
