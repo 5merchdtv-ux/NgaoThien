@@ -170,11 +170,11 @@
                       "ten":  "taolao3",
                       "nghe":  "Thần Nữ",
                       "phai":  "Chính",
-                      "cap":  147,
+                      "cap":  148,
                       "capNghe":  9,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "147"
+                      "thanhTuu":  "148"
                   },
                   {
                       "rank":  17,
@@ -503,7 +503,7 @@
                       "cap":  130,
                       "capNghe":  12,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "130"
                   },
                   {
@@ -915,6 +915,17 @@
                   },
                   {
                       "rank":  84,
+                      "ten":  "cafe02",
+                      "nghe":  "Hàn Bảo Quân",
+                      "phai":  "Tà",
+                      "cap":  112,
+                      "capNghe":  5,
+                      "trungSinh":  0,
+                      "online":  true,
+                      "thanhTuu":  "112"
+                  },
+                  {
+                      "rank":  85,
                       "ten":  "Takeru",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -925,7 +936,7 @@
                       "thanhTuu":  "112"
                   },
                   {
-                      "rank":  85,
+                      "rank":  86,
                       "ten":  "LeviAckerman",
                       "nghe":  "Thương",
                       "phai":  "Tà",
@@ -933,17 +944,6 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  false,
-                      "thanhTuu":  "112"
-                  },
-                  {
-                      "rank":  86,
-                      "ten":  "cafe02",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Tà",
-                      "cap":  112,
-                      "capNghe":  5,
-                      "trungSinh":  0,
-                      "online":  true,
                       "thanhTuu":  "112"
                   },
                   {
@@ -1272,7 +1272,7 @@
                    "ten":  "taolao3",
                    "nghe":  "Thần Nữ",
                    "phai":  "Chính",
-                   "cap":  147,
+                   "cap":  148,
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
@@ -1660,7 +1660,7 @@
                    "cap":  130,
                    "capNghe":  12,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
