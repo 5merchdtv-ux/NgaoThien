@@ -574,8 +574,8 @@
                   },
                   {
                       "rank":  53,
-                      "ten":  "NaNa",
-                      "nghe":  "Đại phu",
+                      "ten":  "EMie",
+                      "nghe":  "Thần Nữ",
                       "phai":  "Chính",
                       "cap":  123,
                       "capNghe":  7,
@@ -585,8 +585,8 @@
                   },
                   {
                       "rank":  54,
-                      "ten":  "EMie",
-                      "nghe":  "Thần Nữ",
+                      "ten":  "NaNa",
+                      "nghe":  "Đại phu",
                       "phai":  "Chính",
                       "cap":  123,
                       "capNghe":  7,
@@ -907,11 +907,11 @@
                       "ten":  "cafe01",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
-                      "cap":  112,
+                      "cap":  113,
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "112"
+                      "thanhTuu":  "113"
                   },
                   {
                       "rank":  84,
@@ -2039,6 +2039,17 @@
                },
                {
                    "rank":  86,
+                   "ten":  "cafe01",
+                   "nghe":  "Hàn Bảo Quân",
+                   "phai":  "Chính",
+                   "cap":  113,
+                   "capNghe":  6,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  87,
                    "ten":  "cafe02",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -2049,7 +2060,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  87,
+                   "rank":  88,
                    "ten":  "JiZo",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -2057,17 +2068,6 @@
                    "capNghe":  6,
                    "trungSinh":  0,
                    "online":  false,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  88,
-                   "ten":  "cafe01",
-                   "nghe":  "Hàn Bảo Quân",
-                   "phai":  "Chính",
-                   "cap":  112,
-                   "capNghe":  6,
-                   "trungSinh":  0,
-                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
