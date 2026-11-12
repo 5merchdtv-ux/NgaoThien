@@ -544,11 +544,11 @@
                       "ten":  "LongGx",
                       "nghe":  "Kiếm",
                       "phai":  "Chính",
-                      "cap":  127,
+                      "cap":  128,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "127"
+                      "thanhTuu":  "128"
                   },
                   {
                       "rank":  51,
@@ -1687,6 +1687,17 @@
                },
                {
                    "rank":  54,
+                   "ten":  "LongGx",
+                   "nghe":  "Kiếm",
+                   "phai":  "Chính",
+                   "cap":  128,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  55,
                    "ten":  "NeverDonate",
                    "nghe":  "Thương",
                    "phai":  "Tà",
@@ -1697,20 +1708,9 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  55,
+                   "rank":  56,
                    "ten":  "EMie",
                    "nghe":  "Thần Nữ",
-                   "phai":  "Chính",
-                   "cap":  127,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  56,
-                   "ten":  "LongGx",
-                   "nghe":  "Kiếm",
                    "phai":  "Chính",
                    "cap":  127,
                    "capNghe":  7,
