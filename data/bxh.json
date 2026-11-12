@@ -217,7 +217,7 @@
                       "cap":  144,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "144"
                   },
                   {
@@ -228,7 +228,7 @@
                       "cap":  144,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "144"
                   },
                   {
@@ -239,7 +239,7 @@
                       "cap":  144,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "144"
                   },
                   {
@@ -250,7 +250,7 @@
                       "cap":  143,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "143"
                   },
                   {
@@ -566,11 +566,11 @@
                       "ten":  "EMie",
                       "nghe":  "Thần Nữ",
                       "phai":  "Chính",
-                      "cap":  127,
+                      "cap":  128,
                       "capNghe":  7,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "127"
+                      "thanhTuu":  "128"
                   },
                   {
                       "rank":  53,
@@ -1429,7 +1429,7 @@
                    "cap":  144,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
@@ -1440,7 +1440,7 @@
                    "cap":  144,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
@@ -1451,7 +1451,7 @@
                    "cap":  143,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
@@ -1687,6 +1687,17 @@
                },
                {
                    "rank":  54,
+                   "ten":  "EMie",
+                   "nghe":  "Thần Nữ",
+                   "phai":  "Chính",
+                   "cap":  128,
+                   "capNghe":  7,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  55,
                    "ten":  "LongGx",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
@@ -1697,7 +1708,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  55,
+                   "rank":  56,
                    "ten":  "NeverDonate",
                    "nghe":  "Thương",
                    "phai":  "Tà",
@@ -1708,22 +1719,11 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  56,
+                   "rank":  57,
                    "ten":  "OMenDao",
                    "nghe":  "Đao",
                    "phai":  "Tà",
                    "cap":  128,
-                   "capNghe":  7,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  57,
-                   "ten":  "EMie",
-                   "nghe":  "Thần Nữ",
-                   "phai":  "Chính",
-                   "cap":  127,
                    "capNghe":  7,
                    "trungSinh":  0,
                    "online":  true,
