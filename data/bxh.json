@@ -60,11 +60,11 @@
                       "ten":  "TieuLong",
                       "nghe":  "Tử Hào",
                       "phai":  "Tà",
-                      "cap":  143,
+                      "cap":  144,
                       "capNghe":  9,
                       "trungSinh":  1,
                       "online":  true,
-                      "thanhTuu":  "143"
+                      "thanhTuu":  "144"
                   },
                   {
                       "rank":  7,
@@ -236,11 +236,11 @@
                       "ten":  "MaLong",
                       "nghe":  "Đại phu",
                       "phai":  "Tà",
-                      "cap":  143,
+                      "cap":  144,
                       "capNghe":  9,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "143"
+                      "thanhTuu":  "144"
                   },
                   {
                       "rank":  23,
@@ -456,11 +456,11 @@
                       "ten":  "BoyBlack",
                       "nghe":  "Quyền sư",
                       "phai":  "Tà",
-                      "cap":  131,
+                      "cap":  132,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "131"
+                      "thanhTuu":  "132"
                   },
                   {
                       "rank":  43,
@@ -503,7 +503,7 @@
                       "cap":  130,
                       "capNghe":  12,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "130"
                   },
                   {
@@ -1173,7 +1173,7 @@
                    "ten":  "TieuLong",
                    "nghe":  "Tử Hào",
                    "phai":  "Tà",
-                   "cap":  143,
+                   "cap":  144,
                    "capNghe":  9,
                    "trungSinh":  1,
                    "online":  true,
@@ -1434,10 +1434,10 @@
                },
                {
                    "rank":  31,
-                   "ten":  "LongNhi",
-                   "nghe":  "Hàn Bảo Quân",
-                   "phai":  "Chính",
-                   "cap":  143,
+                   "ten":  "MaLong",
+                   "nghe":  "Đại phu",
+                   "phai":  "Tà",
+                   "cap":  144,
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
@@ -1445,9 +1445,9 @@
                },
                {
                    "rank":  32,
-                   "ten":  "MaLong",
-                   "nghe":  "Đại phu",
-                   "phai":  "Tà",
+                   "ten":  "LongNhi",
+                   "nghe":  "Hàn Bảo Quân",
+                   "phai":  "Chính",
                    "cap":  143,
                    "capNghe":  9,
                    "trungSinh":  0,
@@ -1599,8 +1599,8 @@
                },
                {
                    "rank":  46,
-                   "ten":  "GirlBlack",
-                   "nghe":  "Hàn Bảo Quân",
+                   "ten":  "BoyBlack",
+                   "nghe":  "Quyền sư",
                    "phai":  "Tà",
                    "cap":  132,
                    "capNghe":  8,
@@ -1610,10 +1610,10 @@
                },
                {
                    "rank":  47,
-                   "ten":  "BoyBlack",
-                   "nghe":  "Quyền sư",
+                   "ten":  "GirlBlack",
+                   "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
-                   "cap":  131,
+                   "cap":  132,
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
@@ -1660,7 +1660,7 @@
                    "cap":  130,
                    "capNghe":  12,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
