@@ -1111,7 +1111,7 @@
                    "capNghe":  10,
                    "trungSinh":  1,
                    "online":  true,
-                   "thanhTuu":  "1566300"
+                   "thanhTuu":  "1597300"
                },
                {
                    "rank":  2,
@@ -1133,7 +1133,7 @@
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "609700"
+                   "thanhTuu":  "613000"
                },
                {
                    "rank":  4,
@@ -1143,8 +1143,8 @@
                    "cap":  93,
                    "capNghe":  4,
                    "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "449000"
+                   "online":  false,
+                   "thanhTuu":  "465500"
                },
                {
                    "rank":  5,
@@ -1155,7 +1155,7 @@
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "398500"
+                   "thanhTuu":  "406000"
                },
                {
                    "rank":  6,
@@ -1302,6 +1302,17 @@
                },
                {
                    "rank":  19,
+                   "ten":  "GaChoi2",
+                   "nghe":  "Cung",
+                   "phai":  "Tà",
+                   "cap":  147,
+                   "capNghe":  10,
+                   "trungSinh":  1,
+                   "online":  true,
+                   "thanhTuu":  "70100"
+               },
+               {
+                   "rank":  20,
                    "ten":  "SonGoKu",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -1310,17 +1321,6 @@
                    "trungSinh":  0,
                    "online":  false,
                    "thanhTuu":  "70000"
-               },
-               {
-                   "rank":  20,
-                   "ten":  "GaChoi2",
-                   "nghe":  "Cung",
-                   "phai":  "Tà",
-                   "cap":  147,
-                   "capNghe":  10,
-                   "trungSinh":  1,
-                   "online":  true,
-                   "thanhTuu":  "68100"
                },
                {
                    "rank":  21,
