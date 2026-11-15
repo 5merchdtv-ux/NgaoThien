@@ -79,17 +79,6 @@
                   },
                   {
                       "rank":  8,
-                      "ten":  "GaiMaiDam",
-                      "nghe":  "Hàn Bảo Quân",
-                      "phai":  "Chính",
-                      "cap":  144,
-                      "capNghe":  10,
-                      "trungSinh":  1,
-                      "online":  true,
-                      "thanhTuu":  "144"
-                  },
-                  {
-                      "rank":  9,
                       "ten":  "TraiAnChoi",
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
@@ -100,9 +89,20 @@
                       "thanhTuu":  "144"
                   },
                   {
-                      "rank":  10,
+                      "rank":  9,
                       "ten":  "AnhNongDan",
                       "nghe":  "Đại phu",
+                      "phai":  "Chính",
+                      "cap":  144,
+                      "capNghe":  10,
+                      "trungSinh":  1,
+                      "online":  true,
+                      "thanhTuu":  "144"
+                  },
+                  {
+                      "rank":  10,
+                      "ten":  "GaiMaiDam",
+                      "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
                       "cap":  144,
                       "capNghe":  10,
