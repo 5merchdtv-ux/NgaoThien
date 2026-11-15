@@ -38,11 +38,11 @@
                       "ten":  "GaChoi1",
                       "nghe":  "Kiếm",
                       "phai":  "Chính",
-                      "cap":  149,
+                      "cap":  150,
                       "capNghe":  10,
                       "trungSinh":  1,
                       "online":  true,
-                      "thanhTuu":  "149"
+                      "thanhTuu":  "150"
                   },
                   {
                       "rank":  5,
@@ -126,11 +126,11 @@
                       "ten":  "GaChoi4",
                       "nghe":  "Thần Nữ",
                       "phai":  "Tà",
-                      "cap":  143,
+                      "cap":  144,
                       "capNghe":  10,
                       "trungSinh":  1,
                       "online":  true,
-                      "thanhTuu":  "143"
+                      "thanhTuu":  "144"
                   },
                   {
                       "rank":  13,
@@ -1184,7 +1184,7 @@
                    "ten":  "GaChoi1",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
-                   "cap":  149,
+                   "cap":  150,
                    "capNghe":  10,
                    "trungSinh":  1,
                    "online":  true,
@@ -1412,6 +1412,17 @@
                },
                {
                    "rank":  29,
+                   "ten":  "GaChoi4",
+                   "nghe":  "Thần Nữ",
+                   "phai":  "Tà",
+                   "cap":  144,
+                   "capNghe":  10,
+                   "trungSinh":  1,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  30,
                    "ten":  "LongNhi",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Chính",
@@ -1422,24 +1433,13 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  30,
+                   "rank":  31,
                    "ten":  "MaLong",
                    "nghe":  "Đại phu",
                    "phai":  "Tà",
                    "cap":  144,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  31,
-                   "ten":  "GaChoi4",
-                   "nghe":  "Thần Nữ",
-                   "phai":  "Tà",
-                   "cap":  143,
-                   "capNghe":  10,
-                   "trungSinh":  1,
                    "online":  true,
                    "thanhTuu":  "30000"
                },
