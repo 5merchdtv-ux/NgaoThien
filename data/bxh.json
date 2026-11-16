@@ -71,6 +71,17 @@
                       "ten":  "AnhNongDan",
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
+                      "cap":  146,
+                      "capNghe":  10,
+                      "trungSinh":  1,
+                      "online":  true,
+                      "thanhTuu":  "146"
+                  },
+                  {
+                      "rank":  8,
+                      "ten":  "TieuPhung",
+                      "nghe":  "Đàm Hoa Liên",
+                      "phai":  "Tà",
                       "cap":  145,
                       "capNghe":  10,
                       "trungSinh":  1,
@@ -78,7 +89,7 @@
                       "thanhTuu":  "145"
                   },
                   {
-                      "rank":  8,
+                      "rank":  9,
                       "ten":  "GaiMaiDam",
                       "nghe":  "Hàn Bảo Quân",
                       "phai":  "Chính",
@@ -89,21 +100,10 @@
                       "thanhTuu":  "145"
                   },
                   {
-                      "rank":  9,
+                      "rank":  10,
                       "ten":  "TraiAnChoi",
                       "nghe":  "Đàm Hoa Liên",
                       "phai":  "Chính",
-                      "cap":  145,
-                      "capNghe":  10,
-                      "trungSinh":  1,
-                      "online":  true,
-                      "thanhTuu":  "145"
-                  },
-                  {
-                      "rank":  10,
-                      "ten":  "TieuPhung",
-                      "nghe":  "Đàm Hoa Liên",
-                      "phai":  "Tà",
                       "cap":  145,
                       "capNghe":  10,
                       "trungSinh":  1,
@@ -717,17 +717,6 @@
                   },
                   {
                       "rank":  66,
-                      "ten":  "DonQuixote",
-                      "nghe":  "Thần Nữ",
-                      "phai":  "Chính",
-                      "cap":  117,
-                      "capNghe":  6,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "117"
-                  },
-                  {
-                      "rank":  67,
                       "ten":  "cafe222",
                       "nghe":  "Quyền sư",
                       "phai":  "Tà",
@@ -738,7 +727,7 @@
                       "thanhTuu":  "117"
                   },
                   {
-                      "rank":  68,
+                      "rank":  67,
                       "ten":  "cafe111",
                       "nghe":  "Quyền sư",
                       "phai":  "Chính",
@@ -746,6 +735,17 @@
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "117"
+                  },
+                  {
+                      "rank":  68,
+                      "ten":  "DonQuixote",
+                      "nghe":  "Thần Nữ",
+                      "phai":  "Chính",
+                      "cap":  117,
+                      "capNghe":  6,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "117"
                   },
                   {
@@ -1228,7 +1228,7 @@
                    "ten":  "AnhNongDan",
                    "nghe":  "Đại phu",
                    "phai":  "Chính",
-                   "cap":  145,
+                   "cap":  146,
                    "capNghe":  10,
                    "trungSinh":  1,
                    "online":  true,
