@@ -206,7 +206,7 @@
                       "cap":  148,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "148"
                   },
                   {
@@ -261,7 +261,7 @@
                       "cap":  143,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "143"
                   },
                   {
@@ -272,7 +272,7 @@
                       "cap":  143,
                       "capNghe":  9,
                       "trungSinh":  0,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "143"
                   },
                   {
@@ -720,11 +720,11 @@
                       "ten":  "cafe111",
                       "nghe":  "Quyền sư",
                       "phai":  "Chính",
-                      "cap":  117,
+                      "cap":  118,
                       "capNghe":  6,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "117"
+                      "thanhTuu":  "118"
                   },
                   {
                       "rank":  67,
@@ -1121,7 +1121,7 @@
                    "cap":  148,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "641600"
                },
                {
@@ -1462,7 +1462,7 @@
                    "cap":  143,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
@@ -1473,7 +1473,7 @@
                    "cap":  143,
                    "capNghe":  9,
                    "trungSinh":  0,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "30000"
                },
                {
@@ -1863,9 +1863,9 @@
                },
                {
                    "rank":  70,
-                   "ten":  "cafe222",
+                   "ten":  "cafe111",
                    "nghe":  "Quyền sư",
-                   "phai":  "Tà",
+                   "phai":  "Chính",
                    "cap":  118,
                    "capNghe":  6,
                    "trungSinh":  0,
@@ -1874,10 +1874,10 @@
                },
                {
                    "rank":  71,
-                   "ten":  "cafe111",
+                   "ten":  "cafe222",
                    "nghe":  "Quyền sư",
-                   "phai":  "Chính",
-                   "cap":  117,
+                   "phai":  "Tà",
+                   "cap":  118,
                    "capNghe":  6,
                    "trungSinh":  0,
                    "online":  true,
