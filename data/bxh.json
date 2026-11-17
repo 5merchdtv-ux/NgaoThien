@@ -140,7 +140,7 @@
                       "cap":  144,
                       "capNghe":  10,
                       "trungSinh":  1,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "144"
                   },
                   {
@@ -1111,7 +1111,7 @@
                    "capNghe":  10,
                    "trungSinh":  1,
                    "online":  true,
-                   "thanhTuu":  "1686800"
+                   "thanhTuu":  "1717800"
                },
                {
                    "rank":  2,
@@ -1122,7 +1122,7 @@
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "642100"
+                   "thanhTuu":  "646400"
                },
                {
                    "rank":  3,
@@ -1144,7 +1144,7 @@
                    "capNghe":  4,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "499500"
+                   "thanhTuu":  "503000"
                },
                {
                    "rank":  5,
@@ -1155,7 +1155,7 @@
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
-                   "thanhTuu":  "427500"
+                   "thanhTuu":  "431500"
                },
                {
                    "rank":  6,
@@ -1192,23 +1192,23 @@
                },
                {
                    "rank":  9,
-                   "ten":  "GaiMaiDam",
-                   "nghe":  "Hàn Bảo Quân",
-                   "phai":  "Chính",
-                   "cap":  146,
-                   "capNghe":  10,
-                   "trungSinh":  1,
-                   "online":  true,
-                   "thanhTuu":  "109500"
-               },
-               {
-                   "rank":  10,
                    "ten":  "SatVun",
                    "nghe":  "Cung",
                    "phai":  "Chính",
                    "cap":  143,
                    "capNghe":  9,
                    "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "116500"
+               },
+               {
+                   "rank":  10,
+                   "ten":  "GaiMaiDam",
+                   "nghe":  "Hàn Bảo Quân",
+                   "phai":  "Chính",
+                   "cap":  146,
+                   "capNghe":  10,
+                   "trungSinh":  1,
                    "online":  true,
                    "thanhTuu":  "109500"
                },
@@ -1319,7 +1319,7 @@
                    "cap":  144,
                    "capNghe":  10,
                    "trungSinh":  1,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "49800"
                },
                {
