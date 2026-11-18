@@ -30,7 +30,7 @@
                       "cap":  151,
                       "capNghe":  10,
                       "trungSinh":  1,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "151"
                   },
                   {
@@ -63,7 +63,7 @@
                       "cap":  149,
                       "capNghe":  9,
                       "trungSinh":  1,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "149"
                   },
                   {
@@ -467,11 +467,11 @@
                       "ten":  "LongGx",
                       "nghe":  "Kiếm",
                       "phai":  "Chính",
-                      "cap":  133,
+                      "cap":  134,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "133"
+                      "thanhTuu":  "134"
                   },
                   {
                       "rank":  44,
@@ -1176,7 +1176,7 @@
                    "cap":  151,
                    "capNghe":  10,
                    "trungSinh":  1,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "150000"
                },
                {
@@ -1187,7 +1187,7 @@
                    "cap":  149,
                    "capNghe":  9,
                    "trungSinh":  1,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "150000"
                },
                {
@@ -1621,10 +1621,10 @@
                },
                {
                    "rank":  48,
-                   "ten":  "EMie",
-                   "nghe":  "Thần Nữ",
+                   "ten":  "LongGx",
+                   "nghe":  "Kiếm",
                    "phai":  "Chính",
-                   "cap":  133,
+                   "cap":  134,
                    "capNghe":  8,
                    "trungSinh":  0,
                    "online":  true,
@@ -1632,8 +1632,8 @@
                },
                {
                    "rank":  49,
-                   "ten":  "LongGx",
-                   "nghe":  "Kiếm",
+                   "ten":  "EMie",
+                   "nghe":  "Thần Nữ",
                    "phai":  "Chính",
                    "cap":  133,
                    "capNghe":  8,
