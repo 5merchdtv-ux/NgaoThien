@@ -46,22 +46,22 @@
                   },
                   {
                       "rank":  5,
+                      "ten":  "TieuLong",
+                      "nghe":  "Tử Hào",
+                      "phai":  "Tà",
+                      "cap":  150,
+                      "capNghe":  9,
+                      "trungSinh":  1,
+                      "online":  true,
+                      "thanhTuu":  "150"
+                  },
+                  {
+                      "rank":  6,
                       "ten":  "GaChoi2",
                       "nghe":  "Cung",
                       "phai":  "Tà",
                       "cap":  149,
                       "capNghe":  10,
-                      "trungSinh":  1,
-                      "online":  true,
-                      "thanhTuu":  "149"
-                  },
-                  {
-                      "rank":  6,
-                      "ten":  "TieuLong",
-                      "nghe":  "Tử Hào",
-                      "phai":  "Tà",
-                      "cap":  149,
-                      "capNghe":  9,
                       "trungSinh":  1,
                       "online":  true,
                       "thanhTuu":  "149"
@@ -1184,7 +1184,7 @@
                    "ten":  "TieuLong",
                    "nghe":  "Tử Hào",
                    "phai":  "Tà",
-                   "cap":  149,
+                   "cap":  150,
                    "capNghe":  9,
                    "trungSinh":  1,
                    "online":  true,
