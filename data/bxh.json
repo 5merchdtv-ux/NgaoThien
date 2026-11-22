@@ -203,11 +203,11 @@
                       "ten":  "BanLa",
                       "nghe":  "Đao",
                       "phai":  "Tà",
-                      "cap":  149,
+                      "cap":  150,
                       "capNghe":  9,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "149"
+                      "thanhTuu":  "150"
                   },
                   {
                       "rank":  20,
@@ -266,17 +266,6 @@
                   },
                   {
                       "rank":  25,
-                      "ten":  "NgaoThien",
-                      "nghe":  "Ninja",
-                      "phai":  "Tà",
-                      "cap":  145,
-                      "capNghe":  9,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "145"
-                  },
-                  {
-                      "rank":  26,
                       "ten":  "MayKhau",
                       "nghe":  "Quyền sư",
                       "phai":  "Tà",
@@ -284,6 +273,17 @@
                       "capNghe":  9,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "145"
+                  },
+                  {
+                      "rank":  26,
+                      "ten":  "NgaoThien",
+                      "nghe":  "Ninja",
+                      "phai":  "Tà",
+                      "cap":  145,
+                      "capNghe":  9,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "145"
                   },
                   {
@@ -442,9 +442,9 @@
                   },
                   {
                       "rank":  41,
-                      "ten":  "LongGx",
-                      "nghe":  "Kiếm",
-                      "phai":  "Chính",
+                      "ten":  "OMenDao",
+                      "nghe":  "Đao",
+                      "phai":  "Tà",
                       "cap":  135,
                       "capNghe":  8,
                       "trungSinh":  0,
@@ -453,9 +453,9 @@
                   },
                   {
                       "rank":  42,
-                      "ten":  "OMenDao",
-                      "nghe":  "Đao",
-                      "phai":  "Tà",
+                      "ten":  "LongGx",
+                      "nghe":  "Kiếm",
+                      "phai":  "Chính",
                       "cap":  135,
                       "capNghe":  8,
                       "trungSinh":  0,
@@ -1118,7 +1118,7 @@
                    "ten":  "BanLa",
                    "nghe":  "Đao",
                    "phai":  "Tà",
-                   "cap":  149,
+                   "cap":  150,
                    "capNghe":  9,
                    "trungSinh":  0,
                    "online":  true,
