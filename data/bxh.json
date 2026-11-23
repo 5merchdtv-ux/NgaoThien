@@ -5,11 +5,11 @@
                       "ten":  "SatThan",
                       "nghe":  "Đại phu",
                       "phai":  "Chính",
-                      "cap":  145,
+                      "cap":  146,
                       "capNghe":  10,
                       "trungSinh":  2,
                       "online":  true,
-                      "thanhTuu":  "145"
+                      "thanhTuu":  "146"
                   },
                   {
                       "rank":  2,
@@ -431,17 +431,6 @@
                   },
                   {
                       "rank":  40,
-                      "ten":  "Telegram",
-                      "nghe":  "Đại phu",
-                      "phai":  "Tà",
-                      "cap":  135,
-                      "capNghe":  8,
-                      "trungSinh":  0,
-                      "online":  false,
-                      "thanhTuu":  "135"
-                  },
-                  {
-                      "rank":  41,
                       "ten":  "OMenDao",
                       "nghe":  "Đao",
                       "phai":  "Tà",
@@ -449,6 +438,17 @@
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
+                      "thanhTuu":  "135"
+                  },
+                  {
+                      "rank":  41,
+                      "ten":  "Telegram",
+                      "nghe":  "Đại phu",
+                      "phai":  "Tà",
+                      "cap":  135,
+                      "capNghe":  8,
+                      "trungSinh":  0,
+                      "online":  false,
                       "thanhTuu":  "135"
                   },
                   {
@@ -1129,7 +1129,7 @@
                    "ten":  "SatThan",
                    "nghe":  "Đại phu",
                    "phai":  "Chính",
-                   "cap":  145,
+                   "cap":  146,
                    "capNghe":  10,
                    "trungSinh":  2,
                    "online":  true,
