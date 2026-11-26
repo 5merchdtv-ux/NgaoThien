@@ -195,7 +195,7 @@
                       "cap":  145,
                       "capNghe":  10,
                       "trungSinh":  1,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "145"
                   },
                   {
@@ -547,7 +547,7 @@
                       "cap":  130,
                       "capNghe":  12,
                       "trungSinh":  0,
-                      "online":  true,
+                      "online":  false,
                       "thanhTuu":  "130"
                   },
                   {
@@ -1286,7 +1286,7 @@
                    "cap":  145,
                    "capNghe":  10,
                    "trungSinh":  1,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "62500"
                },
                {
@@ -1704,7 +1704,7 @@
                    "cap":  130,
                    "capNghe":  12,
                    "trungSinh":  0,
-                   "online":  true,
+                   "online":  false,
                    "thanhTuu":  "30000"
                },
                {
