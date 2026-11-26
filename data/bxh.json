@@ -107,7 +107,7 @@
                       "cap":  149,
                       "capNghe":  10,
                       "trungSinh":  1,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "149"
                   },
                   {
@@ -118,7 +118,7 @@
                       "cap":  149,
                       "capNghe":  10,
                       "trungSinh":  1,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "149"
                   },
                   {
@@ -129,7 +129,7 @@
                       "cap":  149,
                       "capNghe":  10,
                       "trungSinh":  1,
-                      "online":  false,
+                      "online":  true,
                       "thanhTuu":  "149"
                   },
                   {
@@ -401,11 +401,11 @@
                       "ten":  "EMie",
                       "nghe":  "Thần Nữ",
                       "phai":  "Chính",
-                      "cap":  137,
+                      "cap":  138,
                       "capNghe":  8,
                       "trungSinh":  0,
                       "online":  true,
-                      "thanhTuu":  "137"
+                      "thanhTuu":  "138"
                   },
                   {
                       "rank":  38,
@@ -1231,7 +1231,7 @@
                    "cap":  149,
                    "capNghe":  10,
                    "trungSinh":  1,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "109500"
                },
                {
@@ -1242,7 +1242,7 @@
                    "cap":  149,
                    "capNghe":  10,
                    "trungSinh":  1,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "104000"
                },
                {
@@ -1253,7 +1253,7 @@
                    "cap":  149,
                    "capNghe":  10,
                    "trungSinh":  1,
-                   "online":  false,
+                   "online":  true,
                    "thanhTuu":  "102000"
                },
                {
@@ -1522,6 +1522,17 @@
                },
                {
                    "rank":  39,
+                   "ten":  "EMie",
+                   "nghe":  "Thần Nữ",
+                   "phai":  "Chính",
+                   "cap":  138,
+                   "capNghe":  8,
+                   "trungSinh":  0,
+                   "online":  true,
+                   "thanhTuu":  "30000"
+               },
+               {
+                   "rank":  40,
                    "ten":  "GirlBlack",
                    "nghe":  "Hàn Bảo Quân",
                    "phai":  "Tà",
@@ -1532,7 +1543,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  40,
+                   "rank":  41,
                    "ten":  "LongGx",
                    "nghe":  "Kiếm",
                    "phai":  "Chính",
@@ -1543,7 +1554,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  41,
+                   "rank":  42,
                    "ten":  "OMenDao",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -1554,7 +1565,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  42,
+                   "rank":  43,
                    "ten":  "Black",
                    "nghe":  "Thương",
                    "phai":  "Tà",
@@ -1565,7 +1576,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  43,
+                   "rank":  44,
                    "ten":  "BlackBoy",
                    "nghe":  "Đao",
                    "phai":  "Tà",
@@ -1576,7 +1587,7 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  44,
+                   "rank":  45,
                    "ten":  "BlackGirl",
                    "nghe":  "Kiếm",
                    "phai":  "Tà",
@@ -1587,21 +1598,10 @@
                    "thanhTuu":  "30000"
                },
                {
-                   "rank":  45,
+                   "rank":  46,
                    "ten":  "BoyBlack",
                    "nghe":  "Quyền sư",
                    "phai":  "Tà",
-                   "cap":  137,
-                   "capNghe":  8,
-                   "trungSinh":  0,
-                   "online":  true,
-                   "thanhTuu":  "30000"
-               },
-               {
-                   "rank":  46,
-                   "ten":  "EMie",
-                   "nghe":  "Thần Nữ",
-                   "phai":  "Chính",
                    "cap":  137,
                    "capNghe":  8,
                    "trungSinh":  0,
